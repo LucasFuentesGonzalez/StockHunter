@@ -1,0 +1,2540 @@
+Indice,Nombre,Ticker
+us-spx-500,Boeing Co,BA
+us-spx-500,General Motors Company,GM
+us-spx-500,Chevron Corp,CVX
+us-spx-500,Citigroup Inc,C
+us-spx-500,Bank of America Corp,BAC
+us-spx-500,AT&T Inc,T
+us-spx-500,Caterpillar Inc,CAT
+us-spx-500,Intel Corporation,INTC
+us-spx-500,Microsoft Corporation,MSFT
+us-spx-500,Ford Motor Company,F
+us-spx-500,eBay Inc,EBAY
+us-spx-500,Dell Technologies Inc,DELL
+us-spx-500,Walt Disney Company,DIS
+us-spx-500,Dow Inc,DOW
+us-spx-500,Cisco Systems Inc,CSCO
+us-spx-500,Deere & Company,DE
+us-spx-500,FedEx Corporation,FDX
+us-spx-500,General Mills Inc,GIS
+us-spx-500,Corning Incorporated,GLW
+us-spx-500,Goldman Sachs Group Inc,GS
+us-spx-500,JPMorgan Chase & Co,JPM
+us-spx-500,Kimberly-Clark Corporation,KMB
+us-spx-500,Kraft Heinz Co,KHC
+us-spx-500,Coca-Cola Co,KO
+us-spx-500,McDonald’s Corporation,MCD
+us-spx-500,Eli Lilly and Company,LLY
+us-spx-500,Oracle Corporation,ORCL
+us-spx-500,Merck & Company Inc,MRK
+us-spx-500,Motorola Solutions Inc,MSI
+us-spx-500,3M Company,MMM
+us-spx-500,Vertex Pharmaceuticals Inc,VRTX
+us-spx-500,Monster Beverage Corp,MNST
+us-spx-500,Fifth Third Bancorp,FITB
+us-spx-500,Cintas Corporation,CTAS
+us-spx-500,Autodesk Inc,ADSK
+us-spx-500,Gilead Sciences Inc,GILD
+us-spx-500,Alphabet Inc Class A,GOOGL
+us-spx-500,Fiserv Inc,FI
+us-spx-500,Adobe Systems Incorporated,ADBE
+us-spx-500,Qualcomm Incorporated,QCOM
+us-spx-500,Warner Bros Discovery Inc,WBD
+us-spx-500,Applied Materials Inc,AMAT
+us-spx-500,Steel Dynamics Inc,STLD
+us-spx-500,Cadence Design Systems Inc,CDNS
+us-spx-500,Microchip Technology Inc,MCHP
+us-spx-500,Wynn Resorts Limited,WYNN
+us-spx-500,Intuitive Surgical Inc,ISRG
+us-spx-500,Nasdaq Inc,NDAQ
+us-spx-500,Henry Schein Inc,HSIC
+us-spx-500,Paychex Inc,PAYX
+us-spx-500,VeriSign Inc,VRSN
+us-spx-500,Apple Inc,AAPL
+us-spx-500,Fastenal Company,FAST
+us-spx-500,Northern Trust Corporation,NTRS
+us-spx-500,CH Robinson Worldwide Inc,CHRW
+us-spx-500,PACCAR Inc,PCAR
+us-spx-500,Amazon.com Inc,AMZN
+us-spx-500,Ross Stores Inc,ROST
+us-spx-500,NetApp Inc,NTAP
+us-spx-500,Garmin Ltd,GRMN
+us-spx-500,Costco Wholesale Corp,COST
+us-spx-500,Lam Research Corp,LRCX
+us-spx-500,Intuit Inc,INTU
+us-spx-500,Expedia Inc,EXPE
+us-spx-500,Cognizant Technology Solutions Corp Class A,CTSH
+us-spx-500,Akamai Technologies Inc,AKAM
+us-spx-500,KLA Corporation,KLAC
+us-spx-500,Juniper Networks Inc,JNPR
+us-spx-500,Amgen Inc,AMGN
+us-spx-500,Expeditors International of Washington Inc,EXPD
+us-spx-500,Electronic Arts Inc,EA
+us-spx-500,T. Rowe Price Group Inc,TROW
+us-spx-500,Biogen Inc,BIIB
+us-spx-500,Charles Schwab Corp,SCHW
+us-spx-500,Huntington Bancshares Incorporated,HBAN
+us-spx-500,Gen Digital Inc,GEN
+us-spx-500,NVIDIA Corporation,NVDA
+us-spx-500,Starbucks Corporation,SBUX
+us-spx-500,Cincinnati Financial Corporation,CINF
+us-spx-500,Axon Enterprise Inc,AXON
+us-spx-500,Hologic Inc,HOLX
+us-spx-500,Comcast Corp,CMCSA
+us-spx-500,Medtronic PLC,MDT
+us-spx-500,Dover Corporation,DOV
+us-spx-500,Northrop Grumman Corporation,NOC
+us-spx-500,MGM Resorts International,MGM
+us-spx-500,Mastercard Inc,MA
+us-spx-500,General Dynamics Corporation,GD
+us-spx-500,DTE Energy Company,DTE
+us-spx-500,Analog Devices Inc,ADI
+us-spx-500,Cardinal Health Inc,CAH
+us-spx-500,Xcel Energy Inc,XEL
+us-spx-500,DR Horton Inc,DHI
+us-spx-500,Interpublic Group of Companies Inc,IPG
+us-spx-500,Lockheed Martin Corporation,LMT
+us-spx-500,Waters Corporation,WAT
+us-spx-500,Accenture plc,ACN
+us-spx-500,Dominion Energy Inc,D
+us-spx-500,Exxon Mobil Corp,XOM
+us-spx-500,Cigna Corp,CI
+us-spx-500,Public Service Enterprise Group Inc,PEG
+us-spx-500,NiSource Inc,NI
+us-spx-500,Zimmer Biomet Holdings Inc,ZBH
+us-spx-500,CSX Corporation,CSX
+us-spx-500,Intercontinental Exchange Inc,ICE
+us-spx-500,Southwest Airlines Company,LUV
+us-spx-500,Illinois Tool Works Inc,ITW
+us-spx-500,Darden Restaurants Inc,DRI
+us-spx-500,Truist Financial Corp,TFC
+us-spx-500,Halliburton Company,HAL
+us-spx-500,Prologis Inc,PLD
+us-spx-500,McCormick & Company Incorporated,MKC
+us-spx-500,Host Hotels & Resorts Inc,HST
+us-spx-500,Estee Lauder Companies Inc,EL
+us-spx-500,International Paper,IP
+us-spx-500,Emerson Electric Company,EMR
+us-spx-500,Clorox Co,CLX
+us-spx-500,ConocoPhillips,COP
+us-spx-500,Colgate-Palmolive Company,CL
+us-spx-500,Pinnacle West Capital Corp,PNW
+us-spx-500,Regions Financial Corporation,RF
+us-spx-500,CenterPoint Energy Inc,CNP
+us-spx-500,MetLife Inc,MET
+us-spx-500,Exelon Corporation,EXC
+us-spx-500,Baxter International Inc,BAX
+us-spx-500,Occidental Petroleum Corporation,OXY
+us-spx-500,Southern Company,SO
+us-spx-500,Tapestry Inc,TPR
+us-spx-500,Lennar Corporation,LEN
+us-spx-500,Campbell Soup Company,CPB
+us-spx-500,State Street Corp,STT
+us-spx-500,Progressive Corp,PGR
+us-spx-500,Vulcan Materials Company,VMC
+us-spx-500,Parker-Hannifin Corporation,PH
+us-spx-500,Genuine Parts Co,GPC
+us-spx-500,CBRE Group Inc Class A,CBRE
+us-spx-500,Dupont De Nemours Inc,DD
+us-spx-500,Sherwin-Williams Co,SHW
+us-spx-500,Pfizer Inc,PFE
+us-spx-500,Wells Fargo & Company,WFC
+us-spx-500,Walmart Inc,WMT
+us-spx-500,Edison International,EIX
+us-spx-500,Snap-On Inc,SNA
+us-spx-500,Equifax Inc,EFX
+us-spx-500,McKesson Corporation,MCK
+us-spx-500,Entergy Corporation,ETR
+us-spx-500,CMS Energy Corporation,CMS
+us-spx-500,Ameriprise Financial Inc,AMP
+us-spx-500,American International Group Inc,AIG
+us-spx-500,Ralph Lauren Corp Class A,RL
+us-spx-500,International Flavors & Fragrances Inc,IFF
+us-spx-500,WW Grainger Inc,GWW
+us-spx-500,Constellation Brands Inc Class A,STZ
+us-spx-500,American Tower Corp,AMT
+us-spx-500,Philip Morris International Inc,PM
+us-spx-500,Fidelity National Information Services Inc,FIS
+us-spx-500,Altria Group,MO
+us-spx-500,Ball Corporation,BALL
+us-spx-500,Hartford Financial Services Group,HIG
+us-spx-500,Hershey Co,HSY
+us-spx-500,Morgan Stanley,MS
+us-spx-500,PNC Financial Services Group Inc,PNC
+us-spx-500,Waste Management Inc,WM
+us-spx-500,Cencora Inc,COR
+us-spx-500,Assurant Inc,AIZ
+us-spx-500,Kroger Company,KR
+us-spx-500,Molson Coors Brewing Co Class B,TAP
+us-spx-500,Home Depot Inc,HD
+us-spx-500,Becton Dickinson and Company,BDX
+us-spx-500,JM Smucker Company,SJM
+us-spx-500,Best Buy Co Inc,BBY
+us-spx-500,Archer-Daniels-Midland Company,ADM
+us-spx-500,Brown Forman,BF-b
+us-spx-500,International Business Machines,IBM
+us-spx-500,Union Pacific Corporation,UNP
+us-spx-500,Micron Technology Inc,MU
+us-spx-500,Avery Dennison Corp,AVY
+us-spx-500,CF Industries Holdings Inc,CF
+us-spx-500,APA Corporation,APA
+us-spx-500,Duke Energy Corporation,DUK
+us-spx-500,KeyCorp,KEY
+us-spx-500,Labcorp Holdings Inc,LH
+us-spx-500,BXP Inc,BXP
+us-spx-500,Western Digital Corporation,WDC
+us-spx-500,PPG Industries Inc,PPG
+us-spx-500,S&P Global Inc,SPGI
+us-spx-500,Williams Companies Inc,WMB
+us-spx-500,Elevance Health Inc,ELV
+us-spx-500,Jacobs Engineering Group Inc,J
+us-spx-500,Eastman Chemical Company,EMN
+us-spx-500,Verizon Communications Inc,VZ
+us-spx-500,Nucor Corp,NUE
+us-spx-500,Omnicom Group Inc,OMC
+us-spx-500,AvalonBay Communities Inc,AVB
+us-spx-500,Marriott International Inc,MAR
+us-spx-500,Ingersoll Rand Inc,IR
+us-spx-500,Bristol-Myers Squibb Company,BMY
+us-spx-500,American Electric Power Company Inc,AEP
+us-spx-500,Thermo Fisher Scientific Inc,TMO
+us-spx-500,Newmont Goldcorp Corp,NEM
+us-spx-500,Public Storage,PSA
+us-spx-500,Travelers Companies,TRV
+us-spx-500,Stanley Black & Decker Inc,SWK
+us-spx-500,Franklin Resources Inc,BEN
+us-spx-500,Humana Inc,HUM
+us-spx-500,Paramount Global Class B,PARA
+us-spx-500,Chubb Ltd,CB
+us-spx-500,Johnson & Johnson,JNJ
+us-spx-500,Tyson Foods Inc,TSN
+us-spx-500,Target Corporation,TGT
+us-spx-500,Jabil Circuit Inc,JBL
+us-spx-500,American Express Company,AXP
+us-spx-500,Masco Corporation,MAS
+us-spx-500,Stryker Corporation,SYK
+us-spx-500,Discover Financial Services,DFS
+us-spx-500,Prudential Financial Inc,PRU
+us-spx-500,Abbott Laboratories,ABT
+us-spx-500,GE Aerospace,GE
+us-spx-500,Quest Diagnostics Incorporated,DGX
+us-spx-500,United Parcel Service Inc,UPS
+us-spx-500,CVS Health Corp,CVS
+us-spx-500,PPL Corporation,PPL
+us-spx-500,Simon Property Group Inc,SPG
+us-spx-500,Johnson Controls International PLC,JCI
+us-spx-500,Cummins Inc,CMI
+us-spx-500,Allstate Corp,ALL
+us-spx-500,Sempra Energy,SRE
+us-spx-500,Devon Energy Corporation,DVN
+us-spx-500,Conagra Brands Inc,CAG
+us-spx-500,TJX Companies Inc,TJX
+us-spx-500,FirstEnergy Corporation,FE
+us-spx-500,Globe Life Inc,GL
+us-spx-500,Rtx Corp,RTX
+us-spx-500,PulteGroup Inc,PHM
+us-spx-500,Valero Energy Corporation,VLO
+us-spx-500,Boston Scientific Corp,BSX
+us-spx-500,Capital One Financial Corporation,COF
+us-spx-500,PG&E Corp,PCG
+us-spx-500,Norfolk Southern Corporation,NSC
+us-spx-500,Aflac Inc,AFL
+us-spx-500,Equity Residential,EQR
+us-spx-500,Air Products and Chemicals Inc,APD
+us-spx-500,Principal Financial Group Inc,PFG
+us-spx-500,Texas Instruments Incorporated,TXN
+us-spx-500,HP Inc,HPQ
+us-spx-500,Honeywell International Inc,HON
+us-spx-500,Advanced Micro Devices Inc,AMD
+us-spx-500,M&T Bank Corp,MTB
+us-spx-500,The Mosaic Company,MOS
+us-spx-500,Revvity Inc,RVTY
+us-spx-500,Las Vegas Sands Corp,LVS
+us-spx-500,Freeport-McMoran Copper & Gold Inc,FCX
+us-spx-500,AutoZone Inc,AZO
+us-spx-500,Sysco Corporation,SYY
+us-spx-500,Ameren Corp,AEE
+us-spx-500,Eaton Corporation PLC,ETN
+us-spx-500,Salesforce Inc,CRM
+us-spx-500,Consolidated Edison Inc,ED
+us-spx-500,The AES Corporation,AES
+us-spx-500,Textron Inc,TXT
+us-spx-500,U.S. Bancorp,USB
+us-spx-500,Visa Inc Class A,V
+us-spx-500,Baker Hughes Co,BKR
+us-spx-500,Hess Corporation,HES
+us-spx-500,Yum! Brands Inc,YUM
+us-spx-500,Marsh & McLennan Companies Inc,MMC
+us-spx-500,Kellanova,K
+us-spx-500,Kimco Realty Corp,KIM
+us-spx-500,Ecolab Inc,ECL
+us-spx-500,EOG Resources Inc,EOG
+us-spx-500,Aon PLC,AON
+us-spx-500,Hasbro Inc,HAS
+us-spx-500,Bank of New York Mellon,BK
+us-spx-500,Schlumberger NV,SLB
+us-spx-500,Walgreens Boots Alliance Inc,WBA
+us-spx-500,Rockwell Automation Inc,ROK
+us-spx-500,PepsiCo Inc,PEP
+us-spx-500,Unitedhealth Group,UNH
+us-spx-500,Teradyne Inc,TER
+us-spx-500,Danaher Corporation,DHR
+us-spx-500,Seagate Technology PLC,STX
+us-spx-500,Agilent Technologies Inc,A
+us-spx-500,Delta Air Lines Inc,DAL
+us-spx-500,Moodys Corporation,MCO
+us-spx-500,Nike Inc,NKE
+us-spx-500,Procter & Gamble Company,PG
+us-spx-500,Weyerhaeuser Company,WY
+us-spx-500,Automatic Data Processing Inc,ADP
+us-spx-500,Keurig Dr Pepper Inc,KDP
+us-spx-500,Lowe’s Companies Inc,LOW
+us-spx-500,United Airlines Holdings Inc,UAL
+us-spx-500,Netflix Inc,NFLX
+us-spx-500,News Corp B,NWS
+us-spx-500,Equinix Inc,EQIX
+us-spx-500,Booking Holdings Inc,BKNG
+us-spx-500,O’Reilly Automotive Inc,ORLY
+us-spx-500,BlackRock Inc,BLK
+us-spx-500,CME Group Inc,CME
+us-spx-500,JB Hunt Transport Services Inc,JBHT
+us-spx-500,Loews Corp,L
+us-spx-500,Nextera Energy Inc,NEE
+us-spx-500,First Solar Inc,FSLR
+us-spx-500,Viatris Inc,VTRS
+us-spx-500,F5 Networks Inc,FFIV
+us-spx-500,Edwards Lifesciences Corp,EW
+us-spx-500,News Corp A,NWSA
+us-spx-500,Amphenol Corporation,APH
+us-spx-500,Berkshire Hathaway B,BRK-b
+us-spx-500,Coterra Energy Inc,CTRA
+us-spx-500,CarMax Inc,KMX
+us-spx-500,Chipotle Mexican Grill Inc,CMG
+us-spx-500,DaVita HealthCare Partners Inc,DVA
+us-spx-500,EQT Corporation,EQT
+us-spx-500,FMC Corporation,FMC
+us-spx-500,L3Harris Technologies Inc,LHX
+us-spx-500,Healthpeak Properties Inc,DOC
+us-spx-500,Welltower Inc,WELL
+us-spx-500,Hormel Foods Corporation,HRL
+us-spx-500,Invesco Plc,IVZ
+us-spx-500,Iron Mountain Incorporated,IRM
+us-spx-500,Eversource Energy,ES
+us-spx-500,NRG Energy Inc,NRG
+us-spx-500,ONEOK Inc,OKE
+us-spx-500,Republic Services Inc,RSG
+us-spx-500,Roper Technologies Inc,ROP
+us-spx-500,Ventas Inc,VTR
+us-spx-500,WEC Energy Group Inc,WEC
+us-spx-500,Blackstone Inc,BX
+us-spx-500,Marathon Petroleum Corp,MPC
+us-spx-500,Broadcom Inc,AVGO
+us-spx-500,NXP Semiconductors NV,NXPI
+us-spx-500,Tesla Inc,TSLA
+us-spx-500,Take-Two Interactive Software Inc,TTWO
+us-spx-500,Dollar Tree Inc,DLTR
+us-spx-500,Align Technology Inc,ALGN
+us-spx-500,ANSYS Inc,ANSS
+us-spx-500,Builders FirstSource Inc,BLDR
+us-spx-500,Charter Communications Inc,CHTR
+us-spx-500,CoStar Group Inc,CSGP
+us-spx-500,DexCom Inc,DXCM
+us-spx-500,Erie Indemnity Company,ERIE
+us-spx-500,Fortinet Inc,FTNT
+us-spx-500,IDEXX Laboratories Inc,IDXX
+us-spx-500,Incyte Corporation,INCY
+us-spx-500,Jack Henry & Associates Inc,JKHY
+us-spx-500,MarketAxess Holdings Inc,MKTX
+us-spx-500,Monolithic Power Systems Inc,MPWR
+us-spx-500,Nordson Corporation,NDSN
+us-spx-500,ON Semiconductor Corporation,ON
+us-spx-500,PTC Inc,PTC
+us-spx-500,Insulet Corporation,PODD
+us-spx-500,Pool Corporation,POOL
+us-spx-500,Super Micro Computer Inc,SMCI
+us-spx-500,Bio-Techne Corp,TECH
+us-spx-500,Zebra Technologies Corporation,ZBRA
+us-spx-500,BorgWarner Inc,BWA
+us-spx-500,T-Mobile US Inc,TMUS
+us-spx-500,Quanta Services Inc,PWR
+us-spx-500,Leidos Holdings Inc,LDOS
+us-spx-500,TE Connectivity Ltd,TEL
+us-spx-500,Mid-America Apartment Communities Inc,MAA
+us-spx-500,Charles River Laboratories,CRL
+us-spx-500,Huntington Ingalls Industries Inc,HII
+us-spx-500,Mettler-Toledo International Inc,MTD
+us-spx-500,Federal Realty Investment Trust,FRT
+us-spx-500,Live Nation Entertainment Inc,LYV
+us-spx-500,Martin Marietta Materials Inc,MLM
+us-spx-500,FactSet Research Systems Inc,FDS
+us-spx-500,Raymond James Financial Inc,RJF
+us-spx-500,Digital Realty Trust Inc,DLR
+us-spx-500,Essex Property Trust Inc,ESS
+us-spx-500,Fair Isaac Corporation,FICO
+us-spx-500,Cooper Companies Inc,COO
+us-spx-500,Molina Healthcare Inc,MOH
+us-spx-500,Everest Re Group Ltd,EG
+us-spx-500,Regency Centers Corporation,REG
+us-spx-500,Dollar General Corporation,DG
+us-spx-500,Transdigm Group Incorporated,TDG
+us-spx-500,Atmos Energy Corporation,ATO
+us-spx-500,Brown & Brown Inc,BRO
+us-spx-500,Domino’s Pizza Inc,DPZ
+us-spx-500,HCA Holdings Inc,HCA
+us-spx-500,Hubbell Inc,HUBB
+us-spx-500,Rollins Inc,ROL
+us-spx-500,STERIS plc,STE
+us-spx-500,ResMed Inc,RMD
+us-spx-500,MSCI Inc,MSCI
+us-spx-500,NVR Inc,NVR
+us-spx-500,Carnival Corporation,CCL
+us-spx-500,West Pharmaceutical Services Inc,WST
+us-spx-500,Teledyne Technologies Incorporated,TDY
+us-spx-500,Tyler Technologies Inc,TYL
+us-spx-500,Targa Resources Inc,TRGP
+us-spx-500,Meta Platforms Inc,META
+us-spx-500,Alexandria Real Estate Equities Inc,ARE
+us-spx-500,Teleflex Incorporated,TFX
+us-spx-500,Westinghouse Air Brake Technologies Corp,WAB
+us-spx-500,Evergy Inc,EVRG
+us-spx-500,Willis Towers Watson PLC,WTW
+us-spx-500,Caesars Entertainment Corporation,CZR
+us-spx-500,Enphase Energy Inc,ENPH
+us-spx-500,Aptiv PLC,APTV
+us-spx-500,Crown Castle International Corp,CCI
+us-spx-500,EPAM Systems Inc,EPAM
+us-spx-500,Pentair PLC,PNR
+us-spx-500,Mondelez International Inc,MDLZ
+us-spx-500,Skyworks Solutions Inc,SWKS
+us-spx-500,Tractor Supply Company,TSCO
+us-spx-500,Deckers Outdoor Corporation,DECK
+us-spx-500,Lululemon Athletica Inc,LULU
+us-spx-500,Regeneron Pharmaceuticals Inc,REGN
+us-spx-500,United Rentals Inc,URI
+us-spx-500,Kinder Morgan Inc,KMI
+us-spx-500,Albemarle Corp,ALB
+us-spx-500,Centene Corp,CNC
+us-spx-500,Phillips 66,PSX
+us-spx-500,Xylem Inc,XYL
+us-spx-500,UDR Inc,UDR
+us-spx-500,SBA Communications Corp,SBAC
+us-spx-500,Gartner Inc,IT
+us-spx-500,IDEX Corporation,IEX
+us-spx-500,Universal Health Services Inc,UHS
+us-spx-500,LKQ Corporation,LKQ
+us-spx-500,Broadridge Financial Solutions Inc,BR
+us-spx-500,Extra Space Storage Inc,EXR
+us-spx-500,Camden Property Trust,CPT
+us-spx-500,Mohawk Industries Inc,MHK
+us-spx-500,American Water Works,AWK
+us-spx-500,Alliant Energy Corp,LNT
+us-spx-500,Celanese Corporation,CE
+us-spx-500,Bunge Limited,BG
+us-spx-500,Ametek Inc,AME
+us-spx-500,W. R. Berkley Corp,WRB
+us-spx-500,LyondellBasell Industries NV,LYB
+us-spx-500,Royal Caribbean Cruises Ltd,RCL
+us-spx-500,Corpay Inc,CPAY
+us-spx-500,Packaging Corp of America,PKG
+us-spx-500,Arthur J Gallagher & Co,AJG
+us-spx-500,Church & Dwight Company Inc,CHD
+us-spx-500,Generac Holdings Inc,GNRC
+us-spx-500,Global Payments Inc,GPN
+us-spx-500,Realty Income Corp,O
+us-spx-500,Smith AO Corporation,AOS
+us-spx-500,Arch Capital Group Ltd,ACGL
+us-spx-500,Cboe Global Markets Inc,CBOE
+us-spx-500,Copart Inc,CPRT
+us-spx-500,Old Dominion Freight Line Inc,ODFL
+us-spx-500,Synopsys Inc,SNPS
+us-spx-500,Trimble Inc,TRMB
+us-spx-500,Ulta Beauty Inc,ULTA
+us-spx-500,Verisk Analytics Inc,VRSK
+us-spx-500,AbbVie Inc,ABBV
+us-spx-500,Diamondback Energy Inc,FANG
+us-spx-500,Norwegian Cruise Line Holdings Ltd,NCLH
+us-spx-500,Zoetis Inc,ZTS
+us-spx-500,IQVIA Holdings Inc,IQV
+us-spx-500,ServiceNow Inc,NOW
+us-spx-500,Palo Alto Networks Inc,PANW
+us-spx-500,KKR & Co LP,KKR
+us-spx-500,CDW Corp,CDW
+us-spx-500,Hilton Worldwide Holdings Inc,HLT
+us-spx-500,Allegion PLC,ALLE
+us-spx-500,Alphabet Inc Class C,GOOG
+us-spx-500,Paycom Soft,PAYC
+us-spx-500,Arista Networks,ANET
+us-spx-500,Synchrony Financial,SYF
+us-spx-500,Citizens Financial Group Inc,CFG
+us-spx-500,Keysight Technologies Inc,KEYS
+us-spx-500,Qorvo Inc,QRVO
+us-spx-500,Godaddy Inc,GDDY
+us-spx-500,PayPal Holdings Inc,PYPL
+us-spx-500,Hewlett Packard Enterprise Co,HPE
+us-spx-500,Match Group Inc,MTCH
+us-spx-500,Fortive Corp,FTV
+us-spx-500,Lamb Weston Holdings Inc,LW
+us-spx-500,Invitation Homes Inc,INVH
+us-spx-500,Vistra Energy Corp,VST
+us-spx-500,VICI Properties Inc,VICI
+us-spx-500,Dayforce Inc,DAY
+us-spx-500,Moderna Inc,MRNA
+us-spx-500,Uber Technologies Inc,UBER
+us-spx-500,Fox Corp Class A,FOXA
+us-spx-500,Fox Corp Class B,FOX
+us-spx-500,CrowdStrike Holdings Inc,CRWD
+us-spx-500,Corteva Inc,CTVA
+us-spx-500,Amcor,AMCR
+us-spx-500,Trane Technologies plc,TT
+us-spx-500,Otis Worldwide Corp,OTIS
+us-spx-500,Carrier Global Corp,CARR
+us-spx-500,Howmet Aerospace Inc,HWM
+us-spx-500,Palantir Technologies Inc,PLTR
+us-spx-500,Airbnb Inc,ABNB
+us-spx-500,Constellation Energy Corp,CEG
+us-spx-500,GE HealthCare Technologies Inc,GEHC
+us-spx-500,Kenvue Inc,KVUE
+us-spx-500,Veralto Corp,VLTO
+us-spx-500,Linde PLC,LIN
+us-spx-500,GE Vernova LLC,GEV
+us-spx-500,Solventum Corp,SOLV
+us-spx-500,Amentum Holdings LLC,AMTM
+s-p-tsx-composite,Advantage Oil & Gas Ltd.,AAV.TO
+s-p-tsx-composite,Atco Ltd,ACO-X.TO
+s-p-tsx-composite,Agnico Eagle Mines Limited,AEM.TO
+s-p-tsx-composite,Alamos Gold Inc,AGI.TO
+s-p-tsx-composite,AltaGas Ltd,ALA.TO
+s-p-tsx-composite,Allied Properties REIT,AP-UN.TO
+s-p-tsx-composite,Algonquin Power & Utilities Corp,AQN.TO
+s-p-tsx-composite,Aecon Group Inc.,ARE.TO
+s-p-tsx-composite,ARC Resources Ltd.,ARX.TO
+s-p-tsx-composite,Athabasca Oil Corp,ATH.TO
+s-p-tsx-composite,Brookfield Corp,BN.TO
+s-p-tsx-composite,Bombardier Inc,BBD-B.TO
+s-p-tsx-composite,BCE Inc,BCE.TO
+s-p-tsx-composite,Boardwalk REIT,BEI-UN.TO
+s-p-tsx-composite,Waste Connections Inc,WCN.TO
+s-p-tsx-composite,Birchcliff Energy Ltd.,BIR.TO
+s-p-tsx-composite,Bank of Montreal,BMO.TO
+s-p-tsx-composite,Bank of Nova Scotia,BNS.TO
+s-p-tsx-composite,Baytex Energy Corp,BTE.TO
+s-p-tsx-composite,B2Gold Corp,BTO.TO
+s-p-tsx-composite,CAE Inc.,CAE.TO
+s-p-tsx-composite,Canadian Apartment Properties REIT,CAR-UN.TO
+s-p-tsx-composite,Cogeco Communications Inc,CCA.TO
+s-p-tsx-composite,CCL Industries Inc,CCL-B.TO
+s-p-tsx-composite,Centerra Gold Inc,CG.TO
+s-p-tsx-composite,CI Financial Corp,CIX.TO
+s-p-tsx-composite,Celestica Inc.,CLS.TO
+s-p-tsx-composite,Canadian Imperial Bank Of Commerce,CM.TO
+s-p-tsx-composite,Canadian Natural Resources Ltd,CNQ.TO
+s-p-tsx-composite,Canadian Pacific Kansas City Limited,CP.TO
+s-p-tsx-composite,Veren Inc,VRN.TO
+s-p-tsx-composite,Capital Power Corporation,CPX.TO
+s-p-tsx-composite,Capstone Mining Corp,CS.TO
+s-p-tsx-composite,Chartwell Retirement Residences,CSH-UN.TO
+s-p-tsx-composite,Canadian Tire Corp Ltd,CTC-A.TO
+s-p-tsx-composite,Canadian Utilities Limited,CU.TO
+s-p-tsx-composite,Cenovus Energy Inc,CVE.TO
+s-p-tsx-composite,SmartCentres REIT,SRU-UN.TO
+s-p-tsx-composite,Denison Mines Corp,DML.TO
+s-p-tsx-composite,Dollarama Inc,DOL.TO
+s-p-tsx-composite,Dundee Precious Metals Inc,DPM.TO
+s-p-tsx-composite,Endeavour Silver Corp.,EDR.TO
+s-p-tsx-composite,Enerflex Ltd.,EFX.TO
+s-p-tsx-composite,Eldorado Gold Corp,ELD.TO
+s-p-tsx-composite,Emera Incorporated,EMA.TO
+s-p-tsx-composite,Empire Company Ltd,EMP-A.TO
+s-p-tsx-composite,First Capital Realty Inc.,FCR-UN.TO
+s-p-tsx-composite,Fairfax Financial Holdings Ltd,FFH.TO
+s-p-tsx-composite,First Quantum Minerals Ltd,FM.TO
+s-p-tsx-composite,Franco-Nevada Corporation,FNV.TO
+s-p-tsx-composite,First Majestic Silver Corp,AG.TO
+s-p-tsx-composite,Freehold Royalties Ltd.,FRU.TO
+s-p-tsx-composite,Colliers International Group Inc Bats,CIGI.TO
+s-p-tsx-composite,Fortis Inc,FTS.TO
+s-p-tsx-composite,Finning International Inc.,FTT.TO
+s-p-tsx-composite,Fortuna Mining Corp,FVI.TO
+s-p-tsx-composite,CGI Inc,GIB-A.TO
+s-p-tsx-composite,Gildan Activewear Inc.,GIL.TO
+s-p-tsx-composite,Great-West Lifeco Inc.,GWO.TO
+s-p-tsx-composite,HudBay Minerals Inc,HBM.TO
+s-p-tsx-composite,H&R Real Estate Investment Trust,HR-UN.TO
+s-p-tsx-composite,iA Financial Corporation Inc,IAG.TO
+s-p-tsx-composite,Intact Financial Corporation,IFC.TO
+s-p-tsx-composite,IGM Financial Inc.,IGM.TO
+s-p-tsx-composite,IAMGold Corporation,IMG.TO
+s-p-tsx-composite,Imperial Oil Ltd,IMO.TO
+s-p-tsx-composite,Keyera Corp.,KEY.TO
+s-p-tsx-composite,Loblaw Companies Limited,L.TO
+s-p-tsx-composite,Laurentian Bank Of Canada,LB.TO
+s-p-tsx-composite,Labrador Iron Ore Royalty Corp,LIF.TO
+s-p-tsx-composite,Linamar Corporation,LNR.TO
+s-p-tsx-composite,Lundin Mining Corporation,LUN.TO
+s-p-tsx-composite,MEG Energy Corp,MEG.TO
+s-p-tsx-composite,Maple Leaf Foods Inc.,MFI.TO
+s-p-tsx-composite,Magna International Inc,MG.TO
+s-p-tsx-composite,Metro Inc.,MRU.TO
+s-p-tsx-composite,Mullen Group Ltd.,MTL.TO
+s-p-tsx-composite,Methanex Corporation,MX.TO
+s-p-tsx-composite,National Bank of Canada,NA.TO
+s-p-tsx-composite,NovaGold Resources Inc,NG.TO
+s-p-tsx-composite,New Gold Inc,NGD.TO
+s-p-tsx-composite,Northland Power Inc.,NPI.TO
+s-p-tsx-composite,NuVista Energy Ltd.,NVA.TO
+s-p-tsx-composite,North West Company Inc,NWC.TO
+s-p-tsx-composite,Onex Corp,ONEX.TO
+s-p-tsx-composite,OceanaGold Corporation,OGC.TO
+s-p-tsx-composite,Open Text Corp,OTEX.TO
+s-p-tsx-composite,Pan American Silver Corp NQ,PAAS.TO
+s-p-tsx-composite,Precision Drilling Corporation,PD.TO
+s-p-tsx-composite,Peyto Exploration&Development Corp,PEY.TO
+s-p-tsx-composite,Parkland Fuel Corporation,PKI.TO
+s-p-tsx-composite,Paramount Resources Ltd.,POU.TO
+s-p-tsx-composite,Power Corporation Of Canada,POW.TO
+s-p-tsx-composite,Pembina Pipeline Corp,PPL.TO
+s-p-tsx-composite,Pason Systems Inc.,PSI.TO
+s-p-tsx-composite,Quebecor Inc Class B,QBR-B.TO
+s-p-tsx-composite,Rogers Communications Inc,RCI-B.TO
+s-p-tsx-composite,Riocan REIT,REI-UN.TO
+s-p-tsx-composite,Russel Metals Inc.,RUS.TO
+s-p-tsx-composite,Saputo Inc,SAP.TO
+s-p-tsx-composite,Sun Life Financial Inc.,SLF.TO
+s-p-tsx-composite,Wheaton Precious Metals Corp,WPM.TO
+s-p-tsx-composite,Atkinsrealis Group Inc,ATRL.TO
+s-p-tsx-composite,Superior Plus Corp,SPB.TO
+s-p-tsx-composite,SSR Mining Inc,SSRM.TO
+s-p-tsx-composite,Stantec Inc,STN.TO
+s-p-tsx-composite,Telus Corp,T.TO
+s-p-tsx-composite,TransAlta Corp,TA.TO
+s-p-tsx-composite,Transcontinental Inc,TCL-A.TO
+s-p-tsx-composite,Toronto Dominion Bank,TD.TO
+s-p-tsx-composite,TFI International Inc,TFII.TO
+s-p-tsx-composite,Toromont Industries Ltd.,TIH.TO
+s-p-tsx-composite,Tourmaline Oil Corp.,TOU.TO
+s-p-tsx-composite,Thomson Reuters Corp,TRI.TO
+s-p-tsx-composite,TC Energy Corp,TRP.TO
+s-p-tsx-composite,Vermilion Energy Inc.,VET.TO
+s-p-tsx-composite,Bausch Health Companies Inc,BHC.TO
+s-p-tsx-composite,West Fraser Timber Co Ltd,WFG.TO
+s-p-tsx-composite,George Weston Limited,WN.TO
+s-p-tsx-composite,TMX Group Limited,X.TO
+s-p-tsx-composite,Air Canada,AC.TO
+s-p-tsx-composite,ATS Corporation,ATS.TO
+s-p-tsx-composite,Badger Infrastructure Solutions Ltd,BDGI.TO
+s-p-tsx-composite,Bird Construction Inc.,BDT.TO
+s-p-tsx-composite,Boyd Group Services Inc,BYD.TO
+s-p-tsx-composite,Headwater Exploration Inc,HWX.TO
+s-p-tsx-composite,CES Energy Solutions Corp,CEU.TO
+s-p-tsx-composite,Crombie REIT,CRR-UN.TO
+s-p-tsx-composite,Descartes Systems Group Inc,DSG.TO
+s-p-tsx-composite,Lundin Gold Inc,LUG.TO
+s-p-tsx-composite,WSP Global Inc,WSP.TO
+s-p-tsx-composite,Innergex Renewable Energy Inc.,INE.TO
+s-p-tsx-composite,Killam Apartment REIT,KMP-UN.TO
+s-p-tsx-composite,Sienna Senior Living Inc,SIA.TO
+s-p-tsx-composite,MAG Silver Corp,MAG.TO
+s-p-tsx-composite,Northwest Healthcare Properties REIT,NWH-UN.TO
+s-p-tsx-composite,Premium Brands Holdings Corporation,PBH.TO
+s-p-tsx-composite,Seabridge Gold Inc.,SEA.TO
+s-p-tsx-composite,Secure Energy Services Inc.,SES.TO
+s-p-tsx-composite,Shopify Inc,SHOP.TO
+s-p-tsx-composite,Sprott Inc.,SII.TO
+s-p-tsx-composite,Sandstorm Gold Ltd N,SSL.TO
+s-p-tsx-composite,Tamarack Valley Energy Ltd,TVE.TO
+s-p-tsx-composite,Torex Gold Resources Inc,TXG.TO
+s-p-tsx-composite,Whitecap Resources Inc.,WCP.TO
+s-p-tsx-composite,Constellation Software Inc.,CSU.TO
+s-p-tsx-composite,Altus Group Limited,AIF.TO
+s-p-tsx-composite,Element Fleet Management Corp,EFN.TO
+s-p-tsx-composite,Exchange Income Corporation,EIF.TO
+s-p-tsx-composite,Gibson Energy Inc.,GEI.TO
+s-p-tsx-composite,Granite Real Estate Investment Trust,GRT-UN.TO
+s-p-tsx-composite,InterRent REIT,IIP-UN.TO
+s-p-tsx-composite,Parex Resources Inc,PXT.TO
+s-p-tsx-composite,Boralex Inc,BLX.TO
+s-p-tsx-composite,Brookfield Infrastructure Partners LP,BIP-UN.TO
+s-p-tsx-composite,Brookfield Renewable Partners LP,BEP-UN.TO
+s-p-tsx-composite,BRP Inc,DOO.TO
+s-p-tsx-composite,Cargojet Inc,CJT.TO
+s-p-tsx-composite,Choice Properties REIT,CHP-UN.TO
+s-p-tsx-composite,Dream Industrial Real Estate Investment Trust,DIR-UN.TO
+s-p-tsx-composite,goeasy Ltd,GSY.TO
+s-p-tsx-composite,Energy Fuels Inc,EFR.TO
+s-p-tsx-composite,Enghouse Systems Ltd,ENGH.TO
+s-p-tsx-composite,EQB Inc,EQB.TO
+s-p-tsx-composite,Ivanhoe Mines Ltd.,IVN.TO
+s-p-tsx-composite,Kelt Exploration Ltd.,KEL.TO
+s-p-tsx-composite,NFI Group Inc,NFI.TO
+s-p-tsx-composite,Richelieu Hardware Ltd.,RCH.TO
+s-p-tsx-composite,Stella-Jones Inc.,SJ.TO
+s-p-tsx-composite,TerraVest Industries Inc,TVK.TO
+s-p-tsx-composite,Wesdome Gold Mines Ltd.,WDO.TO
+s-p-tsx-composite,Winpak Ltd.,WPK.TO
+s-p-tsx-composite,Aya Gold & Silver Inc,AYA.TO
+s-p-tsx-composite,Calibre Mining Corp,CXB.TO
+s-p-tsx-composite,NexGen Energy Ltd.,NXE.TO
+s-p-tsx-composite,Osisko Gold Ro,OR.TO
+s-p-tsx-composite,Restaurant Brands International Inc,QSR.TO
+s-p-tsx-composite,PrairieSky Royalty Ltd,PSK.TO
+s-p-tsx-composite,Equinox Gold Corp,EQX.TO
+s-p-tsx-composite,FirstService Corp,FSV.TO
+s-p-tsx-composite,Spin Master Corp,TOY.TO
+s-p-tsx-composite,Kinaxis Inc,KXS.TO
+s-p-tsx-composite,Hydro One Limited,H.TO
+s-p-tsx-composite,Alimentation Couche Tard Inc,ATD.TO
+s-p-tsx-composite,CT Real Estate Investment Trust,CRT-UN.TO
+s-p-tsx-composite,Orla Mining Ltd,OLA.TO
+s-p-tsx-composite,K92 Mining Inc,KNT.TO
+s-p-tsx-composite,Brookfield Business Partners LP,BBU-UN.TO
+s-p-tsx-composite,Aritzia Inc,ATZ.TO
+s-p-tsx-composite,Trisura Group Ltd,TSU.TO
+s-p-tsx-composite,Jamieson Wellness Inc,JWEL.TO
+s-p-tsx-composite,Barrick Gold Corp,ABX.TO
+s-p-tsx-composite,Cameco Corp,CCO.TO
+s-p-tsx-composite,Canadian National Railway Co,CNR.TO
+s-p-tsx-composite,Enbridge Inc,ENB.TO
+s-p-tsx-composite,Kinross Gold Corp,K.TO
+s-p-tsx-composite,Manulife Financial Corp,MFC.TO
+s-p-tsx-composite,BlackBerry Ltd,BB.TO
+s-p-tsx-composite,Royal Bank of Canada,RY.TO
+s-p-tsx-composite,Suncor Energy Inc,SU.TO
+s-p-tsx-composite,Teck Resources Ltd Class B,TECK-B.TO
+s-p-tsx-composite,Nutrien Ltd,NTR.TO
+s-p-tsx-composite,International Petroleum Corp,IPCO.TO
+s-p-tsx-composite,Ero Copper Corp,ERO.TO
+s-p-tsx-composite,Lightspeed Commerce Inc,LSPD.TO
+s-p-tsx-composite,Ngex Minerals Ltd,NGEX.TO
+s-p-tsx-composite,Gfl Environmental Holdings Inc,GFL.TO
+s-p-tsx-composite,G Mining Ventures Corp,GMIN.TO
+s-p-tsx-composite,Topaz Energy Corp,TPZ.TO
+s-p-tsx-composite,MDA Ltd,MDA.TO
+s-p-tsx-composite,Tilray Inc,TLRY.TO
+s-p-tsx-composite,Pet Valu Holdings Ltd,PET.TO
+s-p-tsx-composite,Algoma Steel Group Inc,ASTL.TO
+s-p-tsx-composite,Definity Financial Corp,DFY.TO
+s-p-tsx-composite,Primaris Real Estate Investment Trust,PMZ-UN.TO
+s-p-tsx-composite,Triple Flag Precious Metals Corp,TFPM.TO
+s-p-tsx-composite,Brookfield Corp,BAM.TO
+s-p-tsx-composite,South Bow Corp,SOBO.TO
+bovespa,RUMO Logistica Operadora Multimodal SA,RAIL3.SA
+bovespa,Allos SA,ALOS3.SA
+bovespa,Ambev SA,ABEV3.SA
+bovespa,Azzas 2154 SA,AZZA3.SA
+bovespa,Banco do Brasil SA,BBAS3.SA
+bovespa,Banco Bradesco SA,BBDC3.SA
+bovespa,Banco Bradesco SA Pref,BBDC4.SA
+bovespa,Minerva SA/Brazil,BEEF3.SA
+bovespa,Bradespar SA,BRAP4.SA
+bovespa,BRF SA,BRFS3.SA
+bovespa,Braskem SA,BRKM5.SA
+bovespa,B3 SA Brasil Bolsa Balcao,B3SA3.SA
+bovespa,CCR SA,CCRO3.SA
+bovespa,Energy of Minas Gerais Co Preferred,CMIG4.SA
+bovespa,CPFL Energia SA,CPFE3.SA
+bovespa,Companhia Paranaense de Energia Pref B,CPLE6.SA
+bovespa,Cosan SA Industria e Comercio,CSAN3.SA
+bovespa,Companhia Siderurgica Nacional,CSNA3.SA
+bovespa,Cyrela Brazil Realty SA,CYRE3.SA
+bovespa,Centrais Elétricas Brasileiras SA Eletrobras,ELET3.SA
+bovespa,Centrais Elétricas Brasileiras SA Eletrobras,ELET6.SA
+bovespa,Embraer SA,EMBR3.SA
+bovespa,Equatorial Energia SA,EQTL3.SA
+bovespa,YDUQS Participacoes SA,YDUQ3.SA
+bovespa,Fleury SA,FLRY3.SA
+bovespa,Gerdau SA Pref,GGBR4.SA
+bovespa,Metalurgica Gerdau SA,GOAU4.SA
+bovespa,Prio SA,PRIO3.SA
+bovespa,Hypera SA,HYPE3.SA
+bovespa,Itausa - Investimentos Itau SA,ITSA4.SA
+bovespa,Itau Unibanco Banco Holding SA,ITUB4.SA
+bovespa,JBS SA,JBSS3.SA
+bovespa,Lojas Renner SA,LREN3.SA
+bovespa,Magazine Luiza SA,MGLU3.SA
+bovespa,Eneva SA,ENEV3.SA
+bovespa,Marfrig Alimentos SA,MRFG3.SA
+bovespa,MRV Engenharia e Participacoes SA,MRVE3.SA
+bovespa,Multiplan SA,MULT3.SA
+bovespa,Natura & Co SA,NTCO3.SA
+bovespa,Petroleo Brasileiro SA,PETR3.SA
+bovespa,Petroleo Brasileiro SA PN,PETR4.SA
+bovespa,Marcopolo SA,POMO4.SA
+bovespa,Porto Seguro SA,PSSA3.SA
+bovespa,Localiza Rent a Car SA,RENT3.SA
+bovespa,Banco Santander Brasil SA Unit,SANB11.SA
+bovespa,Companhia de Saneamento Basico do Estado de Sao Paulo SABESP,SBSP3.SA
+bovespa,SLC Agricola SA,SLCE3.SA
+bovespa,Sao Martinho SA,SMTO3.SA
+bovespa,Engie Brasil Energia SA,EGIE3.SA
+bovespa,Tim Participacoes SA,TIMS3.SA
+bovespa,Totvs SA,TOTS3.SA
+bovespa,Transmissora Alianca de Energia Eletrica SA Unit,TAEE11.SA
+bovespa,ISA Energia Brasil SA Preferencial,ISAE4.SA
+bovespa,Ultrapar Participacoes SA,UGPA3.SA
+bovespa,Usinas Siderurgicas de Minas Gerais SA USIMINAS Pref,USIM5.SA
+bovespa,Vale SA,VALE3.SA
+bovespa,Telefonica Brasil SA,VIVT3.SA
+bovespa,WEG SA,WEGE3.SA
+bovespa,Santos Brasil Participacoes SA,STBP3.SA
+bovespa,Cogna Educacao SA,COGN3.SA
+bovespa,Raia Drogasil SA,RADL3.SA
+bovespa,BB Seguridade Participacoes SA,BBSE3.SA
+bovespa,Cvc Brasil ON,CVCB3.SA
+bovespa,Klabin Unt,KLBN11.SA
+bovespa,Energisa SA,ENGI11.SA
+bovespa,Banco BTG Pactual SA,BPAC11.SA
+bovespa,Azul SA Pref,AZUL4.SA
+bovespa,Atacadao SA,CRFB3.SA
+bovespa,IRB Brasil Resseguros SA,IRBR3.SA
+bovespa,Suzano Papel e Celulose SA,SUZB3.SA
+bovespa,Vibra Energia SA,VBBR3.SA
+bovespa,Hapvida Participacoes e Investimentos,HAPV3.SA
+bovespa,Grupo Vamos SA,VAMO3.SA
+bovespa,Vivara Participacoes SA,VIVA3.SA
+bovespa,Companhia Brasileira De Distribuica,PCAR3.SA
+bovespa,LWSA SA,LWSA3.SA
+bovespa,Pet Center Comercio e Partcipacoes,PETZ3.SA
+bovespa,Brava Energia SA,BRAV3.SA
+bovespa,Rede D’Or São Luiz SA,RDOR3.SA
+bovespa,CSN Mineracao SA,CMIN3.SA
+bovespa,Sendas Distribuidora SA,ASAI3.SA
+bovespa,Caixa Seguridade Participacoes SA,CXSE3.SA
+bovespa,Petroreconcavo SA,RECV3.SA
+bovespa,Raizen SA Preferred,RAIZ4.SA
+bovespa,Iguatemi SA Unit,IGTI11.SA
+bovespa,Auren Energia SA,AURE3.SA
+bovespa,Automob Participações SA,AMOB3.SA
+ipc,Grupo Aeroportuario Del CentroNorte,OMAB.MX
+ipc,Grupo Aeroportuario del Pacifico SAB De CV Class B,GAPB.MX
+ipc,Grupo Televisa SAB Unit,TLEVISACPO.MX
+ipc,America Movil SAB de CV M,AMXB.MX
+ipc,Grupo Aeroportuario Del Sureste,ASURB.MX
+ipc,Coca-Cola Femsa SAB de CV,KOFUBL.MX
+ipc,Gruma SAB de CV,GRUMAB.MX
+ipc,Cemex SAB de CV,CEMEXCPO.MX
+ipc,"Alfa, S.A.B. De C.V.",ALFAA.MX
+ipc,"Alsea, S.A.B. De C.V.",ALSEA.MX
+ipc,"Arca Continental, S.A.B. De C.V.",AC.MX
+ipc,Regional SAB de CV,RA.MX
+ipc,"Grupo Bimbo, S.A.B. De C.V.",BIMBOA.MX
+ipc,Bolsa Mexicana De Valores SAB De CV,BOLSAA.MX
+ipc,Gentera SAB de CV,GENTERA.MX
+ipc,"Grupo Elektra, S.A.B. De C.V.",ELEKTRA.MX
+ipc,Grupo Financiero Banorte,GFNORTEO.MX
+ipc,Fomento Economico Mexicano UBD,FEMSAUBD.MX
+ipc,Genomma Lab Internacional SAB De CV,LABB.MX
+ipc,"Grupo Mexico, S.A.B. De C.V.",GMEXICOB.MX
+ipc,"Grupo Carso, S.A.B. De C.V.",GCARSOA1.MX
+ipc,GCC SAB de CV,GCC.MX
+ipc,"Grupo Comercial Chedraui, SAB De CV",CHDRAUIB.MX
+ipc,"Grupo Financiero Inbursa, SAB De CV",GFINBURO.MX
+ipc,Kimberly - Clark De Mexico A,KIMBERA.MX
+ipc,"Megacable Holdings, S.A.B. De C.V.",MEGACPO.MX
+ipc,Orbia Advance Corporation SAB de CV,ORBIA.MX
+ipc,Industrias Penoles Sab De CV,PE&OLES.MX
+ipc,Promotora y Operadora de Infraestructura SAB de CV,PINFRA.MX
+ipc,Wal Mart de Mexico SAB de CV,WALMEX.MX
+ipc,"Qualitas Controladora, SAB De CV",Q.MX
+ipc,Corporacion Inmobiliaria Vesta SAB,VESTA.MX
+ipc,Controladora Vuela Compania de Aviacion SAB de CV,VOLARA.MX
+ipc,Becle SA de CV,CUERVO.MX
+ipc,Banco Del Bajio SA Institution De Banca Multiple,BBAJIOO.MX
+germany-30,BASF SE NA O.N.,BAS.DE
+germany-30,Bayer AG NA,BAYN.DE
+germany-30,Allianz SE VNA O.N.,ALV.DE
+germany-30,Adidas AG,ADS.DE
+germany-30,Siemens AG Class N,SIE.DE
+germany-30,Deutsche Bank AG NA O.N.,DBKGN.DE
+germany-30,Continental AG O.N.,CONG.DE
+germany-30,Deutsche Post AG NA O.N.,DHL.DE
+germany-30,Mercedes Benz Group AG,MBG.DE
+germany-30,Porsche Automobil Holding SE,PSHG_P.DE
+germany-30,Henkel & Co KGaA AG Pref,HNKG_p.DE
+germany-30,Commerzbank AG O.N.,CBKG.DE
+germany-30,Deutsche Boerse AG,DB1.DE
+germany-30,Bayerische Motoren Werke AG,BMW.DE
+germany-30,Fresenius Medical Care KGAA ST,FME.DE
+germany-30,Deutsche Telekom AG Na,DTE.DE
+germany-30,Merck KGaA,MRCG.DE
+germany-30,Infineon Technologies AG NA O.N.,IFX.DE
+germany-30,Munich Reinsurance,MUV.DE
+germany-30,SAP SE,SAP.DE
+germany-30,Rheinmetall AG,RHM.DE
+germany-30,Beiersdorf AG O.N.,BEI.DE
+germany-30,Fresenius SE & Co KGAA O.N.,FRE.DE
+germany-30,Hannover Rueck SE,HNR.DE
+germany-30,RWE AG ST O.N.,RWE.DE
+germany-30,MTU Aero Engines NA O.N.,MTX.DE
+germany-30,Symrise AG Inh. O.N.,SY1.DE
+germany-30,Heidelberg Materials AG,HEI.DE
+germany-30,Qiagen NV,QIA.DE
+germany-30,E.ON SE,EOAN.DE
+germany-30,Brenntag AG,BNR.DE
+germany-30,Sartorius AG VZO O.N.,SATG_p.DE
+germany-30,Volkswagen AG VZO O.N.,VOW.DE
+germany-30,Vonovia SE,VNA.DE
+germany-30,Zalando SE,ZAL.DE
+germany-30,Airbus Group SE,AIR.DE
+germany-30,Siemens Healthineers AG,SHL.DE
+germany-30,Siemens Energy AG,ENR.DE
+germany-30,Daimler Truck Holding AG,DT.DE
+germany-30,Dr Ing hc F Porsche AG Preferred,P911.DE
+uk-100,British American Tobacco PLC,BATS.L
+uk-100,HSBC Holdings PLC,HSBA.L
+uk-100,Barclays PLC,BARC.L
+uk-100,InterContinental Hotels Group PLC,IHG.L
+uk-100,BP PLC,BP.L
+uk-100,Next PLC,NXT.L
+uk-100,Lloyds Banking Group PLC,LLOY.L
+uk-100,EasyJet PLC,EZJ.L
+uk-100,Marks and Spencer Group PLC,MKS.L
+uk-100,NatWest Group PLC,NWG.L
+uk-100,Prudential PLC,PRU.L
+uk-100,Vodafone Group PLC,VOD.L
+uk-100,AstraZeneca PLC,AZN.L
+uk-100,Legal & General Group PLC,LGEN.L
+uk-100,Imperial Brands PLC,IMB.L
+uk-100,Reckitt Benckiser Group PLC,RKT.L
+uk-100,Kingfisher PLC,KGF.L
+uk-100,Relx PLC,REL.L
+uk-100,Centrica PLC,CNA.L
+uk-100,3I Group PLC,III.L
+uk-100,WPP PLC,WPP.L
+uk-100,Tesco PLC,TSCO.L
+uk-100,Diageo PLC,DGE.L
+uk-100,Hikma Pharmaceuticals PLC,HIK.L
+uk-100,F&C Investment Trust PLC,FCIT.L
+uk-100,Rio Tinto PLC,RIO.L
+uk-100,Anglo American PLC,AAL.L
+uk-100,Bunzl PLC,BNZL.L
+uk-100,GSK plc,GSK.L
+uk-100,Barratt Redrow PLC,BTRW.L
+uk-100,Aviva PLC,AV.L
+uk-100,Sage Group PLC,SGE.L
+uk-100,Pearson PLC,PSON.L
+uk-100,Associated British Foods PLC,ABF.L
+uk-100,London Stock Exchange Group PLC,LSEG.L
+uk-100,BAE Systems PLC,BAES.L
+uk-100,Antofagasta PLC,ANTO.L
+uk-100,Rolls-Royce Holdings PLC,RR.L
+uk-100,Whitbread PLC,WTB.L
+uk-100,Vistry Group PLC,VTY.L
+uk-100,Persimmon PLC,PSN.L
+uk-100,Admiral Group PLC,ADM.L
+uk-100,United Utilities Group PLC,UU.L
+uk-100,Unilever PLC,ULVR.L
+uk-100,SSE PLC,SSE.L
+uk-100,Standard Chartered PLC,STAN.L
+uk-100,Informa PLC,INF.L
+uk-100,Weir Group PLC,WEIR.L
+uk-100,Severn Trent PLC,SVT.L
+uk-100,Smiths Group PLC,SMIN.L
+uk-100,Melrose Industries PLC,MRO.L
+uk-100,Smith & Nephew PLC,SN.L
+uk-100,Intertek Group PLC,ITRK.L
+uk-100,Mondi PLC,MNDI.L
+uk-100,J Sainsbury PLC,SBRY.L
+uk-100,Croda International PLC,CRDA.L
+uk-100,National Grid PLC,NG.L
+uk-100,IMI PLC,IMI.L
+uk-100,BT Group PLC,BT-A.L
+uk-100,Segro Plc,SGRO.L
+uk-100,Schroders PLC,SDR.L
+uk-100,Rentokil Initial PLC,RTO.L
+uk-100,Compass Group PLC,CPG.L
+uk-100,Intermediate Capital Group PLC,ICG.L
+uk-100,Hiscox Ltd,HSX.L
+uk-100,Land Securities Group PLC,LAND.L
+uk-100,Scottish Mortgage Investment Trust PLC,SMT.L
+uk-100,Halma PLC,HLMA.L
+uk-100,Rightmove PLC,RMV.L
+uk-100,Frasers Group PLC,FRAS.L
+uk-100,Taylor Wimpey PLC,TW.L
+uk-100,Spirax-Sarco Engineering PLC,SPX.L
+uk-100,Ashtead Group PLC,AHT.L
+uk-100,Unite Group PLC,UTG.L
+uk-100,Flutter Entertainment PLC,FLTR.L
+uk-100,Beazley PLC,BEZ.L
+uk-100,Fresnillo PLC,FRES.L
+uk-100,Experian PLC,EXPN.L
+uk-100,Berkeley Group Holdings PLC,BKG.L
+uk-100,Howden Joinery Group Plc,HWDN.L
+uk-100,Glencore PLC,GLEN.L
+uk-100,International Consolidated Airlines Group S.A.,IAG.L
+uk-100,JD Sports Fashion PLC,JD.L
+uk-100,Londonmetric Property Plc,LMP.L
+uk-100,Phoenix Group Holdings PLC,PHNX.L
+uk-100,Smurfit WestRock PLC,SWR.L
+uk-100,DCC plc,DCC.L
+uk-100,Shell PLC,SHEL.L
+uk-100,Entain PLC,ENT.L
+uk-100,Diploma PLC,DPLM.L
+uk-100,Coca Cola HBC AG,CCH.L
+uk-100,Auto Trader Group Plc,AUTO.L
+uk-100,B&M European Value Retail SA,BME.L
+uk-100,ConvaTec Group PLC,CTEC.L
+uk-100,Pershing Square Holdings Ltd,PSH.L
+uk-100,M&G Plc,MNG.L
+uk-100,Airtel Africa Plc,AAF.L
+uk-100,HALEON PLC,HLN.L
+france-40,Accor SA,ACCP.PA
+france-40,Air Liquide SA,AIRP.PA
+france-40,Capgemini SE,CAPP.PA
+france-40,AXA SA,AXAF.PA
+france-40,Danone SA,DANO.PA
+france-40,Engie SA,ENGIE.PA
+france-40,BNP Paribas SA,BNPP.PA
+france-40,Bouygues SA,BOUY.PA
+france-40,LVMH Moet Hennessy Louis Vuitton SE,LVMH.PA
+france-40,L’Oreal SA,OREP.PA
+france-40,Schneider Electric SE,SCHN.PA
+france-40,Compagnie de Saint Gobain SA,SGOB.PA
+france-40,Carrefour SA,CARR.PA
+france-40,EssilorLuxottica SA,ESLX.PA
+france-40,Pernod Ricard SA,PERP.PA
+france-40,Credit Agricole SA,CAGR.PA
+france-40,Orange SA,ORAN.PA
+france-40,Societe Generale SA,SOGN.PA
+france-40,Compagnie Generale des Etablissements Michelin SCA,MICP.PA
+france-40,Airbus Group SE,AIR.PA
+france-40,Sanofi SA,SASY.PA
+france-40,TotalEnergies SE,TTEF.PA
+france-40,STMicroelectronics NV,STMPA.PA
+france-40,Vinci SA,SGEF.PA
+france-40,Renault SA,RENA.PA
+france-40,Veolia Environnement VE SA,VIE.PA
+france-40,Kering SA,PRTP.PA
+france-40,Unibail-Rodamco-Westfield SE,URW.PA
+france-40,ArcelorMittal SA,MT.PA
+france-40,Thales,TCFP.PA
+france-40,Dassault Systemes SE,DAST.PA
+france-40,Eurofins Scientific SE,EUFI.PA
+france-40,Publicis Groupe SA,PUBP.PA
+france-40,Hermes International SCA,HRMS.PA
+france-40,Safran SA,SAF.PA
+france-40,Legrand SA,LEGD.PA
+france-40,Teleperformance SE,TEPRF.PA
+france-40,Bureau Veritas SA,BVI.PA
+france-40,Edenred SA,EDEN.PA
+france-40,Stellantis NV,STLAP.PA
+netherlands-25,ING Groep NV,INGA.AS
+netherlands-25,Shell PLC,SHELL.AS
+netherlands-25,Heineken,HEIN.AS
+netherlands-25,Aegon Ltd,AGN.AS
+netherlands-25,Koninklijke Philips NV,PHG.AS
+netherlands-25,ASM International NV,ASMI.AS
+netherlands-25,Randstad NV,RAND.AS
+netherlands-25,Wolters Kluwer,WLSNc.AS
+netherlands-25,Akzo Nobel NV,AKZO.AS
+netherlands-25,Koninklijke Ahold Delhaize NV,AD.AS
+netherlands-25,ArcelorMittal SA,MT.AS
+netherlands-25,Koninklijke KPN NV,KPN.AS
+netherlands-25,ASML Holding NV,ASML.AS
+netherlands-25,BE Semiconductor Industries NV,BESI.AS
+netherlands-25,Relx PLC,REL.AS
+netherlands-25,NN Group NV,NN.AS
+netherlands-25,IMCD NV,IMCD.AS
+netherlands-25,ABN AMRO Group NV,ABNd.AS
+netherlands-25,ASR Nederland NV,ASRNL.AS
+netherlands-25,Unilever PLC,ULVR.AS
+netherlands-25,Adyen NV,ADYEN.AS
+netherlands-25,Prosus,PRX.AS
+netherlands-25,Universal Music Group NV,UMG.AS
+netherlands-25,Exor NV,EXOR.AS
+netherlands-25,DSM Firmenich AG,DSFIR.AS
+spain-35,ACS Actividades de Construccion y Servicios SA,ACS.MC
+spain-35,Acerinox,ACX.MC
+spain-35,Banco Bilbao Vizcaya Argentaria SA,BBVA.MC
+spain-35,Bankinter,BKT.MC
+spain-35,Acciona,ANA.MC
+spain-35,Caixabank SA,CABK.MC
+spain-35,Enagas,ENG.MC
+spain-35,Naturgy Energy Group SA,NTGY.MC
+spain-35,Grifols SA,GRF.MC
+spain-35,Ferrovial,FER.MC
+spain-35,Redeia Corporacion SA,RED.MC
+spain-35,Industria de Diseno Textil SA,ITX.MC
+spain-35,Repsol,REP.MC
+spain-35,Iberdrola,IBE.MC
+spain-35,Indra A,IDR.MC
+spain-35,Mapfre,MAP.MC
+spain-35,Telefonica,TEF.MC
+spain-35,Sacyr SA,SCYR.MC
+spain-35,Banco de Sabadell SA,SAB.MC
+spain-35,Banco Santander,SAN.MC
+spain-35,Inmobiliaria Colonial SA,COL.MC
+spain-35,International Consolidated Airlines Group S.A.,IAG.MC
+spain-35,Endesa SA,ELE.MC
+spain-35,Amadeus IT,AMS.MC
+spain-35,Laboratorios Farmaceuticos ROVI,ROVI.MC
+spain-35,SOLARIA ENERGIA Y MEDIO AMBIENTE,SLR.MC
+spain-35,Fluidra,FDR.MC
+spain-35,ArcelorMittal SA,MTS.MC
+spain-35,Merlin Properties SA,MRL.MC
+spain-35,Logista,LOG.MC
+spain-35,Aena SME SA,AENA.MC
+spain-35,Cellnex Telecom SA,CLNX.MC
+spain-35,Unicaja Banco SA,UNI.MC
+spain-35,Corporacion Acciona Energias Renovables SA,ANE.MC
+spain-35,Puig Brands SA,PUIG.MC
+it-mib-40,Telecom Italia,TLIT.MI
+it-mib-40,Stellantis NV,STLAM.MI
+it-mib-40,Assicurazioni Generali SpA,GASI.MI
+it-mib-40,Snam SpA,SRG.MI
+it-mib-40,Pirelli & C SPA,PIRC.MI
+it-mib-40,Prysmian SpA,PRY.MI
+it-mib-40,Intesa Sanpaolo SpA,ISP.MI
+it-mib-40,UniCredit SpA,CRDI.MI
+it-mib-40,Banca Mediolanum SpA,BMED.MI
+it-mib-40,Leonardo SpA,LDOF.MI
+it-mib-40,Enel,ENEI.MI
+it-mib-40,Tenaris SA,TENR.MI
+it-mib-40,Eni SpA,ENI.MI
+it-mib-40,Unipol Gruppo Finanziario Spa,UNPI.MI
+it-mib-40,Banca Monte dei Paschi di Siena SpA,BMPS.MI
+it-mib-40,Buzzi Unicem,BZU.MI
+it-mib-40,A2A SpA,A2.MI
+it-mib-40,Terna Rete Elettrica Nazionale SpA,TRN.MI
+it-mib-40,Mediobanca Banca di Credito Finanziario SpA,MDBI.MI
+it-mib-40,Banco Bpm SpA,BAMI.MI
+it-mib-40,Saipem SpA,SPMI.MI
+it-mib-40,Azimut Holding SpA,AZMT.MI
+it-mib-40,Davide Campari Milano SpA,CPRI.MI
+it-mib-40,Bper Banca SpA,EMII.MI
+it-mib-40,DiaSorin SpA,DIAS.MI
+it-mib-40,Amplifon,AMPF.MI
+it-mib-40,Banca Popolare di Sondrio ScpA,BPSI.MI
+it-mib-40,Hera,HRA.MI
+it-mib-40,Interpump Group,ITPG.MI
+it-mib-40,Recordati,RECI.MI
+it-mib-40,STMicroelectronics NV,STMMI.MI
+it-mib-40,Brunello Cucinelli,BCU.MI
+it-mib-40,Moncler SpA,MONC.MI
+it-mib-40,FinecoBank Banca Fineco SpA,FBK.MI
+it-mib-40,Inwit,INWT.MI
+it-mib-40,Poste Italiane SpA,PST.MI
+it-mib-40,Ferrari NV,RACE.MI
+it-mib-40,Italgas SpA,IG.MI
+it-mib-40,Nexi SpA,NEXII.MI
+it-mib-40,Iveco Group NV,IVG.MI
+switzerland-20,Compagnie Financiere Richemont SA,CFR.SW
+switzerland-20,ABB Ltd,ABBN.SW
+switzerland-20,Holcim AG,HOLN.SW
+switzerland-20,Logitech International SA,LOGN.SW
+switzerland-20,Zurich Insurance Group AG,ZURN.SW
+switzerland-20,Swiss Life Holding AG,SLHN.SW
+switzerland-20,Novartis AG,NOVN.SW
+switzerland-20,Nestle SA,NESN.SW
+switzerland-20,Swiss Re AG,SRENH.SW
+switzerland-20,Roche Holding AG Participation,ROG.SW
+switzerland-20,Lonza Group AG,LONN.SW
+switzerland-20,Swisscom AG,SCMN.SW
+switzerland-20,Geberit AG,GEBN.SW
+switzerland-20,Sika AG,SIKA.SW
+switzerland-20,Partners Group,PGHN.SW
+switzerland-20,Kuehne & Nagel,KNIN.SW
+switzerland-20,Sonova H Ag,SOON.SW
+switzerland-20,UBS Group AG,UBSG.SW
+switzerland-20,Givaudan SA,GIVN.SW
+switzerland-20,Alcon AG,ALCC.SW
+psi-20,Galp Energia Nom,GALP.LS
+psi-20,Jeronimo Martins SGPS SA,JMT.LS
+psi-20,EDP Energias de Portugal SA,EDP.LS
+psi-20,Altri SGPS SA,ALSS.LS
+psi-20,Banco Comercial Portugues,BCP.LS
+psi-20,The Navigator Company SA,NVGR.LS
+psi-20,Mota Engil SGPS SA,MOTA.LS
+psi-20,Ren Redes Energeticas Nacionais SGPS SA,RENE.LS
+psi-20,Semapa,SEM.LS
+psi-20,Sonae SGPS SA,YSO.LS
+psi-20,Nos SGPS SA,NOS.LS
+psi-20,EDP Renovaveis,EDPR.LS
+psi-20,Corticeira Amorim,CORA.LS
+psi-20,Ibersol SGPS,IBS.LS
+psi-20,CTT Correios de Portugal SA,CTT.LS
+iseq-overall,Glanbia PLC,GL9.I
+iseq-overall,Kerry Group,KYGa.I
+iseq-overall,Irish Continental Group PLC,IR5B_u.I
+iseq-overall,AIB Group PLC,AIBG.I
+iseq-overall,Bank of Ireland Group PLC,BIRG.I
+iseq-overall,Datalex,DLE.I
+iseq-overall,Donegal Investment Group PLC,DQ7A.I
+iseq-overall,FBD Holdings PLC,FBH.I
+iseq-overall,Kenmare Resources PLC,KMR.I
+iseq-overall,Kingspan Group PLC,KSP.I
+iseq-overall,Origin Enterprises Plc,OGN.I
+iseq-overall,Ovoca Gold PLC,OVB.I
+iseq-overall,Ryanair Holdings PLC,RYA.I
+iseq-overall,Permanent TSB Group Holdings PLC,PTSB.I
+iseq-overall,Mincon Group P,MCON.I
+iseq-overall,Great Western Mining Corp Plc,GWMO.I
+iseq-overall,FD Technologies PLC,FDPF.I
+iseq-overall,Irish Res Pr P,IRES.I
+iseq-overall,Dalata Hotel Group PLC,DHG.I
+iseq-overall,Malin Corporation plc,MLCM.I
+iseq-overall,Greencoat Renewables PLC,GRPG.I
+iseq-overall,Cairn Homes PLC,CRN.I
+iseq-overall,Glenveagh Properties PLC,GLV.I
+iseq-overall,Uniphar Group PLC,UPR.I
+iseq-overall,Corre Energy BV,CORRE.I
+bel-20,Ackermans & Van Haaren NV,ACKB.BR
+bel-20,Cofinimmo SA,COFB.BR
+bel-20,KBC Groep NV,KBC.BR
+bel-20,Solvay SA,SOLB.BR
+bel-20,Groep Brussel Lambert NV,GBLB.BR
+bel-20,UCB SA,UCB.BR
+bel-20,Anheuser Busch Inbev SA NV,ABI.BR
+bel-20,Ageas,AGES.BR
+bel-20,Umicore SA,UMI.BR
+bel-20,Aedifica,AOO.BR
+bel-20,Elia,ELI.BR
+bel-20,Galapagos NV,GLPG.BR
+bel-20,Lotus Bakeries,LOTB.BR
+bel-20,Melexis NV,MLXS.BR
+bel-20,Sofina,SOF.BR
+bel-20,Warehouses de Pauw Comm VA,WDPP.BR
+bel-20,D’Ieteren NV,IETB.BR
+bel-20,Argen-X,ARGX.BR
+bel-20,Azelis Corporate Services NV,AZE.BR
+bel-20,Syensqo SA,SYENS.BR
+atx,Andritz AG,ANDR.VI
+atx,Erste Group Bank AG,ERST.VI
+atx,CPI Europe AG,CPIE.VI
+atx,EVN AG,EVNV.VI
+atx,Telekom Austria AG,TELA.VI
+atx,OMV AG,OMVV.VI
+atx,Raiffeisen Bank International AG,RBIV.VI
+atx,Schoeller-Bleckmann AG,SBOE.VI
+atx,Mayr Melnhof Karton AG,MMKV.VI
+atx,Voestalpine AG,VOES.VI
+atx,Verbund AG Kat. A,VERB.VI
+atx,Wienerberger AG,WBSV.VI
+atx,Uniqa Insurance Group AG,UNIQ.VI
+atx,CA Immobilien Anlagen AG,CAIV.VI
+atx,Oesterr. Post AG,POST.VI
+atx,Vienna Insurance Group AG,VIGR.VI
+atx,DO & CO AG,DOCO.VI
+atx,Lenzing AG,LENV.VI
+atx,AT & S Austria Technologie & Systemtechnik AG,ATSV.VI
+atx,BAWAG Group AG,BAWG.VI
+omx-stockholm-30,Electrolux AB Class B,ELUX-B.ST
+omx-stockholm-30,Atlas Copco AB Class A,ATCOa.ST
+omx-stockholm-30,Boliden AB,BOL.ST
+omx-stockholm-30,AstraZeneca PLC,AZN.ST
+omx-stockholm-30,Telefonaktiebolaget LM Ericsson Class B,ERIC-B.ST
+omx-stockholm-30,Alfa Laval AB,ALFA.ST
+omx-stockholm-30,ABB Ltd,ABB.ST
+omx-stockholm-30,ASSA ABLOY AB ser. B,ASSA-B.ST
+omx-stockholm-30,Atlas Copco AB Series B,ATCO-B.ST
+omx-stockholm-30,Skandinaviska Enskilda Banken AB A,SEBa.ST
+omx-stockholm-30,Sandvik AB,SAND.ST
+omx-stockholm-30,Investor AB ser. B,INVE-B.ST
+omx-stockholm-30,H & M Hennes & Mauritz AB B,HM-B.ST
+omx-stockholm-30,Svenska Cellulosa SCA AB B,SCA-B.ST
+omx-stockholm-30,Swedbank AB ser A,SWEDa.ST
+omx-stockholm-30,Svenska Handelsbanken AB A,SHBa.ST
+omx-stockholm-30,"Volvo, AB ser. B",VOLV-B.ST
+omx-stockholm-30,Tele2 AB,TEL2-B.ST
+omx-stockholm-30,Telia Company AB,TELIA.ST
+omx-stockholm-30,AB SKF B,SKF-B.ST
+omx-stockholm-30,Nordea Bank Abp,NDASE.ST
+omx-stockholm-30,Getinge AB ser. B,GETI-B.ST
+omx-stockholm-30,Hexagon AB ser. B,HEXA-B.ST
+omx-stockholm-30,"Kinnevik, Investment AB ser. B",KINV-B.ST
+omx-stockholm-30,SAAB AB ser. B,SAAB-B.ST
+omx-stockholm-30,NIBE Industrier AB ser. B,NIBE-B.ST
+omx-stockholm-30,Samhallsbyggnadsbolaget i Norden AB,SBB-B.ST
+omx-stockholm-30,Evolution AB,EVOG.ST
+omx-stockholm-30,Sinch AB,SINCH.ST
+omx-stockholm-30,Essity AB B,ESSITY-B.ST
+omx-oslo-20,Dno ASA,DNO.OL
+omx-oslo-20,Norsk Hydro ASA,NHY.OL
+omx-oslo-20,Mowi ASA,MOWI.OL
+omx-oslo-20,Orkla ASA,ORK.OL
+omx-oslo-20,REC Silicon ASA,RECSI.OL
+omx-oslo-20,Equinor ASA,EQNR.OL
+omx-oslo-20,Storebrand ASA,STB.OL
+omx-oslo-20,Telenor ASA,TEL.OL
+omx-oslo-20,Yara International ASA,YAR.OL
+omx-oslo-20,Subsea 7 SA,SUBC.OL
+omx-oslo-20,TGS NOPEC Geophysical Company ASA,TGS.OL
+omx-oslo-20,Akastor ASA,AKAST.OL
+omx-oslo-20,DnB ASA,DNB.OL
+omx-oslo-20,Gjensidige Forsikring ASA,GJF.OL
+omx-oslo-20,Norwegian Air Shuttle ASA,NAS.OL
+omx-oslo-20,Schibsted ASA A,SCHA.OL
+omx-helsinki-25,KONE Oyj,KNEBV.HE
+omx-helsinki-25,Elisa Oyj,ELISA.HE
+omx-helsinki-25,Konecranes ABP,KCR.HE
+omx-helsinki-25,Hiab Oyj,HIAB.HE
+omx-helsinki-25,Fortum Oyj,FORTUM.HE
+omx-helsinki-25,Kesko Oyj,KESKOB.HE
+omx-helsinki-25,Neste Oyj,NESTE.HE
+omx-helsinki-25,Metso Oyj,METSO.HE
+omx-helsinki-25,Stora Enso Oyj R,STERV.HE
+omx-helsinki-25,Sampo Oyj A,SAMPO.HE
+omx-helsinki-25,Nokian Renkaat Oyj,TYRES.HE
+omx-helsinki-25,TietoEVRY Corp,TIETO.HE
+omx-helsinki-25,UPM-Kymmene Oyj,UPM.HE
+omx-helsinki-25,Nokia Oyj,NOKIA.HE
+omx-helsinki-25,Outokumpu Oyj,OUT1V.HE
+omx-helsinki-25,Wartsila Oyj Abp,WRT1V.HE
+omx-helsinki-25,Nordea Bank Abp,NDA-FI.HE
+omx-helsinki-25,Huhtamaki Oyj,HUH1V.HE
+omx-helsinki-25,Kemira Oyj,KEMIRA.HE
+omx-helsinki-25,Orion Oyj B,ORNBV.HE
+omx-helsinki-25,Valmet Oyj,VALMT.HE
+omx-helsinki-25,Qt Group Oyj,QTCOM.HE
+omx-helsinki-25,Kojamo,KOJAMO.HE
+omx-helsinki-25,Mandatum Oyj,MANTA.HE
+omx-helsinki-25,Kalmar Oyj,KALMAR.HE
+omx-copenhagen-25,Danske Bank A/S,DANSKE.CO
+omx-copenhagen-25,Carlsberg A/S B,CARL-B.CO
+omx-copenhagen-25,DSV Panalpina A/S,DSV.CO
+omx-copenhagen-25,Nordea Bank Abp,NDADK.CO
+omx-copenhagen-25,Novo Nordisk A/S Class B,NOVO-B.CO
+omx-copenhagen-25,AP Moeller - Maersk A/S B,MAERSK-B.CO
+omx-copenhagen-25,Novozymes A/S B,NSIS-B.CO
+omx-copenhagen-25,AP Moeller - Maersk A/S A,MAERSK-A.CO
+omx-copenhagen-25,NKT Holding,NKT.CO
+omx-copenhagen-25,Genmab,GMAB.CO
+omx-copenhagen-25,GN Store Nord,GN.CO
+omx-copenhagen-25,Vestas Wind Systems A/S,VWS.CO
+omx-copenhagen-25,Demant A/S,DEMANT.CO
+omx-copenhagen-25,Tryg A/S,TRYG.CO
+omx-copenhagen-25,Sydbank,SYDB.CO
+omx-copenhagen-25,Coloplast A/S,COLO-B.CO
+omx-copenhagen-25,Ambu A/S,AMBU-B.CO
+omx-copenhagen-25,Bavarian Nordic,BAVA.CO
+omx-copenhagen-25,Jyske Bank A/S,JYSK.CO
+omx-copenhagen-25,Pandora A/S,PNDORA.CO
+omx-copenhagen-25,Royal Unibrew A/S,RBREW.CO
+omx-copenhagen-25,Rockwool International B,ROCK-B.CO
+omx-copenhagen-25,Zealand Pharma A/S,ZEAL.CO
+omx-copenhagen-25,ISS A/S,ISS.CO
+omx-copenhagen-25,Oersted AS,ORSTED.CO
+rtsi,AFK Sistema PJSC,AFKS.ME
+rtsi,Aeroflot PJSC,AFLT.ME
+rtsi,ROSSETI PJSC,FEES.ME
+rtsi,MMC NORILSK NICKEL PJSC,GMKN.ME
+rtsi,Gazprom PJSC,GAZP.ME
+rtsi,LUKOIL PJSC,LKOH.ME
+rtsi,Magnitogorskiy Metallurgicheskiy Kombinat PAO,MAGN.ME
+rtsi,Mobil’nye Telesistemy PJSC,MTSS.ME
+rtsi,Magnit PJSC,MGNT.ME
+rtsi,MOSENERGO,MSNG.ME
+rtsi,Novolipetsk Steel,NLMK.ME
+rtsi,NOVATEK PJSC,NVTK.ME
+rtsi,Polyus PJSC,PLZL.ME
+rtsi,Rosneft PJSC,ROSN.ME
+rtsi,Mechel PJSC,MTLR.ME
+rtsi,Sberbank Rossii PJSC,SBER.ME
+rtsi,Sberbank Rossii PJSC Pref,SBERP.ME
+rtsi,Severstal PJSC,CHMF.ME
+rtsi,Surgutneftegas PJSC,SNGS.ME
+rtsi,Surgutneftegas PJSC Pref,SNGSP.ME
+rtsi,TATNEFT n.a. V.D. Shashin,TATN.ME
+rtsi,Transneft PJSC Pref,TRNFP.ME
+rtsi,Bank VTB PJSC,VTBR.ME
+rtsi,TATNEFT n.a. V.D. Shashin Pref,TATNP.ME
+rtsi,Inter RAO PJSC,IRAO.ME
+rtsi,Federal Hydro Generating Company RusHydro PJSC,HYDR.ME
+rtsi,Bank Saint-Petersburg PJSC,BSPB.ME
+rtsi,PIK SHb PJSC,PIKK.ME
+rtsi,Unipro PJSC,UPRO.ME
+rtsi,Mechel PJSC Pref,MTLRP.ME
+rtsi,PhosAgro PJSC,PHOR.ME
+rtsi,Rostelekom PJSC,RTKM.ME
+rtsi,Seligdar PJSC,SELG.ME
+rtsi,AK ALROSA PJSC,ALRS.ME
+rtsi,Moskovskaya Birzha PJSC,MOEX.ME
+rtsi,OK Rusal MKPAO,RUAL.ME
+rtsi,Moskovskiy Kreditnyi Bank PAO,CBOM.ME
+rtsi,GDR ROS AGRO PLC ORD SHS,AGRODR.ME
+rtsi,T Tekhnologii MKPAO,T.ME
+rtsi,EN+ GROUP IPJSC,ENPG.ME
+rtsi,VK Company Ltd,VKCO.ME
+rtsi,Sovkomflot PAO,FLOT.ME
+rtsi,Samolet Group PJSC,SMLT.ME
+rtsi,ADS Ozon Holdings PLC ORD SHS,OZON.ME
+rtsi,Segezha Group PJSC,SGZH.ME
+rtsi,Gruppa Pozitiv PAO,POSI.ME
+wig-20,Santander Bank Polska SA,SPL1.WA
+wig-20,Powszechna Kasa Oszczednosci Bank Polski SA,PKO.WA
+wig-20,mBank SA,MBK.WA
+wig-20,Orange Polska SA,OPL.WA
+wig-20,Bank Polska Kasa Opieki SA,PEO.WA
+wig-20,KGHM Polska Miedz SA,KGH.WA
+wig-20,Polski Koncern Naftowy ORLEN SA,PKN.WA
+wig-20,PGE Polska Grupa Energetyczna SA,PGE.WA
+wig-20,Powszechny Zaklad Ubezpieczen SA,PZU.WA
+wig-20,Alior Bank SA,ALRR.WA
+wig-20,BUDIMEX SA,BDXP.WA
+wig-20,CCC SA,CCCP.WA
+wig-20,CD PROJEKT SA,CDR.WA
+wig-20,Kruk SA,KRU.WA
+wig-20,Grupa KĘTY SA,KTY.WA
+wig-20,LPP SA,LPPP.WA
+wig-20,Dino Polska SA,DNP.WA
+wig-20,Allegro,ALEP.WA
+wig-20,Pepco Group Nv,PCOP.WA
+wig-20,Zabka Group SA,ZAB.WA
+hungary-stock-market,OTP Bank Nyrt,OTPB.BU
+hungary-stock-market,MOL PLC,MOLB.BU
+hungary-stock-market,Gedeon Richter PLC,GDRB.BU
+hungary-stock-market,Magyar Telekom PLC,MTEL.BU
+hungary-stock-market,PannErgy Nyrt,PANP.BU
+hungary-stock-market,ANY PLC,ANYB.BU
+hungary-stock-market,Delta Technologies Nyrt,DELTA.BU
+hungary-stock-market,CIG Pannonia Life Insurance PLC,CIGP.BU
+hungary-stock-market,Appeninn Nyrt.,APPB.BU
+hungary-stock-market,Graphisoft Park Se Ingatl Eur,GSPA.BU
+hungary-stock-market,OPUS GLOBAL Nyrt,OPUSG.BU
+hungary-stock-market,4iG Nyrt,IGNY.BU
+hungary-stock-market,Masterplast Nyrt,MAST.BU
+hungary-stock-market,Alteo Energiaszolgaltato Nyrt,ALTS.BU
+hungary-stock-market,Waberers,WABE.BU
+hungary-stock-market,AutoWallis Nyrt,AUTW.BU
+athens-general,Alpha Bank SA,ACBr.AT
+athens-general,Jumbo SA,BABr.AT
+athens-general,Eurobank Ergasias SA,EUROB.AT
+athens-general,Ellaktor SA,ELLAKTOR.AT
+athens-general,Greek Organisation of Football Prognostics SA,OPAr.AT
+athens-general,Viohalco BR,VIOH.AT
+athens-general,Aegean Airlines,AEGN.AT
+athens-general,Athens Water,EYDr.AT
+athens-general,Autohellas,AUTr.AT
+athens-general,Piraeus Bank SA,BOPr.AT
+athens-general,Crete Plastics SA,PLAKR.AT
+athens-general,Fourlis Hld,FRLr.AT
+athens-general,Gek Terna,HRMr.AT
+athens-general,Elvalhalcor Hellenic Copper and Aluminium Industry SA,ELHA.AT
+athens-general,Hellenic Exchanges Athens Stock Exchange SA,EXCr.AT
+athens-general,HELLENiQ ENERGY Holdings SA,HEPr.AT
+athens-general,Hellenic Telecommunications Organization SA,OTEr.AT
+athens-general,Iktinos Hellas,IKTr.AT
+athens-general,Intracom Holdings SA,INRr.AT
+athens-general,Aktor Symmetochon Technikon kai Energoiakon Ergon AE,AKTRr.AT
+athens-general,Intralot,INLr.AT
+athens-general,Avax SA,AVAr.AT
+athens-general,Kri-Kri Milk,KRIr.AT
+athens-general,Lamda Develop,LMDr.AT
+athens-general,Motor Oil Hellas Corinth Refineries SA,MORr.AT
+athens-general,Metlen Energy & Metals AE,MYTr.AT
+athens-general,National Bank of Greece SA,NBGr.AT
+athens-general,Piraeus Port,OLPr.AT
+athens-general,Public Power,DEHr.AT
+athens-general,Quest Holdings,IQTr.AT
+athens-general,Gr Sarantis SA,SRSr.AT
+athens-general,Techn Olympic,OLYr.AT
+athens-general,Thessaloniki Port Authority SA,OLTr.AT
+athens-general,Thessaloniki Water and Sewage Co SA,TWSr.AT
+athens-general,Thrace Plastic,THRr.AT
+athens-general,Papoutsanis Industrial and Commercial of Consumer Goods SA,PSALr.AT
+athens-general,Ekter,EKTr.AT
+athens-general,Alumil,ALMr.AT
+athens-general,AS Company SA,ASCr.AT
+athens-general,Profile Syst,PRFr.AT
+athens-general,Petros Petropoulos SA,PTRr.AT
+athens-general,Elinoil Hellenic Petroleum Company SA,ELIr.AT
+athens-general,Lavipharm SA,LPHr.AT
+athens-general,Cars Motorcycles and Marine Engine Trade and Import Company SA,MTDr.AT
+athens-general,Premia AE,PREMr.AT
+athens-general,Coca Cola HBC AG,EEEr.AT
+athens-general,Cenergy Holdings SA,CENEr.AT
+athens-general,Holding Company ADMIE IPTO SA,ADMr.AT
+athens-general,BriQ Properties REIC,BRIQr.AT
+athens-general,Lampsa Hellenic Hotels SA,LAMr.AT
+athens-general,Performance Technologies IT Solutions,PREFr.AT
+athens-general,Titan Cement International SA,TITCr.AT
+athens-general,Ideal Group SA,IDEr.AT
+athens-general,Interlife General Insurance Company SA,INLIFr.AT
+athens-general,Dimand Societe Anonyme for Real Estate Constructions,DIMANDr.AT
+athens-general,BLE Kedros Real Estate Investment,BLEKEDROSr.AT
+athens-general,Austriacard Holdings AG,ACAGr.AT
+athens-general,Optima bank SA,OPTIMAr.AT
+athens-general,Orilina Properties AEEAP,ORILINAr.AT
+athens-general,Athens International Airport SA,AIAr.AT
+athens-general,Bank of Cyprus Holdings PLC,BOCHGRr.AT
+ise-100,Anadolu Efes Biracilik ve Malt Sanayi AS,AEFES.IS
+ise-100,Akbank TAS,AKBNK.IS
+ise-100,Aksa Akrilik Kimya Sanayi AS,AKSA.IS
+ise-100,Aksa Enerji Uretim AS,AKSEN.IS
+ise-100,Alarko Holding AS,ALARK.IS
+ise-100,Anadolu Hayat Emeklilik AS,ANHYT.IS
+ise-100,Anadolu Anonim Turk Sigorta Sti,ANSGR.IS
+ise-100,Arcelik AS,ARCLK.IS
+ise-100,Aselsan Elektronik Sanayi ve Ticaret AS,ASELS.IS
+ise-100,BIM Birlesik Magazalar AS,BIMAS.IS
+ise-100,Ral Yatirim Holding AS,RALYH.IS
+ise-100,Borusan Birlesik Boru Fabrikalari Sanayi Ve Ticaret AS,BRSAN.IS
+ise-100,Borusan Yatirim ve Pazarlama AS,BRYAT.IS
+ise-100,Batisoke Soke Cimento Sanayi TAS,BSOKE.IS
+ise-100,Baticim Bati Anadolu Cimento Sanayi AS,BTCIM.IS
+ise-100,Coca-Cola Icecek AS,CCOLA.IS
+ise-100,Cimsa Cimento Sanayi ve Ticaret AS,CIMSA.IS
+ise-100,Celebi Hava Servisi AS,CLEBI.IS
+ise-100,Dogus Otomotiv Servis ve Ticaret AS,DOAS.IS
+ise-100,Dogan Sirketler Grubu Holding AS,DOHOL.IS
+ise-100,EIS Eczacibasi Ilac Sinai ve Finansal Yatirimlar Sanayi ve Ticaret AS,ECILC.IS
+ise-100,Ege Endustri ve Ticaret AS,EGEEN.IS
+ise-100,Emlak Konut Gayrimenkul Yatirim Ortakligi AS,EKGYO.IS
+ise-100,ENKA Insaat ve Sanayi AS,ENKAI.IS
+ise-100,Eregli Demir ve Celik Fabrikalari TAS,EREGL.IS
+ise-100,Ford Otomotiv Sanayi AS,FROTO.IS
+ise-100,Turkiye Garanti Bankasi,GARAN.IS
+ise-100,Goltas Goller Bolgesi Cimento Sanayi ve Ticaret AS,GOLTS.IS
+ise-100,Galatasaray Sportif Sinai ve Ticari Yatirimlar AS,GSRAY.IS
+ise-100,Gubre Fabrikalari TAS,GUBRF.IS
+ise-100,Turkiye Sigorta AS,TURSG.IS
+ise-100,Turkiye Halk Bankasi,HALKB.IS
+ise-100,Hektas Ticaret TAS,HEKTS.IS
+ise-100,Turkiye Is Bankasi AS Class C,ISCTR.IS
+ise-100,Is Yatirim Menkul Degerler AS,ISMEN.IS
+ise-100,Karsan Otomotiv Sanayi ve Ticaret AS,KARSN.IS
+ise-100,Koc Holding AS,KCHOL.IS
+ise-100,Konya Cimento Sanayi AS,KONYA.IS
+ise-100,Koza Anadolu Metal Madencilik Isletmeleri AS,KOZAA.IS
+ise-100,Koza Altin Isletmeleri AS,KOZAL.IS
+ise-100,Kardemir Karabuk Demir Celik Sanayi ve Ticaret AS Class D,KRDMD.IS
+ise-100,Migros Ticaret AS,MGROS.IS
+ise-100,Oyak Cimento Fabrikalari AS,OYAKC.IS
+ise-100,Isiklar Enerji ve Yapi Holding AS,IEYHO.IS
+ise-100,Otokar Otomotiv ve Savunma Sanayi AS,OTKAR.IS
+ise-100,Petkim Petrokimya Holding AS,PETKM.IS
+ise-100,Reysas Gayrimenkul Yatirim Ortakligi AS,RYGYO.IS
+ise-100,Haci Omer Sabanci Holding AS,SAHOL.IS
+ise-100,SASA Polyester Sanayi AS,SASA.IS
+ise-100,Selcuk Ecza Deposu Ticaret ve Sanayi AS,SELEC.IS
+ise-100,Turkiye Sise ve Cam Fabrikalari AS,SISE.IS
+ise-100,Sekerbank TAS,SKBNK.IS
+ise-100,TAV Havalimanlari Holding,TAVHL.IS
+ise-100,Turkcell Iletisim Hizmetleri AS ORD,TCELL.IS
+ise-100,Turkish Airlines,THYAO.IS
+ise-100,Tekfen Holding AS,TKFEN.IS
+ise-100,Tofas Turk Otomobil Fabrikasi AS,TOASO.IS
+ise-100,Turkiye Sinai Kalkinma Bankasi AS,TSKB.IS
+ise-100,Turk Telekomunikasyon AS,TTKOM.IS
+ise-100,Turk Traktor ve Ziraat Makineleri AS,TTRAK.IS
+ise-100,Turkiye Petrol Rafinerileri AS,TUPRS.IS
+ise-100,Ulker Biskuvi Sanayi AS,ULKER.IS
+ise-100,Turkiye Vakiflar Bankasi TAO,VAKBN.IS
+ise-100,Vestel Elektronik Sanayi ve Ticaret AS,VESTL.IS
+ise-100,AG Anadolu Group Holding,AGHOL.IS
+ise-100,Yapi ve Kredi Bankasi AS,YKBNK.IS
+ise-100,Zorlu Enerji Elektrik Uretim AS,ZOREN.IS
+ise-100,Bera Holding AS,BERA.IS
+ise-100,Pegasus Hava Tasimaciligi AS,PGSUS.IS
+ise-100,ODAS Elektrik Uretim Sanayi Ticaret AS,ODAS.IS
+ise-100,Mavi Giyim Sanayi Ve Ticaret AS,MAVI.IS
+ise-100,Enerjisa Enerji AS,ENJSA.IS
+ise-100,MLP Saglik Hizmetleri AS,MPARK.IS
+ise-100,Sok Marketler,SOKM.IS
+ise-100,Ard Grup Bilisim Teknolojileri AS,ARDYZ.IS
+ise-100,Kontrolmatik Teknoloji Enerji ve Mu,KONTR.IS
+ise-100,Can2 Termik AS,CANTE.IS
+ise-100,Girisim Elektrik Taahhut Ticaret & Sanayi AS,GESAN.IS
+ise-100,Yeo Teknoloji Enerji ve Endustri AS,YEOTK.IS
+ise-100,Margun Enerji Uretim Sanayi ve Ticaret AS,MAGEN.IS
+ise-100,Mia Teknoloji AS,MIATK.IS
+ise-100,Smart Gunes Enerjisi Teknolojileri Arastirma Gelistirme Uretim Sanayi ve Ticaret,SMRTG.IS
+ise-100,Kocaer Celik Sanayi ve Ticaret AS,KCAER.IS
+ise-100,Alfa Solar Enerji AS,ALFAS.IS
+ise-100,Ahlatci Dogal Gaz Dagitim Enerji ve Yatirim AS,AHGAZ.IS
+ise-100,Astor Enerji AS,ASTOR.IS
+ise-100,Europower Enerji ve Otomasyon Teknolojileri Sanayi Ticaret AS,EUPWR.IS
+ise-100,Grainturk Holding AS,GRTHO.IS
+ise-100,Cw Enerji Muhendislik Ticaret ve Sanayi AS,CWENE.IS
+ise-100,Katilimevim Tasarruf Finansman AS,KTLEV.IS
+ise-100,Pasifik Eurasia Lojistik Dis Ticaret AS,PASEU.IS
+ise-100,Enerya Enerji AS,ENERY.IS
+ise-100,Reeder Teknoloji Sanayi Ve Ticaret AS,REEDR.IS
+ise-100,Tab Gida Sanayi ve Ticaret AS,TABGD.IS
+ise-100,Agrotech Yuksek Teknoloji ve Yatirim AS,AGROT.IS
+ise-100,Avrupakent Gayrimenkul Yatirim Ortakligi AS,AVPGY.IS
+ise-100,Limak Dogu Anadolu Cimento Sanayi ve Ticaret AS,LMKDC.IS
+ise-100,Oba Makarnacilik Sanayi ve Ticaret AS,OBAMS.IS
+ise-100,Altinay Savunma Teknolojileri AS,ALTNY.IS
+ise-100,Efor Cay Sanayi Tic As,EFORC.IS
+ta25,Amot Investments Ltd,AMOT.TA
+ta25,Airport City Ltd,ARPT.TA
+ta25,Bezeq Israeli Telecommunication Corp Ltd,BEZQ.TA
+ta25,Newmed Energy LP,NWMD.TA
+ta25,Delek Group,DLEKG.TA
+ta25,Israel Discount Bank Ltd,DSCT.TA
+ta25,Electra Ltd,ELTR.TA
+ta25,Elbit Systems Ltd,ESLT.TA
+ta25,First International Bank of Israel Ltd,FIBI.TA
+ta25,Harel,HARL.TA
+ta25,Mivne Real Estate KD Ltd,MVNE.TA
+ta25,ICL Israel Chemicals Ltd,ICL.TA
+ta25,Israel Corp,ILCO.TA
+ta25,Leumi,LUMI.TA
+ta25,Melisron,MLSR.TA
+ta25,Mizrahi Tefahot,MZTF.TA
+ta25,NICE Ltd,NICE.TA
+ta25,Phoenix Holdings Ltd,PHOE.TA
+ta25,Bank Hapoalim,POLI.TA
+ta25,Shikun & Binui,SKBN.TA
+ta25,Strauss Group,STRS.TA
+ta25,Teva Pharmaceutical Industries Ltd,TEVA.TA
+ta25,Tower Semiconductor Ltd,TSEM.TA
+ta25,Camtek Ltd,CAMT.TA
+ta25,Nova,NVMI.TA
+ta25,Sapiens International Corporation NV,SPNS.TA
+ta25,Azrieli Group Ltd,AZRG.TA
+ta25,Big Shopping Centers Ltd,BIG.TA
+ta25,Enlight Renewable Energy Ltd,ENLT.TA
+ta25,Ashtrom Group Ltd,ASHG.TA
+ta25,Energix,ENRG.TA
+ta25,Shapir Engineering Industry,SPEN.TA
+ta25,Ormat Technologies Inc,ORA.TA
+ta25,OPC Energy Ltd,OPCE.TA
+ta25,Energean Oil & Gas PLC,ENOG.TA
+japan-ni225,Nissui Corp,1332.T
+japan-ni225,Denka Co Ltd,4061.T
+japan-ni225,"DOWA Holdings Co., Ltd.",5714.T
+japan-ni225,"Mitsubishi Heavy Industries, Ltd.",7011.T
+japan-ni225,Nomura Holdings Inc,8604.T
+japan-ni225,"Shin-Etsu Chemical Co., Ltd.",4063.T
+japan-ni225,"Kawasaki Heavy Industries, Ltd.",7012.T
+japan-ni225,Inpex Corp.,1605.T
+japan-ni225,Kyowa Kirin Co Ltd,4151.T
+japan-ni225,"Furukawa Electric Co., Ltd.",5801.T
+japan-ni225,IHI Corp.,7013.T
+japan-ni225,Sompo Holdings Inc,8630.T
+japan-ni225,Comsys Holdings Corp.,1721.T
+japan-ni225,"Mitsui Chemicals, Inc.",4183.T
+japan-ni225,Sumitomo Electric Industries Ltd.,5802.T
+japan-ni225,"Nissan Motor Co., Ltd.",7201.T
+japan-ni225,MS&AD Insurance Group Holdings,8725.T
+japan-ni225,Taisei Corp.,1801.T
+japan-ni225,Mitsubishi Chemical Holdings Corp,4188.T
+japan-ni225,Fujikura Ltd.,5803.T
+japan-ni225,"Isuzu Motors, Ltd.",7202.T
+japan-ni225,Obayashi Corp.,1802.T
+japan-ni225,"Ube Industries, Ltd.",4208.T
+japan-ni225,Dai-ichi Life Holdings Inc,8750.T
+japan-ni225,Shimizu Corp.,1803.T
+japan-ni225,Okuma Corp.,6103.T
+japan-ni225,"Hino Motors, Ltd.",7205.T
+japan-ni225,"Tokio Marine Holdings, Inc.",8766.T
+japan-ni225,Kajima Corp.,1812.T
+japan-ni225,Dentsu Inc.,4324.T
+japan-ni225,"Amada Co., Ltd.",6113.T
+japan-ni225,Mitsubishi Motors Corp.,7211.T
+japan-ni225,"T&D Holdings, Inc.",8795.T
+japan-ni225,"Daiwa House Industry Co., Ltd.",1925.T
+japan-ni225,Kao Corp.,4452.T
+japan-ni225,Komatsu Ltd.,6301.T
+japan-ni225,Mazda Motor Corp,7261.T
+japan-ni225,"Mitsui Fudosan Co., Ltd.",8801.T
+japan-ni225,"Sekisui House, Ltd.",1928.T
+japan-ni225,"Takeda Pharmaceutical Co., Ltd.",4502.T
+japan-ni225,"Sumitomo Heavy Industries, Ltd.",6302.T
+japan-ni225,Honda Motor Co Ltd,7267.T
+japan-ni225,Mitsubishi Estate Co Ltd,8802.T
+japan-ni225,JGC Corp.,1963.T
+japan-ni225,Astellas Pharma Inc.,4503.T
+japan-ni225,Hitachi Construction Machinery Co,6305.T
+japan-ni225,Suzuki Motor Corp.,7269.T
+japan-ni225,Nisshin Seifun Group Inc.,2002.T
+japan-ni225,Sumitomo Dainippon Pharma Co Ltd,4506.T
+japan-ni225,Kubota Corp.,6326.T
+japan-ni225,Subaru Corp,7270.T
+japan-ni225,"Tokyo Tatemono Co., Ltd.",8804.T
+japan-ni225,"Meiji Holdings Co., Ltd.",2269.T
+japan-ni225,"Shionogi & Co., Ltd.",4507.T
+japan-ni225,Ebara Corp.,6361.T
+japan-ni225,Nikon Corp.,7731.T
+japan-ni225,NH Foods Ltd,2282.T
+japan-ni225,"Chugai Pharmaceutical Co., Ltd.",4519.T
+japan-ni225,Olympus Corp.,7733.T
+japan-ni225,Sumitomo Realty & Development Co.,8830.T
+japan-ni225,Sapporo Holdings Ltd.,2501.T
+japan-ni225,"Eisai Co., Ltd.",4523.T
+japan-ni225,"Daikin Industries, Ltd.",6367.T
+japan-ni225,"Dainippon Screen Mfg. Co., Ltd.",7735.T
+japan-ni225,"Tobu Railway Co., Ltd.",9001.T
+japan-ni225,"Asahi Group Holdings, Ltd.",2502.T
+japan-ni225,Terumo Corp.,4543.T
+japan-ni225,NSK Ltd.,6471.T
+japan-ni225,Canon Inc,7751.T
+japan-ni225,Tokyu Corp.,9005.T
+japan-ni225,"Kirin Holdings Co., Ltd.",2503.T
+japan-ni225,"Daiichi Sankyo Co., Ltd.",4568.T
+japan-ni225,NTN Corp.,6472.T
+japan-ni225,"Ricoh Co., Ltd.",7752.T
+japan-ni225,"Odakyu Electric Railway Co., Ltd.",9007.T
+japan-ni225,Takara Holdings Inc.,2531.T
+japan-ni225,LY Corp,4689.T
+japan-ni225,JTEKT Corp.,6473.T
+japan-ni225,"Citizen Holdings Co., Ltd.",7762.T
+japan-ni225,Keio Corp.,9008.T
+japan-ni225,Sojitz Corp.,2768.T
+japan-ni225,Trend Micro Inc.,4704.T
+japan-ni225,Minebea Mitsumi Inc,6479.T
+japan-ni225,"Toppan Printing Co., Ltd.",7911.T
+japan-ni225,"Keisei Electric Railway Co., Ltd.",9009.T
+japan-ni225,Kikkoman Corp.,2801.T
+japan-ni225,Fujifilm Holdings Corp.,4901.T
+japan-ni225,Hitachi Ltd,6501.T
+japan-ni225,"Dai Nippon Printing Co., Ltd.",7912.T
+japan-ni225,East Japan Railway Co.,9020.T
+japan-ni225,"Ajinomoto Co., Inc.",2802.T
+japan-ni225,"Konica Minolta, Inc.",4902.T
+japan-ni225,Yamaha Corp.,7951.T
+japan-ni225,West Japan Railway Co.,9021.T
+japan-ni225,Nichirei Corp.,2871.T
+japan-ni225,"Shiseido Co., Ltd.",4911.T
+japan-ni225,Mitsubishi Electric Corp,6503.T
+japan-ni225,Itochu Corp.,8001.T
+japan-ni225,Central Japan Railway Co.,9022.T
+japan-ni225,Japan Tobacco Inc,2914.T
+japan-ni225,"Fuji Electric Co., Ltd.",6504.T
+japan-ni225,Marubeni Corp.,8002.T
+japan-ni225,"Nippon Express Holdings,Inc.",9147.T
+japan-ni225,"J.Front Retailing Co., Ltd.",3086.T
+japan-ni225,Eneos Holdings Inc,5020.T
+japan-ni225,Yaskawa Electric Corp.,6506.T
+japan-ni225,Toyota Tsusho Corp.,8015.T
+japan-ni225,"Yamato Holdings Co., Ltd.",9064.T
+japan-ni225,Isetan Mitsukoshi Holdings Ltd.,3099.T
+japan-ni225,Yokohama Rubber Co Ltd,5101.T
+japan-ni225,"Mitsui & Co., Ltd.",8031.T
+japan-ni225,Nippon Yusen K.K,9101.T
+japan-ni225,Bridgestone Corp.,5108.T
+japan-ni225,GS Yuasa Corp.,6674.T
+japan-ni225,Tokyo Electron Ltd.,8035.T
+japan-ni225,"Mitsui O.S.K. Lines, Ltd.",9104.T
+japan-ni225,AGC Inc,5201.T
+japan-ni225,NEC Corp.,6701.T
+japan-ni225,Sumitomo Corp.,8053.T
+japan-ni225,"Kawasaki Kisen Kaisha, Ltd.",9107.T
+japan-ni225,Fujitsu Ltd.,6702.T
+japan-ni225,Mitsubishi Corp.,8058.T
+japan-ni225,ANA Holdings Inc,9202.T
+japan-ni225,"Nippon Electric Glass Co., Ltd.",5214.T
+japan-ni225,"Takashimaya Co., Ltd.",8233.T
+japan-ni225,Mitsubishi Logistics Corp.,9301.T
+japan-ni225,"Seven & i Holdings Co., Ltd.",3382.T
+japan-ni225,"Sumitomo Osaka Cement Co., Ltd.",5232.T
+japan-ni225,Panasonic Corp,6752.T
+japan-ni225,"Marui Group Co., Ltd.",8252.T
+japan-ni225,Teijin Ltd.,3401.T
+japan-ni225,Taiheiyo Cement Corp.,5233.T
+japan-ni225,"Credit Saison Co., Ltd.",8253.T
+japan-ni225,Nippon Telegraph & Telephone Corp,9432.T
+japan-ni225,"Toray Industries, Inc.",3402.T
+japan-ni225,"Tokai Carbon Co., Ltd.",5301.T
+japan-ni225,Sony Corp,6758.T
+japan-ni225,"Aeon Co., Ltd.",8267.T
+japan-ni225,KDDI Corp.,9433.T
+japan-ni225,"Kuraray Co., Ltd.",3405.T
+japan-ni225,TOTO Ltd.,5332.T
+japan-ni225,TDK Corp,6762.T
+japan-ni225,Asahi Kasei Corp.,3407.T
+japan-ni225,"NGK Insulators, Ltd.",5333.T
+japan-ni225,"Tokyo Electric Power Co., Inc.",9501.T
+japan-ni225,SUMCO Corp.,3436.T
+japan-ni225,Nippon Steel Corp,5401.T
+japan-ni225,"Alps Electric Co., Ltd.",6770.T
+japan-ni225,"Aozora Bank, Ltd.",8304.T
+japan-ni225,"Chubu Electric Power Co., Inc.",9502.T
+japan-ni225,Oji Holdings Corp.,3861.T
+japan-ni225,"Kobe Steel, Ltd.",5406.T
+japan-ni225,Mitsubishi UFJ Financial Group Inc,8306.T
+japan-ni225,Kansai Electric Power Co Inc,9503.T
+japan-ni225,"Nippon Paper Industries Co., Ltd.",3863.T
+japan-ni225,"JFE Holdings, Inc.",5411.T
+japan-ni225,Yokogawa Electric Corp.,6841.T
+japan-ni225,"Resona Holdings, Inc.",8308.T
+japan-ni225,"Tokyo Gas Co., Ltd.",9531.T
+japan-ni225,Advantest Corp.,6857.T
+japan-ni225,"Osaka Gas Co., Ltd.",9532.T
+japan-ni225,"Pacific Metals Co., Ltd.",5541.T
+japan-ni225,Denso Corp.,6902.T
+japan-ni225,Sumitomo Mitsui Financial,8316.T
+japan-ni225,"Toho Co., Ltd.",9602.T
+japan-ni225,Resonac Holdings Corp,4004.T
+japan-ni225,Japan Steel Works Ltd,5631.T
+japan-ni225,"Casio Computer Co., Ltd.",6952.T
+japan-ni225,Chiba Bank Ltd,8331.T
+japan-ni225,NTT Data Corp.,9613.T
+japan-ni225,"Sumitomo Chemical Co., Ltd.",4005.T
+japan-ni225,Fanuc Corp.,6954.T
+japan-ni225,"Nissan Chemical Industries, Ltd.",4021.T
+japan-ni225,Mitsui Mining and Smelting Co.,5706.T
+japan-ni225,Kyocera Corp.,6971.T
+japan-ni225,"Fukuoka Financial Group, Inc.",8354.T
+japan-ni225,"Secom Co., Ltd.",9735.T
+japan-ni225,"Taiyo Yuden Co., Ltd.",6976.T
+japan-ni225,Shizuoka Financial Group Inc,5831.T
+japan-ni225,Konami Corp.,9766.T
+japan-ni225,Tosoh Corp.,4042.T
+japan-ni225,Mitsubishi Materials Corp.,5711.T
+japan-ni225,Mizuho Financial Group Inc,8411.T
+japan-ni225,"Fast Retailing Co., Ltd.",9983.T
+japan-ni225,Tokuyama Corp.,4043.T
+japan-ni225,"Sumitomo Metal Mining Co., Ltd.",5713.T
+japan-ni225,Kanadevia Corp,7004.T
+japan-ni225,Daiwa Securities Group Inc.,8601.T
+japan-ni225,SoftBank Group Corp.,9984.T
+japan-ni225,Tokyu Fudosan,3289.T
+japan-ni225,Nitto Denko Co,6988.T
+japan-ni225,Renesas Electronics Corp,6723.T
+japan-ni225,DeNA Co Ltd,2432.T
+japan-ni225,Japan Airlines Co Ltd,9201.T
+japan-ni225,Orix T,8591.T
+japan-ni225,Keyence,6861.T
+japan-ni225,Murata Mfg Co,6981.T
+japan-ni225,M3 Inc,2413.T
+japan-ni225,Nexon Co Ltd,3659.T
+japan-ni225,Otsuka Holdings Ltd,4578.T
+japan-ni225,DIC Corp,4631.T
+japan-ni225,Oriental Land Co Ltd,4661.T
+japan-ni225,Idemitsu Kosan Co Ltd,5019.T
+japan-ni225,SMC Corp,6273.T
+japan-ni225,Nidec Corp,6594.T
+japan-ni225,Omron Cor,6645.T
+japan-ni225,Seiko Epson Cor,6724.T
+japan-ni225,Yamaha Motor Co Ltd,7272.T
+japan-ni225,Hoya Cor,7741.T
+japan-ni225,Bandai Namco Holdings Inc,7832.T
+japan-ni225,Nintendo Co Ltd,7974.T
+japan-ni225,Nitori Holdings Co Ltd,9843.T
+japan-ni225,CyberAgent Inc,4751.T
+japan-ni225,Rakuten Inc,4755.T
+japan-ni225,Recruit Holdings Co Ltd,6098.T
+japan-ni225,Lasertec Corp,6920.T
+japan-ni225,Japan Exchange Group Inc,8697.T
+japan-ni225,Japan Post Holdings Co Ltd,6178.T
+japan-ni225,Haseko Corp,1808.T
+japan-ni225,Sumitomo Mitsui Trust Holdings,8309.T
+japan-ni225,Sharp Corp,6753.T
+japan-ni225,Concordia Financial Group Ltd,7186.T
+japan-ni225,Toyota Motor Corp,7203.T
+japan-ni225,Mercari Inc,4385.T
+japan-ni225,SoftBank Corp,9434.T
+aus-200,BHP Group Ltd,BHP.AX
+aus-200,AGL Energy Ltd,AGL.AX
+aus-200,Bluescope Steel Ltd,BSL.AX
+aus-200,Amcor PLC,AMC.AX
+aus-200,CSL Ltd,CSL.AX
+aus-200,Macquarie Group Ltd,MQG.AX
+aus-200,Commonwealth Bank Of Australia,CBA.AX
+aus-200,Lend Lease Group,LLC.AX
+aus-200,Insurance Australia Group Ltd,IAG.AX
+aus-200,Fortescue Metals Group Ltd,FMG.AX
+aus-200,AMP Ltd,AMP.AX
+aus-200,Brambles Ltd,BXB.AX
+aus-200,ASX Ltd,ASX.AX
+aus-200,ANZ Group Holdings Ltd,ANZ.AX
+aus-200,GPT Group,GPT.AX
+aus-200,Goodman Group,GMG.AX
+aus-200,Cromwell Property Group,CMW.AX
+aus-200,James Hardie Industries PLC,JHX.AX
+aus-200,Harvey Norman Holdings Ltd,HVN.AX
+aus-200,Codan Ltd,CDA.AX
+aus-200,JB Hi-Fi Ltd,JBH.AX
+aus-200,Challenger Ltd,CGF.AX
+aus-200,Monadelphous Group Ltd,MND.AX
+aus-200,Insignia Financial Ltd,IFL.AX
+aus-200,Amotiv Ltd,AOV.AX
+aus-200,AP Eagers Ltd,APE.AX
+aus-200,Cochlear Ltd,COH.AX
+aus-200,Clinuvel Pharmaceuticals Ltd,CUV.AX
+aus-200,Flight Centre Ltd,FLT.AX
+aus-200,Aristocrat Leisure Ltd,ALL.AX
+aus-200,Orica Ltd,ORI.AX
+aus-200,Abacus Property Group,ABG.AX
+aus-200,ALS Ltd,ALQ.AX
+aus-200,Beach Energy Ltd,BPT.AX
+aus-200,Austal Ltd,ASB.AX
+aus-200,Graincorp Ltd,GNC.AX
+aus-200,Lynas Rare Earths Ltd,LYC.AX
+aus-200,Downer Edi Ltd,DOW.AX
+aus-200,Nufarm Ltd,NUF.AX
+aus-200,Bendigo And Adelaide Bank Ltd,BEN.AX
+aus-200,Brickworks Ltd,BKW.AX
+aus-200,Ingenia Communities Group,INA.AX
+aus-200,Iress Ltd,IRE.AX
+aus-200,Metcash Ltd,MTS.AX
+aus-200,Dyno Nobel Ltd,DNL.AX
+aus-200,Mesoblast Ltd,MSB.AX
+aus-200,APA Group,APA.AX
+aus-200,Mirvac Group,MGR.AX
+aus-200,Perpetual Ltd,PPT.AX
+aus-200,Iluka Resources Ltd,ILU.AX
+aus-200,Domino'S Pizza Enterprises Ltd,DMP.AX
+aus-200,Charter Hall Group,CHC.AX
+aus-200,Perenti Global Ltd,PRN.AX
+aus-200,Ansell Ltd,ANN.AX
+aus-200,BWP Trust,BWP.AX
+aus-200,Origin Energy Ltd,ORG.AX
+aus-200,IGO Ltd,IGO.AX
+aus-200,Mineral Resources Ltd,MIN.AX
+aus-200,Premier Investments Ltd,PMV.AX
+aus-200,Computershare Ltd.,CPU.AX
+aus-200,Credit Corp Group Ltd,CCP.AX
+aus-200,ARB Corporation Ltd,ARB.AX
+aus-200,AUB Group Ltd,AUB.AX
+aus-200,National Australia Bank Ltd,NAB.AX
+aus-200,Vicinity Centres Re Ltd,VCX.AX
+aus-200,Bank Of Queensland Ltd.,BOQ.AX
+aus-200,Healius Ltd,HLS.AX
+aus-200,Qbe Insurance Group Ltd,QBE.AX
+aus-200,Rea Group Ltd,REA.AX
+aus-200,Reece Ltd,REH.AX
+aus-200,Ramsay Health Care Ltd,RHC.AX
+aus-200,Rio Tinto Ltd,RIO.AX
+aus-200,Resmed Inc DRC,RMD.AX
+aus-200,Resolute Mining Ltd,RSG.AX
+aus-200,St Barbara Ltd,SBM.AX
+aus-200,Seek Ltd,SEK.AX
+aus-200,SGH Ltd,SGH.AX
+aus-200,Sims Metal Management Ltd,SGM.AX
+aus-200,Stockland Corporation Ltd,SGP.AX
+aus-200,Sonic Healthcare Ltd,SHL.AX
+aus-200,Washington H Soul Pattinson&Co Ltd,SOL.AX
+aus-200,Santos Ltd,STO.AX
+aus-200,Super Retail Group Ltd,SUL.AX
+aus-200,Suncorp Group Ltd,SUN.AX
+aus-200,Tabcorp Holdings Ltd,TAH.AX
+aus-200,Transurban Group,TCL.AX
+aus-200,Spark New Zealand Ltd,SPK.AX
+aus-200,Telstra Group Ltd,TLS.AX
+aus-200,Technology One Ltd,TNE.AX
+aus-200,Cleanaway Waste Management Ltd,CWY.AX
+aus-200,Westpac Banking Corp,WBC.AX
+aus-200,Wesfarmers Ltd,WES.AX
+aus-200,Worley Ltd,WOR.AX
+aus-200,Woolworths Ltd,WOW.AX
+aus-200,Woodside Energy Ltd,WDS.AX
+aus-200,Elders Ltd,ELD.AX
+aus-200,Dexus,DXS.AX
+aus-200,Platinum Asset Management Ltd,PTM.AX
+aus-200,Whitehaven Coal Ltd,WHC.AX
+aus-200,Charter Hall Retail Reit,CQR.AX
+aus-200,Perseus Mining Ltd,PRU.AX
+aus-200,TPG Telecom Ltd,TPG.AX
+aus-200,Fletcher Building Ltd,FBU.AX
+aus-200,NRW Holdings Ltd,NWH.AX
+aus-200,Auckland International Airport Ltd,AIA.AX
+aus-200,Fisher & Paykel Healthcare Ltd,FPH.AX
+aus-200,NIB Holdings,NHF.AX
+aus-200,Qube Holdings Ltd,QUB.AX
+aus-200,Ramelius Resources Ltd,RMS.AX
+aus-200,Skycity Entertainment Group Ltd,SKC.AX
+aus-200,Chorus Ltd,CNU.AX
+aus-200,Growthpoint Properties Australia,GOZ.AX
+aus-200,Omni Bridgeway Ltd,OBL.AX
+aus-200,Nanosonics Ltd,NAN.AX
+aus-200,Atlas Arteria,ALX.AX
+aus-200,Magellan Financial Group Ltd,MFG.AX
+aus-200,Regis Resources Ltd,RRL.AX
+aus-200,G8 Education Ltd,GEM.AX
+aus-200,CAR Group Ltd,CAR.AX
+aus-200,Polynovo Ltd,PNV.AX
+aus-200,Treasury Wine Estates Ltd,TWE.AX
+aus-200,Evolution Mining Ltd,EVN.AX
+aus-200,Aurizon Holdings Ltd,AZJ.AX
+aus-200,Breville Group Ltd,BRG.AX
+aus-200,Web Travel Group Ltd,WEB.AX
+aus-200,Northern Star Resources Ltd,NST.AX
+aus-200,Gold Road Resources Ltd,GOR.AX
+aus-200,Nextdc Ltd,NXT.AX
+aus-200,Region Re Ltd Unit,RGN.AX
+aus-200,News Corp B DRC,NWS.AX
+aus-200,Bega Cheese Ltd,BGA.AX
+aus-200,Collins Foods Ltd,CKF.AX
+aus-200,Corporate Travel Managment Ltd,CTD.AX
+aus-200,Centuria Industrial Reit Unit,CIP.AX
+aus-200,Steadfast Group Ltd,SDF.AX
+aus-200,National Storage REIT,NSR.AX
+aus-200,Xero Ltd,XRO.AX
+aus-200,Scentre Group Ltd,SCG.AX
+aus-200,IPH Ltd,IPH.AX
+aus-200,Medibank Private Ltd,MPL.AX
+aus-200,Appen Ltd,APX.AX
+aus-200,Bapcor Ltd,BAP.AX
+aus-200,Champion Iron Ltd,CIA.AX
+aus-200,EML Payments Ltd,EML.AX
+aus-200,Hub24 Ltd,HUB.AX
+aus-200,Pilbara Minerals Ltd,PLS.AX
+aus-200,Pro Medicus Ltd,PME.AX
+aus-200,Zip Co Ltd,ZIP.AX
+aus-200,A2 Milk Company Ltd,A2M.AX
+aus-200,South32 Ltd,S32.AX
+aus-200,Idp Education Ltd,IEL.AX
+aus-200,Megaport Ltd,MP1.AX
+aus-200,Wisetech Global Ltd,WTC.AX
+aus-200,Reliance Worldwide Corporation Ltd,RWC.AX
+aus-200,Nine Entertainment Co Holdings Ltd,NEC.AX
+aus-200,Orora Ltd,ORA.AX
+aus-200,Qantas Airways Ltd,QAN.AX
+aus-200,Kogan.com Ltd,KGN.AX
+aus-200,Waypoint REIT Ltd,WPR.AX
+aus-200,Charter Hall Long WALE REIT,CLW.AX
+aus-200,Inghams Group Ltd,ING.AX
+aus-200,Westgold Resources Ltd,WGX.AX
+aus-200,Domain Holdings Australia Ltd,DHG.AX
+aus-200,Netwealth Group Ltd,NWL.AX
+aus-200,Unibail Rodamco Westfield,URW.AX
+aus-200,Viva Energy Group Ltd,VEA.AX
+aus-200,Nickel Mines Ltd,NIC.AX
+aus-200,Coles Group Ltd,COL.AX
+aus-200,Pointsbet Holdings Ltd,PBH.AX
+aus-200,Ampol Ltd,ALD.AX
+aus-200,Deterra Royalties Ltd,DRR.AX
+aus-200,Nuix Ltd,NXL.AX
+szse-component,Accelink Technologies Co Ltd,002281.SZ
+szse-component,An Hui Wenergy Co Ltd,000543.SZ
+szse-component,Andon Health Co Ltd,002432.SZ
+szse-component,Angang Steel Co Ltd Class A,000898.SZ
+szse-component,Anhui Gujing Distillery Co Ltd,000596.SZ
+szse-component,Anhui Honglu Steel Construction Group Co Ltd,002541.SZ
+szse-component,Anhui Jinhe Industrial Co Ltd,002597.SZ
+szse-component,Anhui Zhongding Sealing Parts Co Ltd,000887.SZ
+szse-component,Apeloa Pharmaceutical Co Ltd,000739.SZ
+szse-component,Aecc Aero Engine Control Co Ltd,000738.SZ
+szse-component,AVIC Aircraft Co Ltd,000768.SZ
+szse-component,China Merchants Property Operation & Service Co Ltd,001914.SZ
+szse-component,Bank of Ningbo Co Ltd,002142.SZ
+szse-component,Beibuwan Port Co Ltd,000582.SZ
+szse-component,Beijing BDStar Navigation Co Ltd,002151.SZ
+szse-component,Beijing Dabeinong Technology Group Co Ltd,002385.SZ
+szse-component,Beijing New Building Materials Public Ltd Co,000786.SZ
+szse-component,Beijing Oriental Yuhong Waterproof Technology Co Ltd,002271.SZ
+szse-component,NAURA Technology Group Co Ltd,002371.SZ
+szse-component,Beijing Shiji Information Technology Co Ltd,002153.SZ
+szse-component,Beijing Shougang Co Ltd,000959.SZ
+szse-component,Beijing Yanjing Brewery Co Ltd,000729.SZ
+szse-component,Beijing Zhong Ke San Huan High-Tech Co Ltd,000970.SZ
+szse-component,BOE Technology Group Co Ltd,000725.SZ
+szse-component,Bohai Leasing Co Ltd,000415.SZ
+szse-component,BYD Co Ltd Class A,002594.SZ
+szse-component,C&S Paper Co Ltd,002511.SZ
+szse-component,Changchun High & New Technology Industries Group Inc,000661.SZ
+szse-component,Changjiang Securities Co Ltd,000783.SZ
+szse-component,ChengDu Hi-Tech Development Co Ltd,000628.SZ
+szse-component,Chengdu Xingrong Investment Co Ltd,000598.SZ
+szse-component,Hunan Gold Corp Ltd,002155.SZ
+szse-component,AVIC Jonhon Optronic Technology Co Ltd,002179.SZ
+szse-component,China Greatwall Computer Shenzhen Co Ltd,000066.SZ
+szse-component,China International Marine Containers Group Ltd,000039.SZ
+szse-component,China Minmetals Rare Earth Co Ltd,000831.SZ
+szse-component,China National Accord Medicines Corp Ltd,000028.SZ
+szse-component,China Resources Sanjiu Medical & Pharmaceutical Co Ltd,000999.SZ
+szse-component,China TransInfo Technology Co Ltd,002373.SZ
+szse-component,China Vanke Co Ltd Class A,000002.SZ
+szse-component,China Zhenhua Group Science & Technology Co Ltd,000733.SZ
+szse-component,Addsino Co Ltd,000547.SZ
+szse-component,Chongqing Changan Automobile Co Ltd,000625.SZ
+szse-component,Chongqing Zongshen Power Machinery Co Ltd,001696.SZ
+szse-component,Citic Offshore Helicopter Co Ltd,000099.SZ
+szse-component,Sinotruk Jinan Truck Co Ltd,000951.SZ
+szse-component,CNNC Hua Yuan Titanium Dioxide Co Ltd,002145.SZ
+szse-component,Cofco Biochemical Anhui Co Ltd,000930.SZ
+szse-component,CSG Holding Co Ltd,000012.SZ
+szse-component,Dajin Heavy Industry Corp,002487.SZ
+szse-component,CITIC Pacific Special Steel Group Co Ltd,000708.SZ
+szse-component,Dhc Software Co Ltd,002065.SZ
+szse-component,Digital China Information Service Co Ltd,000555.SZ
+szse-component,Do-Fluoride Chemicals Co Ltd,002407.SZ
+szse-component,Dongfang Electronics Co Ltd,000682.SZ
+szse-component,Asia Potash International Investment Guangzhou Co Ltd,000893.SZ
+szse-component,Eternal Asia Supply Chain Management Ltd,002183.SZ
+szse-component,Hangjin Technology Co Ltd,000818.SZ
+szse-component,Faw Car Co Ltd,000800.SZ
+szse-component,Fujian Newland Computer Co Ltd,000997.SZ
+szse-component,Fujian Sunner Development Co Ltd,002299.SZ
+szse-component,Gansu Jingyuan Coal Industry and Electricity Power Co Ltd,000552.SZ
+szse-component,Cetc Potevio Science&Technology Co Ltd,002544.SZ
+szse-component,GF Securities Co Ltd,000776.SZ
+szse-component,Glodon Software Co Ltd,002410.SZ
+szse-component,Goertek Inc,002241.SZ
+szse-component,Gree Electric Appliances Inc of Zhuhai,000651.SZ
+szse-component,Guangdong Baolihua New Energy Stock Co LTD,000690.SZ
+szse-component,Guangdong Electric Power Development Co Ltd,000539.SZ
+szse-component,Guangdong Fenghua Advanced Technology Holding Co Ltd,000636.SZ
+szse-component,Guangdong Haid Group Co Ltd,002311.SZ
+szse-component,Guangdong HongDa Blasting Co Ltd,002683.SZ
+szse-component,Guosheng Financial Holding Inc,002670.SZ
+szse-component,Guangdong No2 Hydropower Engineering Co Ltd,002060.SZ
+szse-component,Guangdong Provincial Expressway Development Co Ltd,000429.SZ
+szse-component,Shenzhen Chengxin Lithium Group Co Ltd,002240.SZ
+szse-component,Guangdong Xinbao Electrical Appliances Holdings Co Ltd,002705.SZ
+szse-component,Guangdong Zhongsheng Pharmaceutical Co Ltd,002317.SZ
+szse-component,Guangxi Liugong Machinery Co Ltd,000528.SZ
+szse-component,Guangzhou Friendship Group Co Ltd,000987.SZ
+szse-component,Guangzhou Haige Communications Group Incorporated Co,002465.SZ
+szse-component,Guangzhou Tinci Materials Technology Co Ltd,002709.SZ
+szse-component,Guangzhou Zhujiang Brewery Co Ltd,002461.SZ
+szse-component,Guizhou Space Appliance Co Ltd,002025.SZ
+szse-component,CHN Energy Changyuan Electric Power Co Ltd,000966.SZ
+szse-component,Guoyuan Securities Co Ltd,000728.SZ
+szse-component,Hainan Haide Industry Co Ltd,000567.SZ
+szse-component,Hainan Strait Shipping Co Ltd,002320.SZ
+szse-component,Hangzhou Binjiang Real Estate Group Co Ltd,002244.SZ
+szse-component,Hangzhou Great Star Industrial Co Ltd,002444.SZ
+szse-component,Hangzhou Hangyang Co Ltd,002430.SZ
+szse-component,Hangzhou Hikvision Digital Technology Co Ltd,002415.SZ
+szse-component,Hangzhou Robam Appliances Co Ltd,002508.SZ
+szse-component,Han'S Laser Tech A,002008.SZ
+szse-component,Harbin Boshi Automation Co Ltd,002698.SZ
+szse-component,HBIS Co Ltd,000709.SZ
+szse-component,Focus Media Information Technology Co Ltd,002027.SZ
+szse-component,Hefei Meiya Optoelectronic Technology Inc,002690.SZ
+szse-component,LB Group Co Ltd,002601.SZ
+szse-component,Henan Shenhuo Coal & Power Co Ltd,000933.SZ
+szse-component,Henan Shuanghui Investment & Development Co Ltd,000895.SZ
+szse-component,Hengdian Group DMEGC Magnetics Co Ltd,002056.SZ
+szse-component,Hengyi Petrochemical Co Ltd,000703.SZ
+szse-component,Hisense Kelon Electrical Holdings Co Ltd,000921.SZ
+szse-component,Huadong Medicine Co Ltd,000963.SZ
+szse-component,Huagong Tech Co Ltd,000988.SZ
+szse-component,Hualan Biological EngineeringInc,002007.SZ
+szse-component,YONFER Agricultural Technology Co Ltd,000902.SZ
+szse-component,Hubei Yihua Chemical Industry Co Ltd,000422.SZ
+szse-component,North Industries Group Red Arrow Co Ltd,000519.SZ
+szse-component,Hunan Nanling Industrial Explosive Materials Co Ltd,002096.SZ
+szse-component,Hunan Valin Steel Co Ltd,000932.SZ
+szse-component,Huolinhe Opencut Coal Industry Corp Ltd of Inner Mongolia,002128.SZ
+szse-component,Iflytek Co Ltd,002230.SZ
+szse-component,Inner Mongolia Yuan Xing Energy Co Ltd,000683.SZ
+szse-component,Jiangsu Aucksun Co Ltd,002245.SZ
+szse-component,Gotion High tech Co Ltd,002074.SZ
+szse-component,Jiangsu Guotai International Group Guomao Co Ltd,002091.SZ
+szse-component,Jiangsu Nhwa Pharmaceutical Co Ltd,002262.SZ
+szse-component,Jiangsu Wujiang China Eastern Silk Market Co Ltd,000301.SZ
+szse-component,Jiangsu Yanghe Brewery Joint-Stock Co Ltd,002304.SZ
+szse-component,Jiangsu Yoke Technology Co Ltd,002409.SZ
+szse-component,Jiangsu Yuyue Medical Equipment & Supply Co Ltd,002223.SZ
+szse-component,Jiangxi Ganfeng Lithium Co Ltd,002460.SZ
+szse-component,Jiangxi Special Electric Motor Co Ltd,002176.SZ
+szse-component,Guocheng Mining Co Ltd,000688.SZ
+szse-component,Jilin Aodong Pharmaceutical Group Co Ltd,000623.SZ
+szse-component,Jilin Power Share Co Ltd,000875.SZ
+szse-component,CNPC Capital Co Ltd,000617.SZ
+szse-component,Zangge Holding Co Ltd,000408.SZ
+szse-component,Jiugui Liquor Co Ltd,000799.SZ
+szse-component,Jizhong Energy Resources Co Ltd,000937.SZ
+szse-component,Lingyi iTech Guangdong Co,002600.SZ
+szse-component,Leo Group Co Ltd,002131.SZ
+szse-component,Livzon Pharmaceutical Group Inc,000513.SZ
+szse-component,Luxi Chemical Group Co Ltd,000830.SZ
+szse-component,Luxshare Precision Industry Co Ltd,002475.SZ
+szse-component,Luzhou Lao Jiao Co Ltd,000568.SZ
+szse-component,"S.F. Holding Co., Ltd",002352.SZ
+szse-component,Midea Group Co Ltd,000333.SZ
+szse-component,Muyuan Foodstuff Co Ltd,002714.SZ
+szse-component,North Copper Shanxi Co Ltd,000737.SZ
+szse-component,TongFu Microelectronics Co Ltd,002156.SZ
+szse-component,Nantong Jianghai Capacitor Co Ltd,002484.SZ
+szse-component,Navinfo Co Ltd,002405.SZ
+szse-component,New Hope Liuhe Co Ltd,000876.SZ
+szse-component,Ningbo Huaxiang Electronic Co Ltd,002048.SZ
+szse-component,YUNDA Holding Co Ltd,002120.SZ
+szse-component,Northeast Securities Co Ltd,000686.SZ
+szse-component,ORG Packaging Co Ltd,002701.SZ
+szse-component,Oriental Energy Co Ltd,002221.SZ
+szse-component,Pangang Group Vanadium Titanium & Resources Co Ltd,000629.SZ
+szse-component,Ping An Bank Co Ltd,000001.SZ
+szse-component,Chacha Food Co Ltd,002557.SZ
+szse-component,Qingdao Hanhe Cable Co Ltd,002498.SZ
+szse-component,Qinghai Salt Lake Industry Co Ltd,000792.SZ
+szse-component,JA Solar Technology Co Ltd,002459.SZ
+szse-component,Rongsheng Petrochemical Co Ltd,002493.SZ
+szse-component,Jiangsu Guoxin Corp Ltd,002608.SZ
+szse-component,Sanquan Food Co Ltd,002216.SZ
+szse-component,Sealand Securities Co Ltd,000750.SZ
+szse-component,Shaanxi International Trust Co Ltd,000563.SZ
+szse-component,Shan Dong Dong-E E-Jiao Co Ltd,000423.SZ
+szse-component,Shan Dong Sun Paper Industry Joint Stock Co Ltd,002078.SZ
+szse-component,Shandong Himile Mechanical Science & Technology Co Ltd,002595.SZ
+szse-component,Shandong Humon Smelting Co Ltd,002237.SZ
+szse-component,Shanghai Bairun Flavor & Fragrance Co Ltd,002568.SZ
+szse-component,Shanghai 2345 Network Holding Group,002195.SZ
+szse-component,Shanghai RAAS Blood Products Co Ltd Class A,002252.SZ
+szse-component,Shanxi Meijin Energy Co Ltd,000723.SZ
+szse-component,Shanxi Securities Co Ltd,002500.SZ
+szse-component,Shanxi Taigang Stainless Steel Co Ltd,000825.SZ
+szse-component,Shanxi Xishan Coal and Electricity Power Co Ltd,000983.SZ
+szse-component,Shenzhen Airport Co Ltd,000089.SZ
+szse-component,China Merchants Port Group Co Ltd,001872.SZ
+szse-component,Shenzhen Energy Group Co Ltd,000027.SZ
+szse-component,Shenzhen Fastprint Circuit Tech Co Ltd,002436.SZ
+szse-component,GEM Co Ltd,002340.SZ
+szse-component,Shenzhen H&T Intelligent Control Co Ltd,002402.SZ
+szse-component,Shenzhen Huaqiang Industry Co Ltd,000062.SZ
+szse-component,Shenzhen Kaifa Technology Co Ltd,000021.SZ
+szse-component,Shenzhen Kstar Science & Technology Co Ltd,002518.SZ
+szse-component,Shenzhen MTC Co Ltd,002429.SZ
+szse-component,Shenzhen O-Film Tech Co Ltd,002456.SZ
+szse-component,Shenzhen Overseas Chinese Town Co Ltd,000069.SZ
+szse-component,Shenzhen Salubris Pharmaceuticals Co Ltd,002294.SZ
+szse-component,Shenzhen Sed Industry Co Ltd,000032.SZ
+szse-component,Digital China Group Co Ltd,000034.SZ
+szse-component,Shenzhen Sunlord Electronics Co Ltd,002138.SZ
+szse-component,Shenzhen Yan Tian Port Holdings Co Ltd,000088.SZ
+szse-component,Shenzhen Zhongjin Lingnan Nonfemet Co Ltd,000060.SZ
+szse-component,SPIC Dongfang New Energy Corp,000958.SZ
+szse-component,Shijiazhuang Yiling Pharmaceutical Co Ltd,002603.SZ
+szse-component,Tianshan Aluminum Group Co Ltd,002532.SZ
+szse-component,Sichuan Chemical Co Ltd,000155.SZ
+szse-component,Sichuan Kelun Pharmaceutical Co Ltd,002422.SZ
+szse-component,Sichuan Shuangma Cement Co Ltd,000935.SZ
+szse-component,Sichuan Tianqi Lithium Industries Inc,002466.SZ
+szse-component,Sichuan Yahua Industrial Group Co Ltd,002497.SZ
+szse-component,Sieyuan Electric Co Ltd,002028.SZ
+szse-component,Sinoma Science & Technology Co Ltd,002080.SZ
+szse-component,Skyworth Digital Co Ltd,000810.SZ
+szse-component,Suofeiya Home Collection Co Ltd,002572.SZ
+szse-component,Suzhou Dongshan Precision Manufacturing Co Ltd,002384.SZ
+szse-component,Suzhou Gold Mantis Construction Decoration Co Ltd,002081.SZ
+szse-component,Taiji Computer Corp Ltd,002368.SZ
+szse-component,Tangshan Jidong Cement Co Ltd,000401.SZ
+szse-component,TCL Corp,000100.SZ
+szse-component,China Railway Materials Co Ltd,000927.SZ
+szse-component,Tianjin Guangyu Development Co Ltd,000537.SZ
+szse-component,TCL Zhonghuan Renewable Energy Technology Co Ltd,002129.SZ
+szse-component,Tianma Microelectronics Co Ltd,000050.SZ
+szse-component,Tianshui Huatian Technology Co Ltd,002185.SZ
+szse-component,Tibet Mineral Development Co Ltd,000762.SZ
+szse-component,Unigroup Guoxin Microelectronics Co Ltd,002049.SZ
+szse-component,Tonghua Golden-Horse Pharmaceutical Industry Co Ltd,000766.SZ
+szse-component,Tongling Nonferrous Metals Group Co Ltd,000630.SZ
+szse-component,Wanxiang Qianchao Co Ltd,000559.SZ
+szse-component,Wasu Media Holding Co Ltd,000156.SZ
+szse-component,Weichai Power Co Ltd Class A,000338.SZ
+szse-component,Weifu High-Technology Group Co Ltd,000581.SZ
+szse-component,Western Securities Co Ltd,002673.SZ
+szse-component,CETC Cyberspace Security Technology Co Ltd,002268.SZ
+szse-component,Wuhan Guide Infrared Co Ltd,002414.SZ
+szse-component,Easyhome New Retail Group Co Ltd,000785.SZ
+szse-component,37 Interactive Entertainment Network Technology Group Co Ltd,002555.SZ
+szse-component,Offcn Education Technology Co Ltd,002607.SZ
+szse-component,Wuliangye Yibin Co Ltd,000858.SZ
+szse-component,WUS Printed Circuit Kunshan Co Ltd,002463.SZ
+szse-component,XCMG Construction Machinery Co Ltd,000425.SZ
+szse-component,Xinjiang Goldwind Science & Technology Co Ltd Class A,002202.SZ
+szse-component,Xinjiang Tianshan Cement Co Ltd,000877.SZ
+szse-component,Xinxing Ductile Iron Pipes Co Ltd,000778.SZ
+szse-component,Xizang Haisco Pharmaceutical Group Co Ltd,002653.SZ
+szse-component,XJ Electric Co Ltd,000400.SZ
+szse-component,Yantai Changyu Pioneer Wine Co Ltd,000869.SZ
+szse-component,Yantai Jereh Oilfield Services Group Co Ltd,002353.SZ
+szse-component,Valiant Co Ltd,002643.SZ
+szse-component,Yifan Xinfu Pharmaceutical Co Ltd,002019.SZ
+szse-component,Shanjin International Gold Co Ltd,000975.SZ
+szse-component,Yuan Longping High-tech Agriculture Co Ltd,000998.SZ
+szse-component,Yunnan Aluminium Co Ltd,000807.SZ
+szse-component,Yunnan Baiyao Group Co Ltd,000538.SZ
+szse-component,Yunnan Copper Co Ltd,000878.SZ
+szse-component,Yunnan Hongxiang Yixintang Pharmaceutical Co Ltd,002727.SZ
+szse-component,Yunnan Tin Co Ltd,000960.SZ
+szse-component,Zhefu Holding Group Co Ltd,002266.SZ
+szse-component,Zhejiang Crystal Optech Co Ltd,002273.SZ
+szse-component,Zhejiang Dahua Technology Co Ltd,002236.SZ
+szse-component,Zhejiang Hailiang Co Ltd,002203.SZ
+szse-component,Zhejiang Hisoar Pharmaceutical Co Ltd,002099.SZ
+szse-component,Zhejiang Huafon Spandex Co Ltd,002064.SZ
+szse-component,STO Express Co Ltd,002468.SZ
+szse-component,Perfect World Co Ltd,002624.SZ
+szse-component,Zhejiang JIULI Hi-tech Metals Co Ltd,002318.SZ
+szse-component,Aerospace CH UAV Co Ltd,002389.SZ
+szse-component,Zhejiang Nhu Co Ltd,002001.SZ
+szse-component,Zhejiang Satellite Petrochemical Co Ltd,002648.SZ
+szse-component,Zhejiang Semir Garment Co Ltd,002563.SZ
+szse-component,Zhejiang Shuanghuan Driveline Co Ltd,002472.SZ
+szse-component,Zhejiang Supor Co Ltd,002032.SZ
+szse-component,Zhejiang Wanfeng Auto Wheel Co Ltd,002085.SZ
+szse-component,Zhejiang Weixing Industrial Development Co Ltd,002003.SZ
+szse-component,Zhejiang Weixing New Building Materials Co Ltd,002372.SZ
+szse-component,Zhejiang Yinlun Machinery Co Ltd,002126.SZ
+szse-component,Pacific Shuanglin Bio pharmacy Co Ltd,000403.SZ
+szse-component,Zhongshan Broad-Ocean Motor Co Ltd,002249.SZ
+szse-component,COFCO Capital Holdings Co Ltd,002423.SZ
+szse-component,Zibo Qixiang Tengda Chemical Co Ltd,002408.SZ
+szse-component,Zoomlion Heavy Industry Science and Technology Co Ltd,000157.SZ
+szse-component,ZTE Corp,000063.SZ
+szse-component,China Baoan Group Co Ltd,000009.SZ
+szse-component,Hubei Biocause Pharmaceutical,000627.SZ
+szse-component,Guosen Securities Co Ltd,002736.SZ
+szse-component,Sunflower Pharmaceuticals Group Co Ltd,002737.SZ
+szse-component,Sinomine Resource Exploration Co Ltd,002738.SZ
+szse-component,Beijing Originwater Technology,300070.SZ
+szse-component,Beijing Kunlun Tech Co Ltd,300418.SZ
+szse-component,Mango Excellent Media Co Ltd,300413.SZ
+szse-component,COL Digital Publishing Group Co Ltd,300364.SZ
+szse-component,Wanda Cinema Line Corp,002739.SZ
+szse-component,Shenwan Hongyuan Group Co Ltd,000166.SZ
+szse-component,Zhejiang Sanhua Co Ltd,002050.SZ
+szse-component,Titan Wind Energy Suzhou,002531.SZ
+szse-component,MLS Co Ltd,002745.SZ
+szse-component,Suzhou TFC Optical Communication Co Ltd,300394.SZ
+szse-component,IEIT SYSTEMS Co Ltd,000977.SZ
+szse-component,China Tianying Inc,000035.SZ
+szse-component,Nanjing ESTUN Automation Co Ltd,002747.SZ
+szse-component,Lens Technology Co Ltd,300433.SZ
+szse-component,Beijing Ultrapower Software,300002.SZ
+szse-component,Lepu Medical Tech Beijing,300003.SZ
+szse-component,Anhui Anke BioTech Group,300009.SZ
+szse-component,Centre Testing Intl Shenzhen,300012.SZ
+szse-component,EVE Energy,300014.SZ
+szse-component,Aier Eye Hospital Group,300015.SZ
+szse-component,Wangsu Science Tech,300017.SZ
+szse-component,SIASUN Robot Automation Co,300024.SZ
+szse-component,Hithink RoyalFlush Info Network,300033.SZ
+szse-component,Beijing Cisri Gaona Materials Tech,300034.SZ
+szse-component,Shenzhen Capchem Tech,300037.SZ
+szse-component,Hubei Dinglong Chemical,300054.SZ
+szse-component,BlueFocus Communication Group,300058.SZ
+szse-component,Beijing Easpring Material Tech,300073.SZ
+szse-component,Wuhu Token Sciences,300088.SZ
+szse-component,Shenzhen Everwin Precision Tech,300115.SZ
+szse-component,Risen Energy,300118.SZ
+szse-component,Chongqing Zhifei Bio Products,300122.SZ
+szse-component,Shenzhen Inovance Tech,300124.SZ
+szse-component,Shenzhen Sunway Communication,300136.SZ
+szse-component,Walvax BioTech,300142.SZ
+szse-component,Songcheng Performance Develop,300144.SZ
+szse-component,By health,300146.SZ
+szse-component,Shanghai Tofflon Science Tech,300171.SZ
+szse-component,Beijing Jetsen Tech Co,300182.SZ
+szse-component,Sunwoda Electronic,300207.SZ
+szse-component,Beijing E Hualu Info Tech,300212.SZ
+szse-component,Ingenic Semiconductor,300223.SZ
+szse-component,Beijing TRS Information Tech,300229.SZ
+szse-component,Beijing Enlight Media,300251.SZ
+szse-component,Shanghai Kingstar Winning Software,300253.SZ
+szse-component,Zhejiang Kaishan Compressor,300257.SZ
+szse-component,Shandong Sinocera Func Material,300285.SZ
+szse-component,China Resources Boya Bio pharmaceutical Group Co Ltd,300294.SZ
+szse-component,Leyard Optoelectronic,300296.SZ
+szse-component,Zhejiang Jingsheng Mech Electric,300316.SZ
+szse-component,Jiangsu Nata Opto Electr Material,300346.SZ
+szse-component,Hangzhou Tigermed Consulting,300347.SZ
+szse-component,Guangzhou Great Power Energy&Technology Co Ltd,300438.SZ
+szse-component,Range Intelligent Computing Technology Group Co Ltd,300442.SZ
+szse-component,Inner Mongolia Xingye Mining Co Ltd,000426.SZ
+szse-component,CECEP Solar Energy Co Ltd,000591.SZ
+szse-component,Infore Environment Technology Group Co Ltd,000967.SZ
+szse-component,Meinian Onehealth Healthcare Holdings Co Ltd,002044.SZ
+szse-component,GRG Banking Equipment Co Ltd,002152.SZ
+szse-component,Huaming Power Equipment Co Ltd,002270.SZ
+szse-component,Sichuan Development Lomon Co Ltd,002312.SZ
+szse-component,Beijing Venustech Inc,002439.SZ
+szse-component,Chongqing Fuling Zhacai Group Co Ltd,002507.SZ
+szse-component,Kingnet Network Co Ltd,002517.SZ
+szse-component,Roshow Technology Co Ltd,002617.SZ
+szse-component,Kuang Chi Technologies Co Ltd,002625.SZ
+szse-component,Yantai Dongcheng Pharmaceutical Co Ltd,002675.SZ
+szse-component,Sai MicroElectronics Inc,300456.SZ
+szse-component,Shenzhen Yinghe Technology Co Ltd,300457.SZ
+szse-component,Yongxing Special Stainless Steel Co Ltd,002756.SZ
+szse-component,Qingdao TGOOD Electric Co Ltd,300001.SZ
+szse-component,East Money Information Co Ltd,300059.SZ
+szse-component,Avic Chengdu Aircraft Co Ltd,302132.SZ
+szse-component,Cecep Environmental Protection Equipment Co Ltd,300140.SZ
+szse-component,Sungrow Power Supply Co Ltd,300274.SZ
+szse-component,Jiangsu Hoperun Software Co Ltd,300339.SZ
+szse-component,Wuxi Lead Auto Equipment Co Ltd,300450.SZ
+szse-component,All Winner Technology Co Ltd,300458.SZ
+szse-component,Zhejiang Jinke Peroxides Co Ltd,300459.SZ
+szse-component,Hubei Energy Group Co Ltd,000883.SZ
+szse-component,Unisplendour Corp Ltd,000938.SZ
+szse-component,Zhejiang Transfar Co Ltd,002010.SZ
+szse-component,Jiangxi Zhengbang Technology Co Ltd,002157.SZ
+szse-component,Ninestar Corp,002180.SZ
+szse-component,Tianjin Chase Sun Pharmaceutical Co Ltd,300026.SZ
+szse-component,Sinocare Inc,300298.SZ
+szse-component,Shannon Semiconductor Technology Co Ltd,300475.SZ
+szse-component,Victory Giant Technology Huizhou Co Ltd,300476.SZ
+szse-component,Chengdu Kanghong Pharmaceuticals Group Co Ltd,002773.SZ
+szse-component,Guangzhou Wondfo Biotech Co Ltd,300482.SZ
+szse-component,Xian Sunresin New Materials Co Ltd,300487.SZ
+szse-component,GCL System Integration Technology Co Ltd,002506.SZ
+szse-component,China Merchants Shekou Industrial Zone Holdings,001979.SZ
+szse-component,Guangzhou Shiyuan Electronic Technology Co Ltd,002841.SZ
+szse-component,Autek China Inc,300595.SZ
+szse-component,Shenzhen Kangtai Biological Products Co Ltd,300601.SZ
+szse-component,Jiangsu Jiejie Microelectronics Co Ltd,300623.SZ
+szse-component,Yealink Network Technology Corp Ltd,300628.SZ
+szse-component,Hangzhou Chang Chuan Technology Co Ltd,300604.SZ
+szse-component,Shanghai Huace Navigation Technology Ltd,300627.SZ
+szse-component,SonoScape Medical Corp,300633.SZ
+szse-component,Fibocom Wireless Inc,300638.SZ
+szse-component,SG Micro Corp,300661.SZ
+szse-component,Konfoong Materials International Co Ltd,300666.SZ
+szse-component,ShenZhen YUTO Packaging Technology Co Ltd,002831.SZ
+szse-component,Shenzhen Kedali Industry Co Ltd,002850.SZ
+szse-component,Shenzhen Megmeet Electrical Co Ltd,002851.SZ
+szse-component,Hainan Drinda Automotive Trim Co Ltd,002865.SZ
+szse-component,Chow Tai Seng Jewellery Co Ltd,002867.SZ
+szse-component,GCL Energy Technology Co Ltd,002015.SZ
+szse-component,Giant Network Group Co Ltd,002558.SZ
+szse-component,Shandong Zhongji Electrical Equipment Co Ltd,300308.SZ
+szse-component,Zhejiang Wolwo Bio-Pharmaceutical Co Ltd,300357.SZ
+szse-component,Yangzhou Yangjie Electronic Technology Co Ltd,300373.SZ
+szse-component,Beijing Sinnet Technology Co Ltd,300383.SZ
+szse-component,Canmax Technologies Co Ltd,300390.SZ
+szse-component,Hubei Feilihua Quartz Glass Co Ltd,300395.SZ
+szse-component,Chaozhou Three-circle Group Co Ltd,300408.SZ
+szse-component,Lizhong Sitong Light Alloys Group Co Ltd,300428.SZ
+szse-component,Mianyang Fulin Precision Machining Co Ltd,300432.SZ
+szse-component,Thunder Software Technology Co Ltd,300496.SZ
+szse-component,Guangdong Wens Foodstuff Group Co Ltd,300498.SZ
+szse-component,Eoptolink Technology Inc Ltd,300502.SZ
+szse-component,Guangdong Kinlong Hardware Products Co Ltd,002791.SZ
+szse-component,Changsha Jingjia Microelectronics Co Ltd,300474.SZ
+szse-component,First Capital Securities Co Ltd Class A,002797.SZ
+szse-component,Jafron Biomedical Co Ltd,300529.SZ
+szse-component,Yunnan Chuangxin New Material Co Ltd,002812.SZ
+szse-component,Asymchem Laboratories Tian Jin Co Ltd,002821.SZ
+szse-component,BIEM.L .FDLKK Garment Co Ltd,002832.SZ
+szse-component,Shenzhen Envicool Technology Co Ltd,002837.SZ
+szse-component,Betta Pharmaceuticals Co Ltd,300558.SZ
+szse-component,Wuhan Jingce Electronic Technology Co Ltd,300567.SZ
+szse-component,Shenzhen Senior Technology Material Co Ltd,300568.SZ
+szse-component,Shenyang Xingqi Pharmaceutical Co Ltd,300573.SZ
+szse-component,Goke Microelectronics Co Ltd,300672.SZ
+szse-component,BGI Genomics Co Ltd,300676.SZ
+szse-component,Shandong Intco Medical Products Co Ltd,300677.SZ
+szse-component,Electric Connector Technology Co Ltd,300679.SZ
+szse-component,Longshine Technology Co Ltd,300682.SZ
+szse-component,Weihai Guangwei Composites Co Ltd,300699.SZ
+szse-component,Double Medical Technology Inc,002901.SZ
+szse-component,Foryou Corp,002906.SZ
+szse-component,Zhuzhou Hongda Electronics Corp Ltd Class A,300726.SZ
+szse-component,Merchant Express Class A,001965.SZ
+szse-component,Shennan Circuits Co Ltd Class A,002916.SZ
+szse-component,Huizhou Desay SV Automotive Co Ltd Class A,002920.SZ
+szse-component,DBG Technology Co Ltd Class A,300735.SZ
+szse-component,Xiamen Intretech Inc Class A,002925.SZ
+szse-component,Huaxi Securities Co Ltd Class A,002926.SZ
+szse-component,Sangfor Technologies Inc Class A,300454.SZ
+szse-component,Contemporary Amperex Technology Co Ltd Class A,300750.SZ
+szse-component,Shenzhen SC New Energy Technology Corp Class A,300724.SZ
+szse-component,Wuhan Raycus Fiber Laser Technologies Co Ltd Class A,300747.SZ
+szse-component,Bank of Zhengzhou Co Ltd Class A,002936.SZ
+szse-component,Avary Holding Shenzhen Co Ltd Class A,002938.SZ
+szse-component,China Great Wall Securities Co Ltd Class A,002939.SZ
+szse-component,Jl Mag Rare-Earth Co Ltd Class A,300748.SZ
+szse-component,Shenzhen Mindray Bio-Medical Electronics Co Ltd Class A,300760.SZ
+szse-component,Yusys Technologies Co Ltd Class A,300674.SZ
+szse-component,Suzhou Maxwell Technologies Co Ltd Class A,300751.SZ
+szse-component,Bank of Qingdao Co Ltd,002948.SZ
+szse-component,RoboTechnik Intelligent Technology Co Ltd,300757.SZ
+szse-component,ChinaLin Securities Co Ltd,002945.SZ
+szse-component,Pharmaron Beijing Co Ltd,300759.SZ
+szse-component,Jiangsu Lihua Animal Husbandry Co Ltd,300761.SZ
+szse-component,Qingdao Rural Commercial Bank Corp Class A,002958.SZ
+szse-component,Ningbo Ginlong Technologies Co Ltd Class A,300763.SZ
+szse-component,CSPC Innovation Pharmaceutical Co Ltd Class A,300765.SZ
+szse-component,Shenzhen Dynanonic Co Ltd,300769.SZ
+szse-component,Lakala Payment Co Ltd,300773.SZ
+szse-component,Sinofibers Technology Co Ltd,300777.SZ
+szse-component,Wuhan DR Laser Technology Corp Ltd,300776.SZ
+szse-component,Xi An Triangle Defens Co Ltd,300775.SZ
+szse-component,Maxscend Microelectronics Co Ltd,300782.SZ
+szse-component,Bank of Suzhou,002966.SZ
+szse-component,CGN Power,003816.SZ
+szse-component,Beijing Compass Technology Develop,300803.SZ
+szse-component,Shandong Dongyue Organosilicon Mat,300821.SZ
+szse-component,Sichuan Anning Iron and Titanium Co,002978.SZ
+szse-component,Shenzhen New Industries Biomedical,300832.SZ
+szse-component,Sharetronic Data Technology Co Ltd,300857.SZ
+szse-component,Yangling Metron New Material Co Ltd,300861.SZ
+szse-component,Anker Innovations Technology Co Ltd,300866.SZ
+szse-component,Qingdao Sentury Tire Co Ltd,002984.SZ
+szse-component,Winner Medical Co Ltd,300888.SZ
+szse-component,Imeik Technology Development Co,300896.SZ
+szse-component,Yihai Kerry Arawana Holdings Co Ltd,300999.SZ
+szse-component,Xinxiang Richful Lube Additive Co Ltd,300910.SZ
+szse-component,Levima Advanced Materials Corp,003022.SZ
+szse-component,CNGR Advanced Material Co Ltd,300919.SZ
+szse-component,Hebei Sinopack Electronic Technolog,003031.SZ
+szse-component,China Southern Power Grid Energy Efficiency & Clean Energy Co Ltd,003035.SZ
+szse-component,Yunnan Botanee Bio-Technology Group Co Ltd,300957.SZ
+szse-component,Huali Industrial Group Co Ltd,300979.SZ
+szse-component,Inner Mongolia Dazhong Mining Co Ltd,001203.SZ
+szse-component,Qingdao Baheal Medical Inc,301015.SZ
+szse-component,CIMC Vehicles Group Co Ltd,301039.SZ
+szse-component,Dongguan Yiheda Automation Co Ltd,301029.SZ
+szse-component,Shandong Weifang Rainbow Chemical Co Ltd,301035.SZ
+szse-component,Chengdu RML Technology Co Ltd,301050.SZ
+szse-component,China Railway Special Cargo Logistics Co Ltd,001213.SZ
+szse-component,Jiangsu Haili Wind Power Equipment Technology Co Ltd,301155.SZ
+szse-component,Bank of Lanzhou Co Ltd,001227.SZ
+szse-component,China Longyuan Power Group Corp Ltd,001289.SZ
+szse-component,Hualan Biological Bacterin Inc,301207.SZ
+szse-component,iSoftStone Information Technology Group Co Ltd,301236.SZ
+szse-component,Ganzhou Tengyuan Cobalt New Material Co Ltd,301219.SZ
+szse-component,Shenzhen KTC Technology Co Ltd,001308.SZ
+szse-component,Jiangsu Ruitai New Energy Materials Co Ltd,301238.SZ
+szse-component,Empyrean Technology Co Ltd,301269.SZ
+szse-component,Semitronix Corp,301095.SZ
+szse-component,Shenzhen Longsys Electronics Co Ltd,301308.SZ
+szse-component,Huaxia Eye Hospital Group Co Ltd,301267.SZ
+szse-component,Ruijie Networks Co Ltd,301165.SZ
+szse-component,Yili Chuanning Biotechnology Co Ltd,301301.SZ
+szse-component,Hunan Yuneng New Energy Battery,301358.SZ
+szse-component,Shaanxi Energy Investment Co Ltd,001286.SZ
+szse-component,Shenzhen CECport Technologies Co Ltd,001287.SZ
+szse-component,Tianjin Guoan Mengguli New Materials Science & Technology Co Ltd,301487.SZ
+szse-component,Gambol Pet Group Co Ltd,301498.SZ
+szse-component,XiAn NovaStar Tech Co Ltd,301589.SZ
+szse-component,SigmaStar Technology Ltd,301536.SZ
+szse-component,Delton Technology Guangzhou Inc,001389.SZ
+s-p-cnx-nifty,Adani Enterprises Ltd,ADEL.NS
+s-p-cnx-nifty,Apollo Hospitals Enterprises Ltd.,APLH.NS
+s-p-cnx-nifty,Asian Paints Ltd.,ASPN.NS
+s-p-cnx-nifty,Axis Bank Ltd,AXBK.NS
+s-p-cnx-nifty,Bajaj Auto Ltd,BAJA.NS
+s-p-cnx-nifty,Bajaj Finance Ltd,BJFN.NS
+s-p-cnx-nifty,Bajaj Finserv Ltd,BJFS.NS
+s-p-cnx-nifty,Bharat Petroleum Corp. Ltd.,BPCL.NS
+s-p-cnx-nifty,Bharti Airtel Ltd.,BRTI.NS
+s-p-cnx-nifty,Bharat Electronics Ltd,BAJE.NS
+s-p-cnx-nifty,Britannia Industries Ltd,BRIT.NS
+s-p-cnx-nifty,Cipla Ltd.,CIPL.NS
+s-p-cnx-nifty,Coal India Ltd,COAL.NS
+s-p-cnx-nifty,Dr Reddy’s Laboratories Ltd,REDY.NS
+s-p-cnx-nifty,Eicher Motors Ltd.,EICH.NS
+s-p-cnx-nifty,Grasim Industries Ltd,GRAS.NS
+s-p-cnx-nifty,HCL Technologies Ltd,HCLT.NS
+s-p-cnx-nifty,HDFC Bank Ltd,HDBK.NS
+s-p-cnx-nifty,Hero MotoCorp Ltd,HROM.NS
+s-p-cnx-nifty,Hindustan Unilever Ltd.,HLL.NS
+s-p-cnx-nifty,Hindalco Industries Ltd.,HALC.NS
+s-p-cnx-nifty,ICICI Bank Ltd,ICICIBANK.NS
+s-p-cnx-nifty,IndusInd Bank Ltd.,INBK.NS
+s-p-cnx-nifty,Infosys Ltd,INFY.NS
+s-p-cnx-nifty,ITC Ltd,ITC.NS
+s-p-cnx-nifty,JSW Steel Ltd,JSTL.NS
+s-p-cnx-nifty,Kotak Mahindra Bank Ltd.,KTKM.NS
+s-p-cnx-nifty,Larsen & Toubro Ltd,LART.NS
+s-p-cnx-nifty,Mahindra & Mahindra Ltd.,MAHM.NS
+s-p-cnx-nifty,Maruti Suzuki India Ltd.,MRTI.NS
+s-p-cnx-nifty,Adani Ports and Special Economic Zone Ltd,APSE.NS
+s-p-cnx-nifty,NTPC Ltd,NTPC.NS
+s-p-cnx-nifty,Oil And Natural Gas Corporation Ltd,ONGC.NS
+s-p-cnx-nifty,Power Grid Corporation of India Ltd,PGRD.NS
+s-p-cnx-nifty,Reliance Industries Ltd,RELI.NS
+s-p-cnx-nifty,State Bank Of India,SBI.NS
+s-p-cnx-nifty,Shriram Finance Ltd.,SHMF.NS
+s-p-cnx-nifty,Sun Pharmaceutical Industries Ltd.,SUN.NS
+s-p-cnx-nifty,Tata Consultancy Services Ltd.,TCS.NS
+s-p-cnx-nifty,Tata Consumer Products Ltd,TACN.NS
+s-p-cnx-nifty,Tata Motors Ltd,TAMO.NS
+s-p-cnx-nifty,Tata Steel Ltd,TISC.NS
+s-p-cnx-nifty,Tech Mahindra Ltd,TEML.NS
+s-p-cnx-nifty,Titan Company Ltd,TITAN.NS
+s-p-cnx-nifty,Trent Ltd,TRENT.NS
+s-p-cnx-nifty,UltraTech Cement Ltd,ULTRACEMCO.NS
+s-p-cnx-nifty,Wipro Ltd,WIPRO.NS
+s-p-cnx-nifty,Nestle India Ltd,NESTLEIND.NS
+s-p-cnx-nifty,SBI Life Insurance Company Ltd,SBILIFE.NS
+s-p-cnx-nifty,HDFC Life Insurance Company Ltd,HDFCLIFE.NS

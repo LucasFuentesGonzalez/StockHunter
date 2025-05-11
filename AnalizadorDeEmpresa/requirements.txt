@@ -1,0 +1,8 @@
+# Librerías necesarias para el proyecto
+requests
+numpy
+pandas
+tqdm
+yfinance
+python-dotenv
+pycountry-convert

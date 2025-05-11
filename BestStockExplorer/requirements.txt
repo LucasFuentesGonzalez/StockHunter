@@ -1,0 +1,16 @@
+# Librerías necesarias para el proyecto
+requests
+numpy
+pandas
+tqdm
+yfinance
+python-dotenv
+pycountry-convert
+unidecode
+beautifulsoup4
+seleniumbase
+streamlit
+st-aggrid
+plotly
+matplotlib
+seaborn

@@ -1,0 +1,5 @@
+
+"SCRAPEADOR_DE_TICKERS":    # Scrapeador de Investing, para obtener los tickers de las empresas de cada Indice
+    iSaltarIndice:          # Índice por el que se quiere empezar el scrapeo (0 = Primer Indice)
+    iSaltarEmpresa:         # Empresa por la que se quiere empezar el scrapeo (0 = Primera Empresa)
+    iTiempoSleep:           # Segundos de espera entre llamadas - (1s OK) - Recomendado = 1

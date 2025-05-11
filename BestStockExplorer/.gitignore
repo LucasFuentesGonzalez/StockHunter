@@ -1,0 +1,13 @@
+# .gitignore
+# Archivos del entorno virtual
+venv/
+.env
+Documentacion.txt
+
+# Archivos temporales
+*.pyc
+__pycache__/
+
+# Archivos de salida
+/output/
+*.xlsx

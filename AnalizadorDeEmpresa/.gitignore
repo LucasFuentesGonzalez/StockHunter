@@ -1,0 +1,11 @@
+# Archivos del entorno virtual
+venv/
+.env
+
+# Archivos temporales
+*.pyc
+__pycache__/
+
+# Archivos de salida
+/output/
+*.xlsx

@@ -1,0 +1,30 @@
+Pais,Indice,Sufijo
+Estados Unidos,us-spx-500,
+Canadá,s-p-tsx-composite,.TO
+Brasil,bovespa,.SA
+México,ipc,.MX
+Alemania,germany-30,.DE
+Reino Unido,uk-100,.L
+Francia,france-40,.PA
+Países Bajos,netherlands-25,.AS
+España,spain-35,.MC
+Italia,it-mib-40,.MI
+Suiza,switzerland-20,.SW
+Portugal,psi-20,.LS
+Irlanda,iseq-overall,.I
+Bélgica,bel-20,.BR
+Austria,atx,.VI
+Suecia,omx-stockholm-30,.ST
+Noruega,omx-oslo-20,.OL
+Finlandia,omx-helsinki-25,.HE
+Dinamarca,omx-copenhagen-25,.CO
+Rusia,rtsi,.ME
+Polonia,wig-20,.WA
+Hungría,hungary-stock-market,.BU
+Grecia,athens-general,.AT
+Turquía,ise-100,.IS
+Israel,ta25,.TA
+Japón,japan-ni225,.T
+Australia,aus-200,.AX
+China,szse-component,.SZ
+India,s-p-cnx-nifty,.NS

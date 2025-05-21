@@ -12,6 +12,14 @@ if __name__ == "__main__":
    print(f'\n\n######################################################################\n')
    print(f'INFO    - INICIO MAIN \n')
 
+
+   # Ruta base = carpeta del proyecto
+   BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
+   # Ruta del ejecutable del visualizador de acciones
+   sRUTA_DE_VISUALIZADOR = os.path.join(BASE_DIR, "Lib", "VisualizadorDeAcciones.py")
+
+
    ################### CONFIGURACION ####################
    bEjecutarfObtenerTickers = False
    bEjecutarfGenerarMetricas = True
@@ -35,10 +43,6 @@ if __name__ == "__main__":
 
    ##########  VISUALIZAR PANEL DE ACCIONES  ############
    if bEjecutarVisualizadorDeAcciones:
-      # Cargar el archivo .env
-      load_dotenv()
-      # Obtener la ruta desde el archivo .env
-      sRUTA_DE_VISUALIZADOR = os.getenv('RUTA_DE_VISUALIZADOR')
 
       sRutaScript = sRUTA_DE_VISUALIZADOR
       os.system(f"streamlit run \"{sRutaScript}\"")

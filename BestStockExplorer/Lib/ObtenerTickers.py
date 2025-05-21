@@ -1,3 +1,4 @@
+# Lib\ObtenerTickers.py
 import re, sys, os, time
 import json
 import numpy as np
@@ -20,6 +21,16 @@ https://www.investing.com/indices/major-indices
 
 ================================================================================
 """
+
+
+# Ruta base = carpeta del proyecto
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+# Ruta para almacenar las empresas, sus nombres y Ticker
+sTICKER_LIST_PATH = os.path.join(BASE_DIR, "Data", "TickersDeEmpresas.csv")
+# Ruta para almacenar los indices de los mercados, se guarda su pais, indice y sufijo del indice para yfinance
+sMAYOR_WORLD_INDICES_PATH = os.path.join(BASE_DIR, "Data", "IndicesGlobales.csv")
+
 
 # ================= FUNCIONES =================
 def fAbrirURLYObtenerHtml(sbDriver: BaseCase, sUrl: str, sCookies: str, iTiempoSleep: int) -> Optional[BeautifulSoup]:
@@ -141,11 +152,6 @@ def fObtenerTickers() -> None:
    except KeyError as e:
       print(f"ERROR   - fScrapeadorIdealista: Clave no encontrada en el archivo JSON: {e} \n")
 
-   # Cargar el archivo .env
-   load_dotenv()
-   # Obtener la ruta desde el archivo .env
-   sMAYOR_WORLD_INDICES_PATH = os.getenv('MAYOR_WORLD_INDICES_PATH')
-   sTICKER_LIST_PATH = os.getenv('TICKER_LIST_PATH')
    
    # Lista para almacenar las empresas de los indices
    lEmpresasDelIndice = []

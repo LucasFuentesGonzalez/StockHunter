@@ -1,4 +1,7 @@
+# Lib\GenerarMetricas.py
 import re, sys, os, time
+import csv
+import random
 import requests
 import numpy as np
 import pandas as pd
@@ -7,8 +10,23 @@ import yfinance as yf
 from dotenv import load_dotenv
 from pycountry_convert import country_name_to_country_alpha2, country_alpha2_to_continent_code
 
+
+# Ruta base = carpeta del proyecto
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+# Ruta para almacenar las empresas, sus nombres y Ticker
+sTICKER_LIST_PATH = os.path.join(BASE_DIR, "Data", "TickersDeEmpresas.csv")
+# Ruta para almacenar el listado con todos los datos de las empresas obtenidos de yfinance
+sDATA_STOCKS_PATH = os.path.join(BASE_DIR, "Data", "ListadoDeMejoresAcciones.xlsx")
+# Ruta para almacenar los tipos de cambio obtenido de FIXER API
+sTIPOS_CAMBIO_PATH = os.path.join(BASE_DIR, "Data", "TiposDeCambio.xlsx")
+
+# Cargar el archivo .env
+load_dotenv()
+
 # Diccionario global para almacenar tipos de cambio ya consultados
 dTiposDeCambio = {}
+
 
 def fObtenerContinente(sPais):
    try:
@@ -29,34 +47,106 @@ def fObtenerContinente(sPais):
 
 
 
-def fObtenerCambioFixer(sMonedaOrigen, sMonedaDestino="USD"):
-   global dTiposDeCambio
-   sClaveCache = f"{sMonedaOrigen}_{sMonedaDestino}"
+def fCargarCambiosDesdeCSV(sTIPOS_CAMBIO_PATH): 
+   """
+   Carga los tipos de cambio previamente guardados en el archivo CSV
+   y los almacena en el diccionario global `dTiposDeCambio`.
+   """
+   if not sTIPOS_CAMBIO_PATH or not os.path.exists(sTIPOS_CAMBIO_PATH):
+      return
 
-   # Revisar si ya está guardado
+   with open(sTIPOS_CAMBIO_PATH, mode="r", newline='', encoding="utf-8") as f:
+      reader = csv.DictReader(f)
+      for row in reader:
+         clave = row["sMonedaOrigen"] + "_" + row["sMonedaDestino"]
+         dTiposDeCambio[clave] = float(row["sTipoCambio"])
+
+
+
+def fGuardarCambioEnCSV(sMonedaOrigen, sMonedaDestino, sTipoCambio, sTIPOS_CAMBIO_PATH):
+   """
+   Guarda un tipo de cambio en el archivo CSV.
+
+   Si el archivo no existe, se crea y se escribe la cabecera.
+   Si ya existe, se añade la nueva fila sin modificar lo anterior.
+   """
+   if not sTIPOS_CAMBIO_PATH:
+      print("ERROR - Ruta al archivo CSV no definida.")
+      return
+
+   existe = os.path.exists(sTIPOS_CAMBIO_PATH)
+
+   with open(sTIPOS_CAMBIO_PATH, mode="a", newline='', encoding="utf-8") as f:
+      writer = csv.DictWriter(f, fieldnames=["sMonedaOrigen", "sMonedaDestino", "sTipoCambio"])
+      if not existe:
+         writer.writeheader()
+      writer.writerow({
+         "sMonedaOrigen": sMonedaOrigen,
+         "sMonedaDestino": sMonedaDestino,
+         "sTipoCambio": sTipoCambio
+      })
+
+
+
+def fObtenerCambioFixer(sMonedaOrigen, sMonedaDestino="USD"):
+   """
+   Obtiene el tipo de cambio entre dos monedas usando la API de Fixer.
+
+   Si la API responde correctamente, se guarda el resultado en la caché y en un archivo CSV.
+   Si ocurre un error en la llamada a la API, intenta cargar el valor desde la caché
+   previamente cargada del archivo CSV.
+
+   Parámetros:
+      sMonedaOrigen (str): Código de la moneda origen (ej. "MXN").
+      sMonedaDestino (str): Código de la moneda destino (por defecto "USD").
+
+   Retorna:
+      float: El tipo de cambio de sMonedaOrigen a sMonedaDestino.
+   """
+   global dTiposDeCambio
+
+   # Cargar tipos de cambio desde el CSV solo una vez
+   if not dTiposDeCambio:
+      fCargarCambiosDesdeCSV(sTIPOS_CAMBIO_PATH)
+
+   sClaveCache = f"{sMonedaOrigen}_{sMonedaDestino}"
+   # Retornar directamente si ya está en caché
    if sClaveCache in dTiposDeCambio:
       return dTiposDeCambio[sClaveCache]
 
    try:
+      # Obtener clave API desde variables de entorno
       sFIXER_API_KEY = os.getenv("FIXER_API_KEY")
+      # Construir URL para consultar tipo de cambio con base en EUR
       sUrl = f"http://data.fixer.io/api/latest?access_key={sFIXER_API_KEY}&base=EUR&symbols={sMonedaOrigen},{sMonedaDestino}"
       sResponse = requests.get(sUrl)
       sDatos = sResponse.json()
 
+      # Verificar si la respuesta fue exitosa
       if not sDatos["success"]:
          raise Exception(sDatos.get("error", {}).get("info", "Error desconocido"))
 
+      # Calcular el tipo de cambio deseado
       sTasaOrigen = sDatos["rates"][sMonedaOrigen]
       sTasaDestino = sDatos["rates"][sMonedaDestino]
       sTipoCambio = sTasaDestino / sTasaOrigen
 
-      # Guardar en caché
+      # Guardar en caché y CSV
       dTiposDeCambio[sClaveCache] = sTipoCambio
+      fGuardarCambioEnCSV(sMonedaOrigen, sMonedaDestino, sTipoCambio, sTIPOS_CAMBIO_PATH)
+
       return sTipoCambio
 
    except Exception as e:
-      print(f"ERROR   - Error al obtener tipo de cambio real ({sMonedaOrigen} a {sMonedaDestino}): {e}")
-      raise
+      print(f"ERROR - Error al obtener tipo de cambio real ({sMonedaOrigen} a {sMonedaDestino}): {e}")
+
+      # Buscar en caché cargada desde el CSV
+      if sClaveCache in dTiposDeCambio:
+         print(f"USANDO VALOR DE RESPALDO DESDE CSV para {sClaveCache}")
+         return dTiposDeCambio[sClaveCache]
+
+      # Si no hay valor ni en la API ni en el CSV, lanzar excepción
+      raise Exception(f"No se pudo obtener tipo de cambio para {sClaveCache} ni desde API ni desde CSV.")
 
 
 
@@ -258,12 +348,6 @@ def fGenerarMetricas():
    Función principal para obtener y evaluar las metricas de los tickers.
    """
 
-   # Cargar el archivo .env
-   load_dotenv()
-   # Obtener la ruta desde el archivo .env
-   sTICKER_LIST_PATH = os.getenv('TICKER_LIST_PATH')
-   sDATA_STOCKS_PATH = os.getenv('DATA_STOCKS_PATH')
-
    # Obtener tickers, omitiendo la primera fila (cabecera)
    df = pd.read_csv(sTICKER_LIST_PATH, encoding='utf-8')
 
@@ -278,6 +362,7 @@ def fGenerarMetricas():
    iContadorErrores = 0
 
    for sTicker in tqdm(lListaDeTickers, desc="Procesando acciones", unit="acción"):
+   #for sTicker in tqdm(random.sample(lListaDeTickers, 20), desc="Procesando acciones", unit="acción"):
 
       lResultado = fEvaluarAccion(sTicker)
 

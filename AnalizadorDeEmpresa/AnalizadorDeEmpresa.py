@@ -8,11 +8,18 @@ import yfinance as yf
 from dotenv import load_dotenv
 from pycountry_convert import country_name_to_country_alpha2, country_alpha2_to_continent_code
 
-# Diccionario global para almacenar tipos de cambio ya consultados
-dTiposDeCambio = {}
+
+# Ruta base = carpeta del proyecto
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
+# Ruta para almacenar los datos de la empresa obtenidos de yfinance
+sDATA_OUTPUT_PATH = os.path.join(BASE_DIR, "OutputDatosEmpresa.xlsx")
 
 # Cargar el archivo .env
 load_dotenv()
+
+# Diccionario global para almacenar tipos de cambio ya consultados
+dTiposDeCambio = {}
 
 
 def fObtenerContinente(sPais):
@@ -274,9 +281,6 @@ def fGuardarResultadoEnExcel(dfResultado):
       # Definir las columnas totales
       columnas_totales = columnas_fijas + columnas_indicadores
 
-      # Obtener la Key desde el .env
-      sDATA_OUTPUT_PATH = os.getenv("DATA_OUTPUT_PATH")
-      
       if not sDATA_OUTPUT_PATH:
          raise ValueError("La variable de entorno 'DATA_OUTPUT_PATH' no está definida")
 

@@ -23,13 +23,19 @@ https://www.investing.com/indices/major-indices
 """
 
 
-# Ruta base = carpeta del proyecto
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+# Detectar si el script está empaquetado con PyInstaller
+if getattr(sys, 'frozen', False):
+   BASE_DIR = sys._MEIPASS  # Ruta temporal generada por PyInstaller
+else:
+   # Ruta base = carpeta del proyecto
+   BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # Ruta para almacenar las empresas, sus nombres y Ticker
 sTICKER_LIST_PATH = os.path.join(BASE_DIR, "Data", "TickersDeEmpresas.csv")
 # Ruta para almacenar los indices de los mercados, se guarda su pais, indice y sufijo del indice para yfinance
 sMAYOR_WORLD_INDICES_PATH = os.path.join(BASE_DIR, "Data", "IndicesGlobales.csv")
+# Ruta para almacenar la configuracion del SCRAPEADOR_DE_TICKERS
+sCONFIG_PATH = os.path.join(BASE_DIR, "Config", "Config.json")
 
 
 # ================= FUNCIONES =================
@@ -138,9 +144,7 @@ def fObtenerTickers() -> None:
    """
    ########################### CONFIGURACION ###########################
    try:
-      # Define la ruta del archivo Config.json de forma relativa
-      sRutaConfig = os.path.join(os.path.dirname(__file__), '../Config', 'Config.json')
-      with open(sRutaConfig, 'r') as sFicheroConfig:
+      with open(sCONFIG_PATH, 'r') as sFicheroConfig:
          dConfiguracion = json.load(sFicheroConfig)
       # Obtener los valores de SCRAPEADOR_DE_TICKERS
       dConfigGeneral = dConfiguracion['SCRAPEADOR_DE_TICKERS']
@@ -148,7 +152,7 @@ def fObtenerTickers() -> None:
       iSaltarEmpresa = int(dConfigGeneral['iSaltarEmpresa'])
       iTiempoSleep = int(dConfigGeneral['iTiempoSleep'])
    except FileNotFoundError:
-      print(f"ERROR   - fScrapeadorIdealista: El archivo {sRutaConfig} no se encuentra. \n")
+      print(f"ERROR   - fScrapeadorIdealista: El archivo {sCONFIG_PATH} no se encuentra. \n")
    except KeyError as e:
       print(f"ERROR   - fScrapeadorIdealista: Clave no encontrada en el archivo JSON: {e} \n")
 

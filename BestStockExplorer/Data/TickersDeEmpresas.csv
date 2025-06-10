@@ -977,46 +977,46 @@ uk-100,Pershing Square Holdings Ltd,PSH.L
 uk-100,M&G Plc,MNG.L
 uk-100,Airtel Africa Plc,AAF.L
 uk-100,HALEON PLC,HLN.L
-france-40,Accor SA,ACCP.PA
-france-40,Air Liquide SA,AIRP.PA
-france-40,Capgemini SE,CAPP.PA
-france-40,AXA SA,AXAF.PA
+france-40,Accor SA,AC.PA
+france-40,Air Liquide SA,AI.PA
+france-40,Capgemini SE,CAP.PA
+france-40,AXA SA,CS.PA
 france-40,Danone SA,DANO.PA
-france-40,Engie SA,ENGIE.PA
-france-40,BNP Paribas SA,BNPP.PA
-france-40,Bouygues SA,BOUY.PA
-france-40,LVMH Moet Hennessy Louis Vuitton SE,LVMH.PA
-france-40,L’Oreal SA,OREP.PA
-france-40,Schneider Electric SE,SCHN.PA
-france-40,Compagnie de Saint Gobain SA,SGOB.PA
-france-40,Carrefour SA,CARR.PA
-france-40,EssilorLuxottica SA,ESLX.PA
-france-40,Pernod Ricard SA,PERP.PA
-france-40,Credit Agricole SA,CAGR.PA
-france-40,Orange SA,ORAN.PA
-france-40,Societe Generale SA,SOGN.PA
-france-40,Compagnie Generale des Etablissements Michelin SCA,MICP.PA
+france-40,Engie SA,ENGI.PA
+france-40,BNP Paribas SA,BNP.PA
+france-40,Bouygues SA,EN.PA
+france-40,LVMH Moet Hennessy Louis Vuitton SE,MC.PA
+france-40,L’Oreal SA,OR.PA
+france-40,Schneider Electric SE,SU.PA
+france-40,Compagnie de Saint Gobain SA,SGO.PA
+france-40,Carrefour SA,CA.PA
+france-40,EssilorLuxottica SA,EL.PA
+france-40,Pernod Ricard SA,RI.PA
+france-40,Credit Agricole SA,ACA.PA
+france-40,Orange SA,ORA.PA
+france-40,Societe Generale SA,GLE.PA
+france-40,Compagnie Generale des Etablissements Michelin SCA,ML.PA
 france-40,Airbus Group SE,AIR.PA
-france-40,Sanofi SA,SASY.PA
-france-40,TotalEnergies SE,TTEF.PA
+france-40,Sanofi SA,SAN.PA
+france-40,TotalEnergies SE,TTE.PA
 france-40,STMicroelectronics NV,STMPA.PA
-france-40,Vinci SA,SGEF.PA
-france-40,Renault SA,RENA.PA
+france-40,Vinci SA,DG.PA
+france-40,Renault SA,RNO.PA
 france-40,Veolia Environnement VE SA,VIE.PA
-france-40,Kering SA,PRTP.PA
+france-40,Kering SA,KER.PA
 france-40,Unibail-Rodamco-Westfield SE,URW.PA
 france-40,ArcelorMittal SA,MT.PA
-france-40,Thales,TCFP.PA
-france-40,Dassault Systemes SE,DAST.PA
-france-40,Eurofins Scientific SE,EUFI.PA
-france-40,Publicis Groupe SA,PUBP.PA
-france-40,Hermes International SCA,HRMS.PA
+france-40,Thales,HO.PA
+france-40,Dassault Systemes SE,DSY.PA
+france-40,Eurofins Scientific SE,ERF.PA
+france-40,Publicis Groupe SA,PUB.PA
+france-40,Hermes International SCA,RMS.PA
 france-40,Safran SA,SAF.PA
-france-40,Legrand SA,LEGD.PA
-france-40,Teleperformance SE,TEPRF.PA
+france-40,Legrand SA,LR.PA
+france-40,Teleperformance SE,TEP.PA
 france-40,Bureau Veritas SA,BVI.PA
 france-40,Edenred SA,EDEN.PA
-france-40,Stellantis NV,STLAP.PA
+france-40,Stellantis NV,STLA
 netherlands-25,ING Groep NV,INGA.AS
 netherlands-25,Shell PLC,SHELL.AS
 netherlands-25,Heineken,HEIN.AS
@@ -1149,7 +1149,7 @@ psi-20,Semapa,SEM.LS
 psi-20,Sonae SGPS SA,YSO.LS
 psi-20,Nos SGPS SA,NOS.LS
 psi-20,EDP Renovaveis,EDPR.LS
-psi-20,Corticeira Amorim,CORA.LS
+psi-20,Corticeira Amorim,CORA.L
 psi-20,Ibersol SGPS,IBS.LS
 psi-20,CTT Correios de Portugal SA,CTT.LS
 iseq-overall,Glanbia PLC,GL9.I
@@ -1403,7 +1403,7 @@ athens-general,Greek Organisation of Football Prognostics SA,OPAr.AT
 athens-general,Viohalco BR,VIOH.AT
 athens-general,Aegean Airlines,AEGN.AT
 athens-general,Athens Water,EYDr.AT
-athens-general,Autohellas,AUTr.AT
+athens-general,Autohellas,AUTR
 athens-general,Piraeus Bank SA,BOPr.AT
 athens-general,Crete Plastics SA,PLAKR.AT
 athens-general,Fourlis Hld,FRLr.AT

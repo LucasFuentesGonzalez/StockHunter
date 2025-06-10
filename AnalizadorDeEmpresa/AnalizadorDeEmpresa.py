@@ -42,6 +42,16 @@ def fObtenerContinente(sPais):
 
 
 def fObtenerCambioFixer(sMonedaOrigen, sMonedaDestino="USD"):
+   """
+   Obtiene el tipo de cambio entre dos monedas usando la API de Fixer, con control diario.
+
+   Parámetros:
+      sMonedaOrigen (str): Código de la moneda origen (ej. "MXN").
+      sMonedaDestino (str): Código de la moneda destino (por defecto "USD").
+
+   Retorna:
+      dict: El tipo de cambio de sMonedaOrigen a sMonedaDestino.
+   """
    global dTiposDeCambio
    sClaveCache = f"{sMonedaOrigen}_{sMonedaDestino}"
 

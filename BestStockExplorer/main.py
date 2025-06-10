@@ -13,8 +13,12 @@ if __name__ == "__main__":
    print(f'INFO    - INICIO MAIN \n')
 
 
-   # Ruta base = carpeta del proyecto
-   BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+   # Detectar si el script está empaquetado con PyInstaller
+   if getattr(sys, 'frozen', False):
+      BASE_DIR = sys._MEIPASS  # Ruta temporal generada por PyInstaller
+   else:
+      # Ruta base = carpeta del proyecto
+      BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
    # Ruta del ejecutable del visualizador de acciones
    sRUTA_DE_VISUALIZADOR = os.path.join(BASE_DIR, "Lib", "VisualizadorDeAcciones.py")
@@ -23,7 +27,7 @@ if __name__ == "__main__":
    ################### CONFIGURACION ####################
    bEjecutarfObtenerTickers = False
    bEjecutarfGenerarMetricas = True
-   bEjecutarVisualizadorDeAcciones = False
+   bEjecutarVisualizadorDeAcciones = True
    ######################################################
 
 

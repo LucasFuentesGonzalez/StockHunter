@@ -252,17 +252,17 @@ def fEvaluarAccion(sTicker: str) -> tuple:
       lIndicadores = {
          "Precio ($)": round(fConvertirMoneda(lDatos.get("currentPrice")), 2),
          "Valor en Libros ($)": round(fConvertirMoneda(lDatos.get("bookValue")), 2),
-         "P/E": round(lDatos.get("trailingPE"), 2) if lDatos.get("trailingPE") is not None else np.nan,
-         "PEG": np.nan,  # Se calcula después
-         "EV/EBITDA": round(lDatos.get("enterpriseToEbitda"), 2) if lDatos.get("enterpriseToEbitda") is not None else np.nan,
-         "ROE (%)": round(lDatos.get("returnOnEquity") * 100, 2) if lDatos.get("returnOnEquity") is not None else np.nan,
-         "Margen Neto (%)": round(lDatos.get("profitMargins") * 100, 2) if lDatos.get("profitMargins") is not None else np.nan,
-         "Margen Operativo (%)": round(lDatos.get("operatingMargins") * 100, 2) if lDatos.get("operatingMargins") is not None else np.nan,
-         "FCF/Acción ($)": round(fConvertirMoneda(lDatos.get("freeCashflow")), 2),
-         "Dividend Yield (%)": round(lDatos.get("dividendYield"), 2) if lDatos.get("dividendYield") is not None else np.nan,
-         "Beta": round(lDatos.get("beta"), 2) if lDatos.get("beta") is not None else np.nan,
-         "Deuda/Capital (%)": round(lDatos.get("debtToEquity"), 2) if lDatos.get("debtToEquity") is not None else np.nan,
-         "Crecimiento de Ingresos (%)": round(lDatos.get("revenueGrowth") * 100, 2) if lDatos.get("revenueGrowth") is not None else np.nan,
+         "P/E": round(lDatos.get("trailingPE"), 2) if isinstance(lDatos.get("trailingPE"), (int, float)) else np.nan,
+         "PEG": np.nan,  # Se calcula más adelante si hay datos suficientes
+         "EV/EBITDA": round(lDatos.get("enterpriseToEbitda"), 2) if isinstance(lDatos.get("enterpriseToEbitda"), (int, float)) else np.nan,
+         "ROE (%)": round(lDatos.get("returnOnEquity") * 100, 2) if isinstance(lDatos.get("returnOnEquity"), (int, float)) else 0.0,
+         "Margen Neto (%)": round(lDatos.get("profitMargins") * 100, 2) if isinstance(lDatos.get("profitMargins"), (int, float)) else 0.0,
+         "Margen Operativo (%)": round(lDatos.get("operatingMargins") * 100, 2) if isinstance(lDatos.get("operatingMargins"), (int, float)) else 0.0,
+         "FCF/Acción ($)": round(fConvertirMoneda(lDatos.get("freeCashflow")), 2) if isinstance(lDatos.get("freeCashflow"), (int, float)) else 0.0,
+         "Dividend Yield (%)": round(lDatos.get("dividendYield") * 100, 2) if isinstance(lDatos.get("dividendYield"), (int, float)) else 0.0,
+         "Beta": round(lDatos.get("beta"), 2) if isinstance(lDatos.get("beta"), (int, float)) else 1.0,
+         "Deuda/Capital (%)": round(lDatos.get("debtToEquity"), 2) if isinstance(lDatos.get("debtToEquity"), (int, float)) else 0.0,
+         "Crecimiento de Ingresos (%)": round(lDatos.get("revenueGrowth") * 100, 2) if isinstance(lDatos.get("revenueGrowth"), (int, float)) else 0.0,
          "Capitalización ($)": round(fConvertirMoneda(lDatos.get("marketCap", 0)) / 1e6, 2)
       }
 
@@ -285,7 +285,7 @@ def fEvaluarAccion(sTicker: str) -> tuple:
             lIndicadores[key] = np.nan
 
       # Calcular PEG si hay datos suficientes
-      if not np.isnan(lIndicadores["P/E"]) and not np.isnan(lIndicadores["Crecimiento de Ingresos (%)"]) and lIndicadores["Crecimiento de Ingresos (%)"] != 0:
+      if not np.isnan(lIndicadores["P/E"]) and lIndicadores["Crecimiento de Ingresos (%)"] != 0:
          try:
             lIndicadores["PEG"] = round(lIndicadores["P/E"] / lIndicadores["Crecimiento de Ingresos (%)"], 2)
          except ZeroDivisionError:
@@ -325,53 +325,47 @@ def fEvaluarAccion(sTicker: str) -> tuple:
          else:  # P/E > 50
             iPuntuacion -= 1
 
-      if not np.isnan(lIndicadores["Dividend Yield (%)"]):
-         if lIndicadores["Dividend Yield (%)"] > 3:
-            iPuntuacion += 2
-         elif 1 <= lIndicadores["Dividend Yield (%)"] <= 3:
-            iPuntuacion += 1
-         else:
-            iPuntuacion += 0
+      if lIndicadores["Dividend Yield (%)"] > 3:
+         iPuntuacion += 2
+      elif 1 <= lIndicadores["Dividend Yield (%)"] <= 3:
+         iPuntuacion += 1
+      else:
+         iPuntuacion += 0
 
-      if not np.isnan(lIndicadores["Deuda/Capital (%)"]):
-         if lIndicadores["Deuda/Capital (%)"] < 50:
-            iPuntuacion += 2
-         elif 50 <= lIndicadores["Deuda/Capital (%)"] <= 100:
-            iPuntuacion += 1
-         else:  # Deuda/Capital > 100
-            iPuntuacion -= 1
+      if lIndicadores["Deuda/Capital (%)"] < 50:
+         iPuntuacion += 2
+      elif 50 <= lIndicadores["Deuda/Capital (%)"] <= 100:
+         iPuntuacion += 1
+      else:  # Deuda/Capital > 100
+         iPuntuacion -= 1
 
-      if not np.isnan(lIndicadores["Crecimiento de Ingresos (%)"]):
-         if lIndicadores["Crecimiento de Ingresos (%)"] > 10:
-            iPuntuacion += 3
-         elif 5 <= lIndicadores["Crecimiento de Ingresos (%)"] <= 10:
-            iPuntuacion += 2
-         elif 0 <= lIndicadores["Crecimiento de Ingresos (%)"] < 5:
-            iPuntuacion += 1
-         else:  # Crecimiento negativo
-            iPuntuacion += 0
+      if lIndicadores["Crecimiento de Ingresos (%)"] > 10:
+         iPuntuacion += 3
+      elif 5 <= lIndicadores["Crecimiento de Ingresos (%)"] <= 10:
+         iPuntuacion += 2
+      elif 0 <= lIndicadores["Crecimiento de Ingresos (%)"] < 5:
+         iPuntuacion += 1
+      else:  # Crecimiento negativo
+         iPuntuacion += 0
 
-      if not np.isnan(lIndicadores["FCF/Acción ($)"]):
-         if lIndicadores["FCF/Acción ($)"] > 0:
-            iPuntuacion += 2
+      if lIndicadores["FCF/Acción ($)"] > 0:
+         iPuntuacion += 2
 
-      if not np.isnan(lIndicadores["ROE (%)"]):
-         if lIndicadores["ROE (%)"] > 15:
-            iPuntuacion += 3
-         elif 10 <= lIndicadores["ROE (%)"] <= 15:
-            iPuntuacion += 2
-         elif 5 <= lIndicadores["ROE (%)"] < 10:
-            iPuntuacion += 1
-         else:
-            iPuntuacion += 0
+      if lIndicadores["ROE (%)"] > 15:
+         iPuntuacion += 3
+      elif 10 <= lIndicadores["ROE (%)"] <= 15:
+         iPuntuacion += 2
+      elif 5 <= lIndicadores["ROE (%)"] < 10:
+         iPuntuacion += 1
+      else:
+         iPuntuacion += 0
 
-      if not np.isnan(lIndicadores["Beta"]):
-         if lIndicadores["Beta"] < 1:
-            iPuntuacion += 2
-         elif 1 <= lIndicadores["Beta"] <= 1.5:
-            iPuntuacion += 1
-         else:
-            iPuntuacion += 0
+      if lIndicadores["Beta"] < 1:
+         iPuntuacion += 2
+      elif 1 <= lIndicadores["Beta"] <= 1.5:
+         iPuntuacion += 1
+      else:
+         iPuntuacion += 0
       
       # Asignar calificación basada en la puntuación
       if iPuntuacion >= 18:

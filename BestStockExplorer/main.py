@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
    ################### CONFIGURACION ####################
    bEjecutarfObtenerTickers = False
-   bEjecutarfGenerarMetricas = True
+   bEjecutarfGenerarMetricas = False
    bEjecutarVisualizadorDeAcciones = True
    ######################################################
 

@@ -34,14 +34,12 @@ if __name__ == "__main__":
    ############### SCRAPEADOR DE TICKERS ################
    if bEjecutarfObtenerTickers:
       fObtenerTickers()
-
    ######################################################
 
 
    ########## GENERAR METRICAS DE LAS EMPRESAS ##########
    if bEjecutarfGenerarMetricas:
       fGenerarMetricas()
-
    ######################################################
 
 
@@ -50,8 +48,6 @@ if __name__ == "__main__":
 
       sRutaScript = sRUTA_DE_VISUALIZADOR
       os.system(f"streamlit run \"{sRutaScript}\"")
-
-
    ######################################################
 
 

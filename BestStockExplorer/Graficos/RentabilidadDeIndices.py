@@ -1,4 +1,4 @@
-# Graficos\PERdeIndices.py
+# Graficos\ RentabilidadDeIndices.py
 import yfinance as yf
 import datetime
 import pandas as pd

@@ -1,0 +1,29 @@
+# .gitignore
+# Ignorar el archivo .env que contiene configuraciones sensibles
+.env
+.env.local
+.env.*
+
+# Ignorar las bases de datos locales
+*.sqlite3
+
+# Ignorar logs generados por la aplicación
+Logs/
+
+# Ignorar archivos de caché y temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar descargas
+/downloaded_files/
+
+# Ignorar entornos virtuales de Python
+venv/
+.venv/
+
+# Archivos de salida
+/output/
+*.xlsx
+*.pdf

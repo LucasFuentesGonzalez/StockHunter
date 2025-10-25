@@ -22,9 +22,6 @@ sEmailPass = os.getenv('EMAIL_CLAVE_DE_APLICACION')
 sSmtpServer = "smtp.gmail.com"
 iSmtpPort = 587
 
-# Intervalo de ejecución (segundos)
-iCheckInterval = 3600  # 1 hora
-
 # =========================
 # CONFIGURACIÓN FINANCIERA
 # =========================
@@ -36,19 +33,32 @@ dAssets = {
    "VIX": "^VIX",          # Índice de volatilidad
    "S&P500": "^GSPC"       # Índice S&P 500
 }
+# =========================
+# UMBRALES DE ALERTA
+# =========================
+# Cambio % mínimo para activar alerta
+dThresholds = {
+   "default": 0.5,
+   "Oro": 0.4,
+   "Bonos": 0.3,
+   "Dólar": 0.4,
+   "VIX": 1.0,
+   "S&P500": 0.6,
+   "Bitcoin": 2.0
+}
 
-iMA_Short = 50
-iMA_Long = 200
-fThreshold = 0.5  # Cambio % mínimo para activar alerta
 
 # =========================
 # FUNCIONES
 # =========================
+def fGetThreshold(sAsset: str) -> float:
+   return dThresholds.get(sAsset, dThresholds["default"])
+
 
 def fValidateTickers(dAssets: dict) -> dict:
    """Valida los símbolos de los activos."""
    dValid = {}
-   print("INFO    - Validando tickers...")
+   fAñadirALog("INFO", "Validando tickers...")
    for sName, sTicker in dAssets.items():
       try:
          # Intentar descargar datos del último día.
@@ -56,13 +66,14 @@ def fValidateTickers(dAssets: dict) -> dict:
             
          # Si se encuentran datos y el DataFrame no está vacío
          if not df.empty and len(df) > 0:
-            print(f"INFO    - Ticker válido: {sName} ({sTicker})")
+            #fAñadirALog("INFO", f"Ticker válido: {sName} ({sTicker})")
             dValid[sName] = sTicker
          else:
-            print(f"WARNING - Ticker válido pero sin datos recientes: {sName} ({sTicker})")
+            fAñadirALog("WARNING", f"Ticker válido pero sin datos recientes: {sName} ({sTicker})")
 
       except Exception as e:
-         print(f"ERROR   - Ticker inválido: {sName} ({sTicker}). Error: {e}")
+         fAñadirALog("ERROR", f"Ticker inválido: {sName} ({sTicker}). Error: {e}")
+         
    if not dValid:
       raise ValueError("No se encontró ningún ticker válido.")
    return dValid
@@ -81,36 +92,30 @@ def fSendEmailAlert(sSubject: str, sMessage: str):
          server.starttls()
          server.login(sEmailUser, sEmailPass)
          server.send_message(msg)
-      print("INFO    - Alerta enviada por correo.")
+      fAñadirALog("INFO", "Alerta enviada por correo.")
    except Exception as e:
-      print(f"ERROR   - Error al enviar correo: {e}")
+      fAñadirALog("ERROR", f"Error al enviar correo: {e}")
 
 
-def fLogAlert(sMessage: str):
+def fAñadirALog(sLevel: str, sMessage: str):
    """Guarda la alerta en un CSV y registra evento en Logs/Log.log."""
-   try:
-      # Ruta base del script
-      sBaseDir = os.path.dirname(os.path.abspath(__file__))
-      sLogDir = os.path.join(sBaseDir, "Logs")
-      os.makedirs(sLogDir, exist_ok=True)
+   # Ruta base del script
+   sBaseDir = os.path.dirname(os.path.abspath(__file__))
+   sLogDir = os.path.join(sBaseDir, "Logs")
+   os.makedirs(sLogDir, exist_ok=True)
 
-      # Ruta completa del archivo Log.log
-      sLogFile = os.path.join(sLogDir, "Log.log")
+   # Ruta completa del archivo Log.log
+   sLogFile = os.path.join(sLogDir, "Log.log")
 
-      # Fecha y formato
-      sNow = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+   # Fecha y formato
+   sNow = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-      # Escribir en el log
-      with open(sLogFile, "a", encoding="utf-8") as f:
-         f.write(f"[{sNow}] {sMessage}\n")
-
-      print(f"INFO    - Alerta registrada en {sLogFile}.")
-
-   except Exception as e:
-      print(f"ERROR   - No se pudo registrar alerta: {e}")
+   # Escribir en el log
+   with open(sLogFile, "a", encoding="utf-8") as f:
+      f.write(f"[{sNow}] {sLevel:<8} - {sMessage}\n")
 
 
-def fCheckDeathCross(sTicker: str, iShort=iMA_Short, iLong=iMA_Long) -> bool:
+def fCheckDeathCross(sTicker: str, iShort=50, iLong=200) -> bool:
    """Detecta si hay un death cross en el activo."""
    try:
       df = yf.download(sTicker, period="1y", interval="1d", progress=False, auto_adjust=True)
@@ -123,7 +128,7 @@ def fCheckDeathCross(sTicker: str, iShort=iMA_Short, iLong=iMA_Long) -> bool:
          and df["MA_Short"].iloc[-1] < df["MA_Long"].iloc[-1]
       )
    except Exception as e:
-      print(f"ERROR   - Error al verificar Death Cross en {sTicker}: {e}")
+      fAñadirALog("ERROR", f"Error al verificar Death Cross en {sTicker}: {e}")
       return False
 
 
@@ -142,14 +147,14 @@ def fGetRealtimeChange(sTicker: str) -> float | None:
 
    # Si el ticker está en la lista de prueba, devuelve ese valor directamente
    if sTicker in dFakeValues:
-      print(f"INFO    - (TEST) Valor simulado para {sTicker}: {dFakeValues[sTicker]}%")
+      fAñadirALog("INFO", f"(TEST) Valor simulado para {sTicker}: {dFakeValues[sTicker]}%")
       return dFakeValues[sTicker]
    # === FIN DE BLOQUE DE SIMULACIÓN ==="""
    
    try:
       df = yf.download(sTicker, period="1d", interval="1m", progress=False, auto_adjust=True)
       if df.empty:
-         print(f"WARNING - No se pudieron obtener datos intradía para {sTicker}")
+         fAñadirALog("WARNING", f"No se pudieron obtener datos intradía para {sTicker}")
          return None
 
       # Usa el primer valor de apertura y el último de cierre
@@ -159,7 +164,7 @@ def fGetRealtimeChange(sTicker: str) -> float | None:
       return round(fChange, 2)
 
    except Exception as e:
-      print(f"ERROR   - Fallo al obtener cambio intradía de {sTicker}: {e}")
+      fAñadirALog("ERROR", f"Fallo al obtener cambio intradía de {sTicker}: {e}")
       return None
 
 
@@ -168,7 +173,7 @@ def fCheckAlerts(dAssetsChecked: dict):
    dChanges = {}
    for sName, sTicker in dAssetsChecked.items():
       fChange = fGetRealtimeChange(sTicker)
-      print(f"INFO    - {sName}: {fChange}%")
+      fAñadirALog("INFO", f"{sName}: {fChange}%")
       if fChange is not None:
          dChanges[sName] = fChange
 
@@ -180,14 +185,14 @@ def fCheckAlerts(dAssetsChecked: dict):
    # ================================
    # 1. Todos los refugios suben
    # ================================
-   if all(dChanges.get(s, 0) > fThreshold for s in lsSafeAssets):
+   if all(dChanges.get(s, 0) > fGetThreshold(s) for s in lsSafeAssets):
       lsMessages.append("⚠️ Todos los activos refugio suben simultáneamente — posible huida del riesgo global.")
       lsMessages.append("💡 Recomendación: Considerar reducir exposición a renta variable y aumentar liquidez o refugio.<br>")
 
    # ==============================================
    # 2. S&P500 cae mientras refugios suben
    # ==============================================
-   if dChanges.get("S&P500", 0) < -fThreshold and all(dChanges.get(s, 0) > fThreshold for s in lsSafeAssets):
+   if (dChanges.get("S&P500", 0) < -fGetThreshold("S&P500") and all(dChanges.get(s, 0) > fGetThreshold(s) for s in lsSafeAssets)):
       lsMessages.append("⚠️ El S&P500 cae mientras los refugios suben — los inversores buscan seguridad.")
       lsMessages.append("💡 Recomendación: Rebalancear cartera hacia activos defensivos y vigilar soportes clave del índice.<br>")
 
@@ -202,17 +207,17 @@ def fCheckAlerts(dAssetsChecked: dict):
    # 4. Divergencia entre Bitcoin y S&P500
    # ==============================================
    if dChanges.get("Bitcoin") and dChanges.get("S&P500"):
-      if dChanges["Bitcoin"] > fThreshold and dChanges["S&P500"] < -fThreshold:
+      if (dChanges["Bitcoin"] > fGetThreshold("Bitcoin") and dChanges["S&P500"] < -fGetThreshold("S&P500")):
          lsMessages.append("⚠️ Divergencia: Bitcoin sube mientras el S&P500 cae — apetito especulativo pese al riesgo en bolsa.<br>")
          lsMessages.append("💡 Recomendación: Vigilar sostenibilidad del rally cripto y considerar toma de beneficios.")
-      elif dChanges["Bitcoin"] < -fThreshold and dChanges["S&P500"] > fThreshold:
+      elif (dChanges["Bitcoin"] < -fGetThreshold("Bitcoin") and dChanges["S&P500"] > fGetThreshold("S&P500")):
          lsMessages.append("⚠️ Divergencia: Bitcoin cae mientras el S&P500 sube — menor apetito por riesgo.")
          lsMessages.append("💡 Recomendación: Prudencia con activos volátiles; el mercado podría rotar hacia activos defensivos.<br>")
 
    # ==============================================
    # 5. Caída generalizada del mercado
    # ==============================================
-   iFalling = sum(1 for x in dChanges.values() if x < -fThreshold)
+   iFalling = sum(1 for s, x in dChanges.items() if x < -fGetThreshold(s))
    if iFalling >= len(dChanges) * 0.7:  # 70% de activos cayendo
       lsMessages.append("⚠️ Caída generalizada: más del 70% de los activos están en negativo — posible corrección amplia.")
       lsMessages.append("💡 Recomendación: Evitar compras impulsivas, esperar señales de estabilización o soporte técnico.<br>")
@@ -227,21 +232,21 @@ def fCheckAlerts(dAssetsChecked: dict):
    # ==============================================
    # 7. Oro y Bitcoin suben juntos
    # ==============================================
-   if dChanges.get("Oro", 0) > fThreshold and dChanges.get("Bitcoin", 0) > fThreshold:
+   if (dChanges.get("Oro", 0) > fGetThreshold("Oro") and dChanges.get("Bitcoin", 0) > fGetThreshold("Bitcoin")):
       lsMessages.append("⚠️ Oro y Bitcoin suben simultáneamente — búsqueda de refugios alternativos ante incertidumbre macro.")
       lsMessages.append("💡 Recomendación: Diversificar exposición a refugios; posible señal de pérdida de confianza en divisas fiat.<br>")
 
    # ==============================================
    # 8. Dólar y Bonos caen juntos
    # ==============================================
-   if dChanges.get("Dólar", 0) < -fThreshold and dChanges.get("Bonos", 0) < -fThreshold:
+   if (dChanges.get("Dólar", 0) < -fGetThreshold("Dólar") and dChanges.get("Bonos", 0) < -fGetThreshold("Bonos")):
       lsMessages.append("⚠️ Dólar y Bonos caen juntos — posible cambio en expectativas de tipos o inflación.")
       lsMessages.append("💡 Recomendación: Vigilar decisiones de bancos centrales y evolución de rendimientos soberanos.<br>")
 
    # ==============================================
    # 9. Rally coordinado en activos de riesgo
    # ==============================================
-   if all(dChanges.get(s, 0) > fThreshold for s in lsRiskAssets):
+   if all(dChanges.get(s, 0) > fGetThreshold(s) for s in lsRiskAssets):
       lsMessages.append("⚠️ Rally en activos de riesgo (S&P500 y Bitcoin suben) — apetito por riesgo creciente.")
       lsMessages.append("💡 Recomendación: Mantener exposición táctica, pero preparar estrategia de salida ante sobrecompra.<br>")
 
@@ -285,27 +290,27 @@ def fCheckAlerts(dAssetsChecked: dict):
       """
 
       fSendEmailAlert("📉 Alerta Bursátil - BotAlertaBursatilEmail.py", sBody)
-      fLogAlert(sBody)
+      fAñadirALog(sBody)
 
    else:
-      print("INFO    - No se detectaron alertas en esta revisión.")
+      fAñadirALog("INFO", "No se detectaron alertas en esta revisión.")
 
 # =========================
 # LOOP PRINCIPAL
 # =========================
 if __name__ == "__main__":
-   print("INFO    - Sistema de alerta bursátil en tiempo casi real iniciado.")
+   fAñadirALog("INFO", f"Inicio BotAlertaBursatilEmail")
 
    try:
       dValidAssets = fValidateTickers(dAssets)
-      print(f"INFO    - {len(dValidAssets)} tickers válidos confirmados.\n")
+      fAñadirALog("INFO", f"{len(dValidAssets)} tickers válidos confirmados.")
    except Exception as e:
-      print(f"ERROR   - Falló la validación de tickers: {e}")
-      exit(1)
+      fAñadirALog("ERROR", f"Falló la validación de tickers: {e}")
+      sys.exit(1)  
 
-   while True:
-      try:
-         fCheckAlerts(dValidAssets)
-      except Exception as e:
-         print(f"ERROR   - Fallo en el ciclo principal: {e}")
-      time.sleep(iCheckInterval)
+   try:
+      fCheckAlerts(dValidAssets)
+   except Exception as e:
+      fAñadirALog("ERROR", f"Fallo en el ciclo principal: {e}")
+   finally:
+      fAñadirALog("INFO", f"Fin BotAlertaBursatilEmail \n\n")

@@ -1,6 +1,7 @@
 # BotAlertaBursatilEmail.py
-import os
+import sys, os
 import time
+import json
 import pandas as pd
 import yfinance as yf
 import datetime as dt
@@ -37,7 +38,7 @@ dAssets = {
 # UMBRALES DE ALERTA
 # =========================
 # Cambio % mínimo para activar alerta
-dThresholds = {
+dUmbrales = {
    "default": 0.5,
    "Oro": 0.4,
    "Bonos": 0.3,
@@ -51,11 +52,11 @@ dThresholds = {
 # =========================
 # FUNCIONES
 # =========================
-def fGetThreshold(sAsset: str) -> float:
-   return dThresholds.get(sAsset, dThresholds["default"])
+def fObtenerUmbral(sAsset: str) -> float:
+   return dUmbrales.get(sAsset, dUmbrales["default"])
 
 
-def fValidateTickers(dAssets: dict) -> dict:
+def fValidarTickers(dAssets: dict) -> dict:
    """Valida los símbolos de los activos."""
    dValid = {}
    fAñadirALog("INFO", "Validando tickers...")
@@ -96,6 +97,45 @@ def fSendEmailAlert(sSubject: str, sMessage: str):
    except Exception as e:
       fAñadirALog("ERROR", f"Error al enviar correo: {e}")
 
+# =========================
+# GESTIÓN DE ALERTAS ENVIADAS
+# =========================
+ALERT_FILE = "alertas_enviadas.json"
+
+def fCargarAlertas():
+   if os.path.exists(ALERT_FILE):
+      with open(ALERT_FILE, "r") as f:
+         return json.load(f)
+   return {}
+
+
+def fGuardarAlertas(dAlerts):
+   with open(ALERT_FILE, "w") as f:
+      json.dump(dAlerts, f)
+
+
+def RevisionParaMandarAlerta(alert_id: str) -> bool:
+   """
+   Devuelve True si la alerta no se envió hoy.
+   Registra su envío si procede.
+   """
+   today = dt.date.today().isoformat()
+   dAlerts = fCargarAlertas()
+
+   # Inicializar día si no existe
+   if today not in dAlerts:
+      dAlerts[today] = {}
+
+   # Si ya se envió, no repetir
+   if dAlerts[today].get(alert_id, False):
+      return False
+
+   # Marcar como enviada
+   dAlerts[today][alert_id] = True
+   fGuardarAlertas(dAlerts)
+
+   return True
+# =========================
 
 def fAñadirALog(sLevel: str, sMessage: str):
    """Guarda la alerta en un CSV y registra evento en Logs/Log.log."""
@@ -115,7 +155,7 @@ def fAñadirALog(sLevel: str, sMessage: str):
       f.write(f"[{sNow}] {sLevel:<8} - {sMessage}\n")
 
 
-def fCheckDeathCross(sTicker: str, iShort=50, iLong=200) -> bool:
+def fCheckearDeathCross(sTicker: str, iShort=50, iLong=200) -> bool:
    """Detecta si hay un death cross en el activo."""
    try:
       df = yf.download(sTicker, period="1y", interval="1d", progress=False, auto_adjust=True)
@@ -132,7 +172,7 @@ def fCheckDeathCross(sTicker: str, iShort=50, iLong=200) -> bool:
       return False
 
 
-def fGetRealtimeChange(sTicker: str) -> float | None:
+def fObtenerCambioEnTiempoReal(sTicker: str) -> float | None:
    """Calcula el cambio porcentual intradía (precio actual vs apertura)."""
 
    """# === BLOQUE DE SIMULACIÓN PARA PRUEBA (Descomentar para forzar envio de email) ===
@@ -168,11 +208,11 @@ def fGetRealtimeChange(sTicker: str) -> float | None:
       return None
 
 
-def fCheckAlerts(dAssetsChecked: dict):
+def fCheckearAlertas(dAssetsChecked: dict):
    """Evalúa condiciones de alerta bursátil."""
    dChanges = {}
    for sName, sTicker in dAssetsChecked.items():
-      fChange = fGetRealtimeChange(sTicker)
+      fChange = fObtenerCambioEnTiempoReal(sTicker)
       fAñadirALog("INFO", f"{sName}: {fChange}%")
       if fChange is not None:
          dChanges[sName] = fChange
@@ -185,70 +225,80 @@ def fCheckAlerts(dAssetsChecked: dict):
    # ================================
    # 1. Todos los refugios suben
    # ================================
-   if all(dChanges.get(s, 0) > fGetThreshold(s) for s in lsSafeAssets):
-      lsMessages.append("⚠️ Todos los activos refugio suben simultáneamente — posible huida del riesgo global.")
-      lsMessages.append("💡 Recomendación: Considerar reducir exposición a renta variable y aumentar liquidez o refugio.<br>")
+   if all(dChanges.get(s, 0) > fObtenerUmbral(s) for s in lsSafeAssets):
+      if RevisionParaMandarAlerta("refugios_suben"):
+         lsMessages.append("⚠️ Todos los activos refugio suben simultáneamente — posible huida del riesgo global.")
+         lsMessages.append("💡 Recomendación: Considerar reducir exposición a renta variable y aumentar liquidez o refugio.<br>")
 
    # ==============================================
    # 2. S&P500 cae mientras refugios suben
    # ==============================================
-   if (dChanges.get("S&P500", 0) < -fGetThreshold("S&P500") and all(dChanges.get(s, 0) > fGetThreshold(s) for s in lsSafeAssets)):
-      lsMessages.append("⚠️ El S&P500 cae mientras los refugios suben — los inversores buscan seguridad.")
-      lsMessages.append("💡 Recomendación: Rebalancear cartera hacia activos defensivos y vigilar soportes clave del índice.<br>")
+   if (dChanges.get("S&P500", 0) < -fObtenerUmbral("S&P500") and all(dChanges.get(s, 0) > fObtenerUmbral(s) for s in lsSafeAssets)):
+      if RevisionParaMandarAlerta("sp500_vs_refugios"):
+         lsMessages.append("⚠️ El S&P500 cae mientras los refugios suben — los inversores buscan seguridad.")
+         lsMessages.append("💡 Recomendación: Rebalancear cartera hacia activos defensivos y vigilar soportes clave del índice.<br>")
 
    # ==============================================
    # 3. Death Cross en S&P500
    # ==============================================
-   if fCheckDeathCross("^GSPC"):
-      lsMessages.append("⚠️ Death Cross detectado en S&P500 — posible cambio a tendencia bajista de medio plazo.")
-      lsMessages.append("💡 Recomendación: Revisar posiciones de largo plazo y considerar coberturas (put options, ETFs inversos).<br>")
+   if fCheckearDeathCross("^GSPC"):
+      if RevisionParaMandarAlerta("death_cross"):
+         lsMessages.append("⚠️ Death Cross detectado en S&P500 — posible cambio a tendencia bajista de medio plazo.")
+         lsMessages.append("💡 Recomendación: Revisar posiciones de largo plazo y considerar coberturas (put options, ETFs inversos).<br>")
 
    # ==============================================
    # 4. Divergencia entre Bitcoin y S&P500
    # ==============================================
    if dChanges.get("Bitcoin") and dChanges.get("S&P500"):
-      if (dChanges["Bitcoin"] > fGetThreshold("Bitcoin") and dChanges["S&P500"] < -fGetThreshold("S&P500")):
-         lsMessages.append("⚠️ Divergencia: Bitcoin sube mientras el S&P500 cae — apetito especulativo pese al riesgo en bolsa.<br>")
-         lsMessages.append("💡 Recomendación: Vigilar sostenibilidad del rally cripto y considerar toma de beneficios.")
-      elif (dChanges["Bitcoin"] < -fGetThreshold("Bitcoin") and dChanges["S&P500"] > fGetThreshold("S&P500")):
-         lsMessages.append("⚠️ Divergencia: Bitcoin cae mientras el S&P500 sube — menor apetito por riesgo.")
-         lsMessages.append("💡 Recomendación: Prudencia con activos volátiles; el mercado podría rotar hacia activos defensivos.<br>")
+      if (dChanges["Bitcoin"] > fObtenerUmbral("Bitcoin") and dChanges["S&P500"] < -fObtenerUmbral("S&P500")):
+         if RevisionParaMandarAlerta("divergencia_btc_sp500_up"):
+            lsMessages.append("⚠️ Divergencia: Bitcoin sube mientras el S&P500 cae — apetito especulativo pese al riesgo en bolsa.<br>")
+            lsMessages.append("💡 Recomendación: Vigilar sostenibilidad del rally cripto y considerar toma de beneficios.")
+      elif (dChanges["Bitcoin"] < -fObtenerUmbral("Bitcoin") and dChanges["S&P500"] > fObtenerUmbral("S&P500")):
+         if RevisionParaMandarAlerta("divergencia_btc_sp500_down"):
+            lsMessages.append("⚠️ Divergencia: Bitcoin cae mientras el S&P500 sube — menor apetito por riesgo.")
+            lsMessages.append("💡 Recomendación: Prudencia con activos volátiles; el mercado podría rotar hacia activos defensivos.<br>")
 
    # ==============================================
    # 5. Caída generalizada del mercado
    # ==============================================
-   iFalling = sum(1 for s, x in dChanges.items() if x < -fGetThreshold(s))
+   iFalling = sum(1 for s, x in dChanges.items() if x < -fObtenerUmbral(s))
    if iFalling >= len(dChanges) * 0.7:  # 70% de activos cayendo
-      lsMessages.append("⚠️ Caída generalizada: más del 70% de los activos están en negativo — posible corrección amplia.")
-      lsMessages.append("💡 Recomendación: Evitar compras impulsivas, esperar señales de estabilización o soporte técnico.<br>")
+      if RevisionParaMandarAlerta("caida_general"):
+         lsMessages.append("⚠️ Caída generalizada: más del 70% de los activos están en negativo — posible corrección amplia.")
+         lsMessages.append("💡 Recomendación: Evitar compras impulsivas, esperar señales de estabilización o soporte técnico.<br>")
 
    # ==============================================
    # 6. Repunte de volatilidad fuerte (VIX)
    # ==============================================
    if dChanges.get("VIX", 0) > 10:  # +10% en el VIX es fuerte
-      lsMessages.append("⚠️ Repunte fuerte de la volatilidad (VIX > +10%) — aumento del miedo en el mercado.")
-      lsMessages.append("💡 Recomendación: Revisar stop-loss y mantener posición conservadora hasta que el VIX se normalice.<br>")
+      if RevisionParaMandarAlerta("vix_10"):
+         lsMessages.append("⚠️ Repunte fuerte de la volatilidad (VIX > +10%) — aumento del miedo en el mercado.")
+         lsMessages.append("💡 Recomendación: Revisar stop-loss y mantener posición conservadora hasta que el VIX se normalice.<br>")
 
    # ==============================================
    # 7. Oro y Bitcoin suben juntos
    # ==============================================
-   if (dChanges.get("Oro", 0) > fGetThreshold("Oro") and dChanges.get("Bitcoin", 0) > fGetThreshold("Bitcoin")):
-      lsMessages.append("⚠️ Oro y Bitcoin suben simultáneamente — búsqueda de refugios alternativos ante incertidumbre macro.")
-      lsMessages.append("💡 Recomendación: Diversificar exposición a refugios; posible señal de pérdida de confianza en divisas fiat.<br>")
+   if (dChanges.get("Oro", 0) > fObtenerUmbral("Oro") and dChanges.get("Bitcoin", 0) > fObtenerUmbral("Bitcoin")):
+      if RevisionParaMandarAlerta("oro_btc"):
+         lsMessages.append("⚠️ Oro y Bitcoin suben simultáneamente — búsqueda de refugios alternativos ante incertidumbre macro.")
+         lsMessages.append("💡 Recomendación: Diversificar exposición a refugios; posible señal de pérdida de confianza en divisas fiat.<br>")
 
    # ==============================================
    # 8. Dólar y Bonos caen juntos
    # ==============================================
-   if (dChanges.get("Dólar", 0) < -fGetThreshold("Dólar") and dChanges.get("Bonos", 0) < -fGetThreshold("Bonos")):
-      lsMessages.append("⚠️ Dólar y Bonos caen juntos — posible cambio en expectativas de tipos o inflación.")
-      lsMessages.append("💡 Recomendación: Vigilar decisiones de bancos centrales y evolución de rendimientos soberanos.<br>")
+   if (dChanges.get("Dólar", 0) < -fObtenerUmbral("Dólar") and dChanges.get("Bonos", 0) < -fObtenerUmbral("Bonos")):
+      if RevisionParaMandarAlerta("usd_bonos"):
+         lsMessages.append("⚠️ Dólar y Bonos caen juntos — posible cambio en expectativas de tipos o inflación.")
+         lsMessages.append("💡 Recomendación: Vigilar decisiones de bancos centrales y evolución de rendimientos soberanos.<br>")
 
    # ==============================================
    # 9. Rally coordinado en activos de riesgo
    # ==============================================
-   if all(dChanges.get(s, 0) > fGetThreshold(s) for s in lsRiskAssets):
-      lsMessages.append("⚠️ Rally en activos de riesgo (S&P500 y Bitcoin suben) — apetito por riesgo creciente.")
-      lsMessages.append("💡 Recomendación: Mantener exposición táctica, pero preparar estrategia de salida ante sobrecompra.<br>")
+   if all(dChanges.get(s, 0) > fObtenerUmbral(s) for s in lsRiskAssets):
+      if RevisionParaMandarAlerta("rally_riesgo"):
+         lsMessages.append("⚠️ Rally en activos de riesgo (S&P500 y Bitcoin suben) — apetito por riesgo creciente.")
+         lsMessages.append("💡 Recomendación: Mantener exposición táctica, pero preparar estrategia de salida ante sobrecompra.<br>")
 
    # ================================
    # Enviar email si hay alertas
@@ -302,14 +352,14 @@ if __name__ == "__main__":
    fAñadirALog("INFO", f"Inicio BotAlertaBursatilEmail")
 
    try:
-      dValidAssets = fValidateTickers(dAssets)
+      dValidAssets = fValidarTickers(dAssets)
       fAñadirALog("INFO", f"{len(dValidAssets)} tickers válidos confirmados.")
    except Exception as e:
       fAñadirALog("ERROR", f"Falló la validación de tickers: {e}")
       sys.exit(1)  
 
    try:
-      fCheckAlerts(dValidAssets)
+      fCheckearAlertas(dValidAssets)
    except Exception as e:
       fAñadirALog("ERROR", f"Fallo en el ciclo principal: {e}")
    finally:
